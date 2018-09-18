@@ -1,0 +1,47 @@
+项目经历二：车牌识别系统
+
+1、项目认知：
+	步骤：车牌定位、字符分割、字符识别
+
+	S1:车牌定位：
+		车牌检测（Plate Detection）：对一个包含车牌的图像进行分析，最终截取出只包含车牌的一个图块。这个步骤的主要目的是降低了在车牌识别过程中的计算量。
+		
+		车牌定位、车牌倾斜校正
+			定位两种方法：
+				1）传统方法：
+
+					传统车牌定位算法：
+						主要利用颜色（蓝底、黄底或白底）、边缘形状（3.15:1的矩形）、纹理特征（可用小波特征表述）等信息进行检测定位。
+
+					深度学习方法:
+						基于CNN、R-CNN、faster-RCNN、改进型CNN算法对车牌进行监测定位。
+
+						优缺点：
+							传统：技术成熟。但是拍摄角度，背景
+							深度：背景和拍摄角度支持复杂多样，但是大量样本训练耗时，实时性差。
+
+				2）深度学习方法
+
+			车牌倾斜校正：
+				主要是根据提取的车牌边缘直线，利用投影法（radon变换）计算倾斜角度，然后旋转校正。
+
+
+
+	S2:字符分割：
+		一般都采用投影法，在进行字符分割前还有去除车牌边框、铆钉等无关干扰部分，主要是利用提取的边缘轮廓确定车牌和车牌以外部分的分界线，从而去除边框及以外部分，同时利用投影法尽量去除铆钉等。
+
+
+
+	S3:字符识别：OCR的问题了，常见的有BP神经网络识别算法、CNN识别算法。相对而言，CNN算法的识别准确率更高。
+	
+from sklearn.svm import SVC
+from sklearn.model_selection import cross_val_score
+from sklearn.externals import joblib
+from skimage.io import imread
+from skimage.filters import threshold_otsu
+from skimage.transform import resize
+from skimage import measure
+from skimage.measure import regionprops
+import matplotlib.patches as patches
+import matplotlib.pyplot as plt
+

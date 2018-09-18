@@ -1,0 +1,130 @@
+项目经历一：皮肤癌图像诊断。
+
+
+项目一：
+	通过Keras使用InceptionV3经典网络模型，训练皮肤癌诊断模型。
+		项目中采用Global Average Pooling对全连接层进行了替代分析。
+		采用RMSprop优化算法，优化模型训练。
+		模型对皮肤癌诊断训练准确率在97%以上。
+
+
+
+项目细节：
+	数据：	
+		负例：
+			training:362。
+			validation:39。
+		正例：
+			train:1265。
+			validation：295
+
+		train:
+			负例：363.
+			正例：1265
+		validation:
+			负例:39
+			正例：295。
+
+
+Generator:
+	keras数据预处理：	
+		from keras.preprocessing.image import ImageDataGenerator
+		完成数据的预处理：图像数据增加拓展，
+		batch_size = 1
+		width,height = 299*299 因为：inceptionV3输入就是299*299。
+		def train_data(train_data_dir='data/train'):
+			train_datagen = 
+			ImageDataGenerator(	rescale = 1./255,  # 数据归一化
+								rotation_range = 15  # 随机旋转15度
+								shear_range = 0.5   # 剪切掉的比例
+								zoom_range:缩放比例不超比例。
+								width-shift_range = 0.3:#平移比例
+								height_shift_range = 0.3:
+								horizontal_flip =True # 水平翻转
+								vertical_flip = True # 垂直
+								)
+		之前通过cv2,也就说用openCV变换是保存在列表中，容易造成内存溢出。但是在此处我们用DataGenerator可以实现生成器，只有在迭代的时候采用生成，节省内存。这也是keras的优势：
+			如fit_generator，evaluate_generator和predict_generator
+
+			train_generator = train_datagen.flow_from _directory(train_data_dir,
+                                                        target_size=(width, height),
+                                                        batch_size=batch_size,
+                                                        class_mode='categorical')
+
+        
+        flow_from_directory方法实例化一个针对图像batch的生成器，这些生成器可以被用作keras模型相关方法的输入。
+        		参数：图像路径，大小，一次读多少，用途：
+        		class_mode: 值为"categorical", "binary".用于计算分类正确率或调用                               
+
+        	return train_generator	
+
+
+
+		def valid_data(valid_data_dir='data/validation'):
+		    valid_datagen = ImageDataGenerator(rescale=1. / 255)
+		    valid_generator = valid_datagen.flow_from_directory(valid_data_dir,
+		                                                        target_size=(width, height),
+		                                                        batch_size=batch_size,
+		                                                        class_mode='categorical')
+		    return valid_generator
+
+
+
+
+InceptionV3的结构：
+
+	from keras.applications.inception_v3 import InceptionV3
+	from keras.models import Model
+	from keras.layers import Dense, GlobalAveragePooling2D
+	from keras.optimizers import RMSprop
+
+		https://blog.csdn.net/williamyi96/article/details/77530995
+	GAP(Global Average Pooling)
+		正常情况下，对featureMap会进行flatMap操作将其拉直成向量，然后经过全连接层输出分类，这样会产生很多参数，大量的计算。
+		Global Average Pooling对全连接层进行了替代分析：多少个featrueMaps，经过averaging平均池化以后直接对应输出层，这样中间连接少了，有多少feature，就对应多少个输出。大大减少了参数个数。
+		既做了池化，又完成了全连接层的乘法。两步合二为一。
+
+		GAP的真正意义是:对整个网路在结构上做正则化防止过拟合。其直接剔除了全连接层中黑箱的特征，直接赋予了每个channel实际的内别意义。
+
+	辅助理解：
+		https://blog.csdn.net/qq_23304241/article/details/80292859
+
+	def Creat_InvepV3(classes=2):
+	    base_model = InceptionV3(weights="imagenet", include_top=False)  # 根据类创建对象：初始化w参数为imageNet大赛的参数。
+	    																 # 去掉全连接层。
+
+	    x = base_model.output
+	    x = GlobalAveragePooling2D()(x)
+	    x = Dense(1024, activation='relu')(x)
+	    predictions = Dense(classes, activation='softmax')(x)
+	    model = Model(inputs=base_model.input, outputs=predictions)
+	    for layer in base_model.layers:
+	        layer.trainable = True
+	    # decay 每次更新后学习率的衰减值
+	    model.compile(optimizer=RMSprop(lr=0.001, decay=0.9, epsilon=0.1),
+	                  loss='categorical_crossentropy', metrics=['accuracy'])
+
+	    model.save('./InceptionV3.h5')
+	    return model
+
+
+	Creat_InvepV3()
+
+	# 运行机器学习算法时，很多人一开始都会有意无意将数据集默认直接装进显卡显存中，
+    # 如果处理大型数据集（例如图片尺寸很大）或是网络很深且隐藏层很宽，也可能造成显存不足。
+    # 这个情况随着工作的深入会经常碰到，解决方法其实很多人知道，就是分块装入。
+    # 以keras为例，默认情况下用fit方法载数据，就是全部载入。
+    # 换用fit_generator方法就会以自己手写的方法用yield逐块装入。
+
+
+
+
+
+
+joblib.dump()可以将训练好的模型保存的奥文件中，然后通过joblib.load()将模型加载到内存中。
+
+
+RMSprop
+
+
+
