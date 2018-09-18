@@ -21,6 +21,292 @@
 				===>>> 根据特征索引对评分矩阵进行过滤。（查询结果）
 
 
+项目经历三：推荐系统
+
+	PySpark的背后原理：
+		http://sharkdtu.com/posts/pyspark-internal.html
+		守护之鲨博客。
+
+
+
+
+
+一、环境搭建
+	https://blog.csdn.net/funfun0/article/details/77802590
+	预装：jdk、scala、spark、hadoop\
+	特别注意配置路径的时候千万回避空格。
+	最好保证里面只有一个python版本。
+
+	方式1：
+		pySpark 安装:
+
+		cmd一定要在管理员模式下！cmd一定要在管理员模式下！cmd一定要在管理员模式下!
+
+		1、安装包解压即安装
+		
+		2、配置环境变量：
+			变量名：	PYSPARK_DRIVER_PYTHON   变量值： python2
+					SPARK_HOME              变量值：	D:\programsfiles\spark-1.6.0-bin-hadoop2.6
+
+		3、安装py4j（python调用java API的中间模块）
+			方法一：在python 安装路径下：pip.exe install py4j   （不推荐，版本问题。）
+			方法二：在pyspar安装包中D:\programsfiles\spark-1.6.0-bin-hadoop2.6\python\lib\中有py4j
+					拷贝到python路径下：C:\Python27\Lib\site-packages
+
+		4、并将D:\programsfiles\spark-1.6.0-bin-hadoop2.6\python 中spark安装包中的pyspark文件夹
+			拷贝到python路径下：C:\Python27\Lib\site-packages
+
+		5、校验：以管理员身份运行cmd：输入pyspark
+			查看是否启动。
+			在python中，输入：from pyspark import SparkConf
+
+	方式2：
+		在pycharm中，安装pyspark。
+
+
+
+二、底层算子解析：
+
+
+算子1：	combineByKey()是非常底层的算子：
+		reduceByKey()与groupByKey()的区别：
+			groupByKey()只是简单的按照key来分组，
+			reduceByKey()不仅是对key进行分组，对组内数据进行聚合，聚合逻辑由用户来指定。
+			他们的底层都是调用 combineByKey()
+
+		使用 combineByKey(func1,func2，func3)必须传入三个函数。
+			数据：[("A", 1), ("B", 2), ("B", 3), ("B", 4), ("B", 5), ("C", 1), ("A", 2)]。比如放在两个partition中，前三后四。
+			combinerRDD = rdd.combineByKey(
+											lambda x: "%d_" % x, 
+											lambda a, b: "%s@%s" % (a, b),
+											lambda a, b: "%s$%s" % (a, b)
+											)
+				func1:初始化函数			
+					对每一个partition中的数据进行分组：
+						partition1分成两组，A[1],B[2,3]
+						partition1分成三组，B[5],C[1],A[2]
+					func1会在作用到每一个分组中的第一个元素上:lambda x: "%d_" % x,
+						所以第一组输出：
+							A [1_,]
+							B [2_,3]
+						第二组输出：
+							B 4_
+							C 1_
+							A 2_
+
+				func2:combiner聚合函数
+					map 端每一个maptask处理完毕之后会在本地进行一个聚合。就叫combiner。本地小聚合：
+					func2的 combiner聚合函数会作用到每一个分组中。
+						lambda a,b: "%s@%s" % (a, b),
+						所以第一组输出：
+							A [1_]
+							B [2_@3,]
+						第二组输出：
+							B 4_@5
+							C 1_
+							A 2_
+				func3：大聚合的聚合函数:
+					会把相同的拉到同一个节点上。
+						A [1_,2_]
+						B [2_@3,@4_@5]
+						C [1_]
+					func3：大聚合的聚合函数作用到每一组数据上
+						lambda a, b: "%s$%s" % (a, b)
+					此时输出:
+						A 1_$2_
+						B 2_@3$4_@5
+						C 1_
+
+		问题1：如何使用combineByKey实现一个类似reduceByKey？
+			即将每一个字母先分组，然后将组内的每一个字母对应的value累加起来。
+			func1: lambda x:x
+			func2: lambda x,y:x+y
+			func3: lambda x,y:x+y
+		reduceByKeyRDD = rdd.combineByKey(lambda a:a,lambda a,b:a+b, lambda a,b:a+b)
+		
+		问题2：使用combineByKey实现groupByKey的功能。
+			func1:lambda x: [x]
+			func2:lambda a,b: b.append(a)  		func2中的变量类型是由func1返回值类型决定的。
+			func3:lambda a,b: a+b
+		groupByKeyRDD = rdd.combinerByKey(lambda x:[x],lambda a,b:b.append(a), lambda a,b:a+b)
+
+
+
+
+算子2：	AggregateByKey(Any,func1,func2)
+
+		Any：是每组数据的初始值。第一个参数是事先写死的。
+		func1:seqFunc,也是一个combiner函数，小聚合函数
+		func2:combFunc:大聚合函数。
+		数据：[(1,1),(1,2),(2,1),(2,3),(2,4),(1,7)]
+			def seqFunc(a,b):
+			    print "seqFunc:%s,%s" %(a,b)
+			    return max(a,b)
+			def combFunc(a,b):
+			    print "combFunc:%s,%s" %(a ,b)
+			    return a + b	
+		先看分组结果：
+			partition1: 
+				1 [1,2]
+				2 [1]
+			partition2:
+				2 [3,4]
+				1 [7]
+		初始值为3：
+			第一个函数：打印a,b。然后输出a,b最大值：
+			a初始化为3！！！！！！Any初始化有点类似：阈值。
+				
+				partition1：	
+					情况：a先取3,b取值1，经过combiner之后变成返回3，a继续为3，b取值为2。
+					所以输出为：
+						1 [3]
+						2 [3]
+
+				partition2:
+					情况类似：输出：
+						2 [4]
+						1 [7]
+			第二个函数：大聚合，在聚合前，先将相同key值放在一起（同一节点）
+				1 [3,7]
+				2 [3,4]
+				经过func2处理之后：输出结果：
+				1 [10]
+				2 [7]
+
+
+
+(需求一、二)
+三、统计每个页面的UV和PV值
+
+	统计每一个页面的pv值。
+		经过初选RDD过滤一把，然后提取Key-Value格式:
+		（PageID，1）形式，然后经过reduceByKey（_+_）累加。
+
+
+	统计每一个页面的UV值。(用户浏览量，需要根据UID去重)
+	还是先过滤RDD1：用户行为：view
+	到RDD2：RDD2.cache:需要注意三个注意点。
+	到RDD3:必须筛选成为key-value格式。(pageID,userID)
+	然后下面两种方式：
+		第一种先groupByKey
+			到RDD4:中通过groupByKey分组：变成一个个的：（pageID,[userID,...]）
+			然后经过foreach来遍历这个RDD
+			拿到每一条记录中的集合，将集合中的数据写到hashSet集合中（去重），但是如果信息量特别大，不推荐此种方法。
+		第二种方法：先用distinct去重。然后直接countByKey
+		推荐使用第二种。
+
+
+	PUVHotAnalyze.py文件：
+	PV统计：
+		代码注释以及流程，直接看main函数，然后一级级调用查看功能。
+		工作流程：第一步调用 PUVAnalyze.PVAnalyze(True, "./userLog", "./output")
+		点击 PVAnalyze查看定义：传入三个参数：（isLocal, inputPath, outputPath）
+		暂时不管含义：往下看。
+			创建PUVAnanlyze()这个类的对象。
+			输入路径赋值
+			rdd = SparkUtil.createRDD(isLocal, "PVAnalyze", filePath)  # 创建一个RDD
+		S 1: 创建一个RDD,
+			查看创建方法：createRDD
+			conf = SparkUtil.initSparkConf(isLocal, "PVAnalyze")   
+			初始化SparkConf对象，查看initSparkConf方法：
+			S 1.1： 调用pyspark模块中SparkConf类，新建conf类对象，
+					调用类方法，设计应用程序名称‘PVAnalyze’，isLocal变量是True：本地执行。返回conf.
+			S 1.2:	然后将conf传递给 initSparkContext()。创建SparkContext对象sc。
+					通过 sc.textFile(filePath)将路径传进来，创建一个RDD。
+		S 2：有了RDD之后先过滤filter掉[5]位置不是Register的。
+			然后map一把，将其变成Key-value格式RDD。map的时候传递进来一个pageID2One方法:
+			将pageID的[3]号位置相应的为1，二元组类型。（PageID,1）形式，key是pageID,value是1，
+			然后reduceByKey聚合。统计（pageID,n）
+			然后sortBy(lambda x:x[1])指定以哪个字段来排序。（sortBykey以key来排序。）此处按照value来排序，value是每个页面的PV。
+			然后保存saveAsTextFile（outputPath）
+		至此完成每个页面的UV统计。
+
+	UV统计：
+		RDD之前已经创建好了，所以直接使用：
+		S 2:先过滤掉null值：python2中<>等价与！= python3中此法不用了。
+			S 2.1: filter(lambda x: x.split("\t")[2] <> 'null')
+			s 2.2:然后map一把，将其变成Key-value格式RDD。map的时候传递进来一个pageID2UserID方法:
+				返回（splited[3],splited[2]）类型为二元组：（PageID,UserID）
+			s 2.3：经过一把GroupByKey：
+			S 2.4:mapPartitions（mapPartitions与map区别：map是一条条的遍历，mapPartitions是一个个partition的遍历。）
+								（mapPartitions和foreachPartition的区别：前者transformation算子，后者active算子。
+									如果接下来不需要返回一个partition就直接用foreachPartition,如果需要就用mapPartition算子。）
+					补充知识：使用各类Partition算子，容易出现OOM问题，因为这类算子，会将Partitions的计算结果加载到内存中去。
+								此时的解决方案是：把RDD的分支数增多。如何增多减少。：coalesce和repartition方法。
+			此种方法是上面介绍的第一种方法：
+			看第二种:改进方法在下面：UVAnalyzeOptimization()
+			S 2.1 过滤，map生成二元组（）
+			S 2.2 直接distinct（）去重。然后countByKey累计
+
+（需求三）
+四、统计最热门的板块：Top3:
+	衡量热门的标准：比如以PV为评价标准：
+
+	关于take的记录:
+		take(n):取前n条记录
+		first() = take(1)
+		takeSample(0.5):从当前的RDD中随机取出50%的数据量返回
+		takeOrder(10):先排序，后取值前10。可以用于自定义排序器：
+	做法，在map一把变成Key-value二元组的时候：key是板块名，然后reduceByKey统计每个板块的次数，排序，take（）就可以了。
+	返回一个列表：[channelName1,channelName2,channelName3]
+
+	查看代码：PUVAnalyze.HotChannelAnalyze()
+
+
+
+
+
+（需求四）
+五、统计最热门的板块下最活跃的top10用户：
+	补充面试带坑问题：
+		面试问题一：SparkStream中接受的数据，如何分发到计算节点上计算的？
+			大数据的原则是计算找数据，数据不动，计算移动。
+		面试问题二：你们的RDD中存的什么数据？
+			RDD不存数据，存储的是处理逻辑。
+			持久化的单位是Partition，一个Partition的内容，要么全放在内存中，要么全放在硬盘上，不会分开。
+
+
+	该需求基于需求三：先统计最热板块：
+		然后从初始RDD开始：先filter:依据第三个需求的结果：最好做法：将需求三中的列表返回到广播变量中去。
+		过滤时使用广播变量中的列表：
+	方法一：	过滤完之后：下一步：数据格式的转化：map()算子：（channelName,UserID）
+		然后groupByKey:（channelName,[UserID,...]）
+		然后foreach算子遍历每条记录：
+			然后用 map()算子生成一个集合：（keyUserID : valueCount）
+			'map集合的大小是由UserID的种类决定的。'
+		针对map集合中根据valueCount的大小排序。就可提取前10名用户:
+
+		代码：PUVAnalyze.activeUserPerChannel()
+
+			补充广播变量的大小：一个executor内存大小的60% * 90% * 80%
+				静态内存管理：一个executor中划分成为三块：
+					60%：广播变量 + RDD缓存数据：
+					20%:
+					20%:
+				如何广播：
+					首先使用collect算子将这个变量。
+		此处有一个问题：'map集合的大小是由UserID的种类决定的。'如果某个channel的用户访问量特别大，那么map就有可能出问题：
+	方法二： 所以需要优化：此时针对过滤后的数据处理，map生成的二元组（）就不是（channelName,UserID）而是（userID,channelName）。
+		然后经过 groupByKey() 变成（UserID,[channelName1,channelName2,...]）
+		然后统计每条记录中channelName的次数。
+			希望的效果是：(channelName,userID_count), ...这样要比（channelName,[UserID,...]）集合小多了。
+			每个板块，每个用户的访问次数：
+				能实现这个功能的（即：输入一条输出n条,n>=0。）是：flatMap(当n=0时，flatMap可以代替filter)。
+
+			此时的效果：每一个userID所对应的这个集合就笑了很多，就可以使用map集合来统计每一个channelName出现的次数。
+		然后groupByKey将上述RDD，变为新的只有三条记录channelName的RDD。
+		然后针对每个channelName
+
+
+
+
+	map与flatmap
+		flatmap = map + flat
+
+
+
+像个爷们一样，说出去的话打死都不改，我说错了又能怎么样？
+
 
 
 	

@@ -126,5 +126,5 @@ joblib.dump()可以将训练好的模型保存的奥文件中，然后通过jobl
 
 RMSprop
 
-
+https://blog.csdn.net/u010089444/article/details/76725843
 
