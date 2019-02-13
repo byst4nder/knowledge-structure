@@ -127,7 +127,11 @@ Git教程
 			git remote
 			git remote -v
 
+		登录到github上点开要下载的文件，进入文件的详细信息的页面：
+			1、点击右上角的Raw
+			2、进入到页面中，右击：网页另存为。
 
+	
 7、分支管理：
 	Git 合并分支很快，就是改改指针，工作区内容也不变！将master指针指向了dev指针！
 	HEAD指向也从dev移回到master
