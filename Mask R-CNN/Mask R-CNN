@@ -1,13 +1,105 @@
 Mask R-CNN
 
+
 ----------------------------------------------------------------------------
 https://blog.csdn.net/jiongnima/article/details/79094159
 实例分割模型Mask R-CNN详解：从R-CNN，Fast R-CNN，Faster R-CNN再到Mask R-CNN
 ----------------------------------------------------------------------------
+前言：
+	何凯明：Mask R-CNN是2017年ICCV的best paper。
+	传统单任务的网络结构已经逐渐不再引人瞩目，取而代之的是集成、复杂、一石多鸟的多任务网络模型：Mask R-CNN。
+
+	1）目标检测：目标框（bounding box）
+	2）目标分类：类别（class）
+	3）像素级目标分割：前景，背景
+
+	Mask R-CNN继承于Faster R-CNN（2016）,在Faster R-CNN上面加了一个Mask Prediction Branch (Mask预测分支)，改良了ROI Pooling,提出了ROI Align。
+
+	在解析Mask R-CNN之前，先分析一下Faster R-CNN。Faster R-CNN继承于Fast R-CNN(2015)，Fast R-CNN继承于R-CNN(2014)。
+
+	R-CNN ===> Fast R-CNN ===> Faster R-CNN ===> Mask R-CNN
+	(2014)		(2015)			(2016)				(2017)
+
+
+1、R-CNN:（2014年）
+	Ross Girshick 采用卷积神经网络进行目标检测：
+	
+	综述：
+		将模型输入图片===>提取2000个待检测区域===>串联方式通过卷积神经网络 提取特征===> 通过SVM分类，得到物体的类别===>
+		===>通过bounding box regression调整目标包围框的大小。
+
+	步骤：
+		S1:提取待检测对象：或叫图像标注。
+			模型输入为一张图片，然后在图片上提取2000多个待检测区域。
+				selective search:
+					通过传统图像处理方法将图像分成若干块，然后通过一个SVM将属于同一目标的若干块拿出来。
+					核心是一个SVM。分类。
+		
+		S2:特征提取：
+			借助当时2012年最新成果AlexNet，网络模型：通过使用图像分类数据集训练一个用于提取特征的网络。
+
+		S3:比对目标：
+			使用SVM,用目标的标签（类别）与包围框的大小进行训练。
+
+
+	优势：
+		1）使用卷积神经网络进行特征提取
+		2）使用了bounding box regression 进行目标包围框的修正。
+
+	问题：
+		1）耗时的selective search,一帧图像花费2秒
+		2）耗时的串行式CNN前向传播，对于每一个ROI，都需要经过AlexNet提取特征，为所有的ROI提取特征。
+		3）*** 三个模块分别训练 ***，对存储空间的消耗很大。
+
+2、Fast R-CNN（2015年）
+	为解决如上问题：
+		Ross在2015年，提出Fast R-CNN：
+
+		===> 还是采用selective search 提取2000个候选框;
+		===> 通过一个神经网络对全图进行特征提取;
+		===> 使用ROI Pooling Layer在全图上摘取每一个ROI对应的特征;
+		===> 再通过全连接层（FC Layer）进行分类和包围框的修正。
+
+	贡献：
+		1）取代R-CNN的串行特征提取方式，
+		2）除了selective search ,其他部分都可以结合在一起训练。
+
+	缺点：耗时的selective search 依旧存在。
+
+3、Faster R-CNN（2016年）
+	为了改良selective search的耗时问题：
+		取代Selective Search,直接通过一个Region Proposal network(RPN)生成待检测区域，
+		在生成ROI区域的时候，时间也就从2s缩减到10ms。
+
+	过程：
+		S1：===>>> 共享卷积层为全图提取特征feature maps
+		S2：===>>> 将features maps送入到RPN,
+		S3：===>>> RPN生成待检测框（指定ROI的位置），并对ROI的包围框进行第一次修正。
+		S4：===>>> 进入到Fast R-CNN架构，
+					ROI Pooling Layer根据RPN的输出在feature map上面选择每个ROI对应的特征，并将维度值置为定值。
+		S5：===>>> 全连接层（FC Layer）对框进行分类，并且对目标包围框进行第二次修正。 
+
+	S1,S2,S3替换掉Selective Search和Fast R-CNN中的特征提取。
+
+	Faster R-CNN 真正实现了端到端的训练（end-to-end training）。
+
+
+	Faster R-CNN架构：
+		三大部分：
+			1) 共享的卷积层-backbone
+			2) 候选区域生成网络-RPN
+			3) 对候选区域进行分类的网络-classifier
+			其中：RPN和classifier部分均对目标框有修正。classifier完全继承Fast R-CNN结构。
+
+		模块细节：
+			RPN工作原理：
+				
+
 
 
 ----------------------------------------------------------
-
+https://blog.csdn.net/zziahgf/article/details/78730859
+论文阅读学习 - Mask R-CNN
 ----------------------------------------------------------
 
 ----------------------------------------------------------
