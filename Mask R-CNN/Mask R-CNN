@@ -93,6 +93,15 @@ https://blog.csdn.net/jiongnima/article/details/79094159
 
 		模块细节：
 			RPN工作原理：
+				RPN依靠一个在共享特征图 conv feature map 上滑动的窗口 sliding window. 
+
+				为每个位置生成9种预先设置好长宽比与面积的目标框（anchor）,
+					三种面积（128*128， 256*256， 512*512）
+					三种长宽比（1：1， 1:2， 2:1）
+
+				共享特征图feature maps大约有 40 * 60， RPN生成的初始anchor总数为20000个左右（40* 60 *9）。
+
+
 				
 
 
