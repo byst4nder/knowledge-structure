@@ -139,10 +139,107 @@ https://blog.csdn.net/jiongnima/article/details/79094159
 
 
 			RoI Pooling:
+				为何需要RoI Pooling?
+					在Fast R-CNN中，特征被共享卷积层一次性提取。
+					对于每个RoI而言，需要从 共享卷积层上 **摘取** 对应的特征,并且送入全连接层进行分类。
+					RoI Pooling主要做了两件事：
+						第一件是为每个RoI选取对应的特征，
+						第二件是为满足全连接层的输入需求。
+							将每个RoI对应的特征的维度转化为某个定值。
+						
+						对于每一个RoI，RoI Pooling Layer将其对应的特征从共享卷积层上拿出来，并转化成一样的大小
+
+
+			Fast R-CNN的分类器：
+				提取的RoI具体是什么类别(人，车，马等等)，一共C+1类(包含一类背景)。
+
+
+			RoI边框修正训练
+				RoI边框修正和RPN中的anchor边框修正原理一样，同样也是SmoothL1 Loss。
+				RoI边框修正也是对于非背景的RoI进行修正，对于类别标签为背景的RoI，则不进行RoI边框修正的参数训练。
+
+			   在训练分类器和RoI边框修正时，步骤如下所示：
+
+				   0) 首先通过共享卷积层backbone提取特征,shared conv feature maps (40×60)。
+
+				   1) 首先通过RPN生成约20000个anchor(40×60×9)。
+
+				   2) 对20000个anchor进行第一次边框修正，得到修订边框后的proposal。
+
+				   3) 对超过图像边界的proposal的边进行clip，使得该proposal不超过图像范围。
+
+				   4) 忽略掉长或者宽太小的proposal。
+
+				   5) 将所有proposal按照前景分数从高到低排序，选取前12000个proposal。
+
+				   6) 使用阈值为0.7的NMS算法排除掉重叠的proposal。
+
+				   7) 首先通过RPN生成约20000个anchor(40×60×9)。
+
+		总的来说，Faster R-CNN的loss分两大块，第一大块是训练RPN的loss(包含一个SoftmaxLoss和SmoothL1Loss)，第二大块是训练Fast R-CNN中分类器的loss(包含一个SoftmaxLoss和SmoothL1Loss)，
+
+		Faster R-CNN的训练方式有三种，描述如下：	
+		   1) RPN和Fast R-CNN交替训练，这种方式也是作者采用的方式。
+
+		   2) 近似联合RPN和Fast R-CNN的训练，在训练时忽略掉了RoI边框修正的误差，只对anchor做了边框修订，"近似联合"。
+
+		   3) 联合RPN和Fast R-CNN的训练。
+
+		交替训练的方式，步骤如下：
+
+		   1) 使用在ImageNet上预训练的模型初始化共享卷积层并训练RPN。
+
+		   2) 使用上一步得到的RPN参数生成RoI proposal。
+				再使用ImageNet上预训练的模型初始化共享卷积层，训练Fast R-CNN部分(分类器和RoI边框修订)。
+
+		   3) 将训练后的共享卷积层参数固定，同时将Fast R-CNN的参数固定，训练RPN。
+				(从这一步开始，共享卷积层的参数真正被两大块网络共享)
+
+		   4) 同样将共享卷积层参数固定，并将RPN的参数固定，训练Fast R-CNN部分。
+
+
+		Faster R-CNN的测试流程和训练流程挺相似，描述如下：
+
+		   1) 首先通过RPN生成约20000个anchor(40×60×9)通过RPN。
+
+		   2) 对20000个anchor进行第一次边框修正，得到修订边框后的proposal。
+
+		   3) 对超过图像边界的proposal的边进行clip，使得该proposal不超过图像范围。
+
+		   4) 忽略掉长或者宽太小的proposal。
+
+		   5) 将所有proposal按照前景分数从高到低排序，选取前6000个proposal。
+
+		   6) 使用阈值为0.7的NMS算法排除掉重叠的proposal。
+
+		   7) 针对上一步剩下的proposal,选取前300个proposal进行分类和第二次边框修正。
+
+
+4、Mask R-CNN (2017年)
+	Mask R-CNN只是在Faster R-CNN上面加了一个Mask Prediction Branch (Mask 预测分支)，并且改良了ROI Pooling，提出了ROI Align。
+
+	RoI Pooling的问题：
+
+		问题1：从输入图上的RoI到特征图上的RoI feature，RoI Pooling是直接通过四舍五入取整得到的结果。
+			直接用round取的值，RoI Pooling过后的得到的输出可能和原图像上的RoI对不上。
+			RoI Pooling Layer的四舍五入取整操作，可能会导致其进行了偏移。
+
+		问题2：在将每个RoI对应的特征转化为固定大小的维度时，又采用了取整操作。
+
+		问题3：
 
 
 
-				
+
+
+
+
+
+
+
+
+
+补充一：				
 ----------------------------------------------------------------------------
 二、深度学习中IU、IoU(Intersection over Union)的概念理解以及python程序实现
 https://blog.csdn.net/iamoldpan/article/details/78799857
@@ -158,6 +255,51 @@ https://oldpan.me/archives/understand-coco-metric
 	IoU相当于两个区域重叠的部分除以两个区域的集合部分得出的结果。
 	一般来说，这个score ＞ 0.5 就可以被认为一个不错的结果了。
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+补充二：
+----------------------------------------------------------------------------
+三、目标检测之Loss：FasterRCNN中的SmoothL1Loss
+https://blog.csdn.net/wfei101/article/details/79809332
+----------------------------------------------------------------------------
+多任务损失： 多任务！！！！
+	Fast R-CNN网络有两个同级输出层（cls score和bbox_prdict层），都是全连接层，称为multi-task。
+
+
+
+
+
+
+
+
+
+
+
+
+
+补充三：
+----------------------------------------------------------------------------
+四、NMS和soft-nms算法
+https://www.cnblogs.com/zf-blog/p/8532228.html
+----------------------------------------------------------------------------
+
+NMS在物体检测中的应用：
+
+	物体检测中应用NMS算法的主要目的是消除多余（交叉重复）的窗口，找到最佳物体检测位置。
 
 ----------------------------------------------------------------------------
 论文阅读学习 - Mask R-CNN
