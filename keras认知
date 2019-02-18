@@ -1,0 +1,45 @@
+keras
+
+	Keras是一个高层神经网络API，Keras由纯Python编写而成并基Tensorflow、Theano以及CNTK后端。
+	Keras的核心数据结构是“模型”，模型是一种组织网络层的方式。Keras中主要的模型是Sequential模型，Sequential是一系列网络层按顺序构成的栈。
+
+	from keras.model import Sequential
+
+
+基本概念：
+
+	data_format
+
+		Theano模式会把100张RGB三通道的16×32（高为16宽为32）彩色图
+			表示为：“channels_first”（100,3,16,32）
+			Caffe也是这种情况。
+
+		TensorFlow表示为：
+			“channels_last”（100,16,32,3）
+
+
+	函数式模型：
+		在Keras 0.x中，模型其实有两种，一种叫Sequential，称为序贯模型，也就是单输入单输出，层与层之间只有相邻关系，跨层连接统统没有。
+			第二种模型称为Graph，即图模型，这个模型支持多输入多输出，层与层之间想怎么连怎么连。
+		在Keras1和Keras2中，图模型被移除，而增加了了“functional model API”，
+			由于functional model API在使用时利用的是“函数式编程”的风格，我们这里将其译为函数式模型。
+
+			
+	batch:
+		深度学习的优化算法，说白了就是梯度下降。每次的参数更新有两种方式。
+			第一种，
+				遍历全部数据集算一次损失函数，然后算函数对各个参数的梯度，更新梯度。这种方法每更新一次参数都要把数据集里的所有样本都看一遍，计算量开销大，计算速度慢，不支持在线学习，这称为Batch gradient descent，批梯度下降。
+
+			第二种，
+				每看一个数据就算一下损失函数，然后求梯度更新参数，这个称为随机梯度下降，stochastic gradient descent。这个方法速度比较快，但是收敛性能不太好，可能在最优点附近晃来晃去，hit不到最优点。两次参数的更新也有可能互相抵消掉，造成目标函数震荡的比较剧烈。
+
+		为了克服两种方法的缺点，现在一般采用的是一种折中手段，mini-batch gradient decent，小批的梯度下降，这种方法把数据分为若干个批，按批来更新参数，这样，一个批中的一组数据共同决定了本次梯度的方向，下降起来就不容易跑偏，减少了随机性。另一方面因为批的样本数与整个数据集相比小了很多，计算量也不是很大。
+
+	Flatten:
+		在keras中对于CNN中的featureMap,图层，做扁平化处理，将每一个featureMap处理成一个个的神经元输入形式。连接后续的全连接层。
+		在tensorFlow中，由reshape完成这步操作。
+
+	padding
+		="same":在CNN中卷积神经网络的卷积核在移动的时候，保证自动补零，使得每一个像素点都在中心。
+
+	epochs:轮次
