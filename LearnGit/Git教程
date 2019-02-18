@@ -293,5 +293,6 @@ windows中比较两个版本问题的不同。FC 文件1 文件2
 			在启用git之前，首先git pull 一下，拉取一下github上最新，保持同步，然后开始更新。
 
 		所以：
-			每次工作之后git push origin master
-			每次工作之前git pull
+			每次工作之后:git push origin master
+			每次工作之前:git pull
+			每到一个新的环境：git pull
