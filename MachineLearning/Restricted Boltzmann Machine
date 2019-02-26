@@ -1,0 +1,85 @@
+Restricted Boltzmann Machine
+
+	Geoff Hinton发明
+
+	降低维度，分类，回归，特征学习。
+
+	非监督学习
+
+	非监督学习，所以做法与之前也不相同：
+		在正向更新完成之后：
+			隐藏层变成输入层，反向更新，用老的权重和新的bias:反向更新，
+			回到原始输入层：
+			算出的值跟原始输入层的值比较，最小化error,接着迭代更新。
+
+
+	正向更新：
+		用输入来预测神经元的activation,也就是输出的概率，在给定的权重下：p(a|x,w)
+
+	反向更新：
+		activation被输入到网络里面，来预测原始的数据x,RBM尝试估计x的概率，对于给定的activation a:p(x|a,w)
+
+	结合以上两步：模拟x和a的joint probability distribution:p(x,a)  联合概率分布：
+
+
+	机器学习有两种模型：
+		Generative learning: 模拟输入数据的概率分布。
+		discriminatinve learning:把输入映射到输出，区分几类点。
+
+
+
+	Kullback-Leibler Divergence 相对熵
+		实际概率分布：p(x)
+		模拟概率分布：q(x)
+
+		我们希望q(x)分布尽量接近q(x)，对差异积分，可以得到相对熵。
+
+
+
+	正向更新：给定这些像素，权重应该送出一个更强的信号给大象还是给狗。
+	反向更新：给定大象和狗，我应该期待什么样的像素分布？
+
+
+
+
+
+Deep Brief Network 
+	本质其实是多个Restricted Boltzmann Machines
+
+	每层的神经元不与本层的其他神经元交流
+
+	最后一层通常是calssification layer(e.g. Softmax)
+
+	除了第一层，最后一层：
+		每层都有两个作用：对于前一层作为隐藏层，作为后一层的输入层。
+
+	属于Generative model
+
+
+Deep Autoencoders:
+
+	有前后对称的两个Deep Brief Network组成。
+
+	前面的叫Encoding DBN，后面叫Decoding DBN
+
+	前面的神经网络DBN生成一个Compressed Feature Vector
+
+	每层有Restricted Boltzmann Machine组成。
+
+
+	在编码部分：
+		第一个隐藏层要比输入层神经元个数要多，因为激活函数为sigmoid,sigmoid-brief unit 代表的信息量比实数少。
+		784（input）--->>>>1000--->>>>500--->>>>250--->>>>100--->>>>50--->>>>30
+
+	在解码部分：
+		30--->>>>50--->>>>100--->>>>250--->>>>500--->>>>1000--->>>>784(output)
+		用途：
+			降低维度。
+			图像搜索（压缩）
+			数据压缩
+			信息检索。
+		scikit-learn nerualnetwork
+
+		
+
+
