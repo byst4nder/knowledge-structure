@@ -1,5 +1,46 @@
 图像处理工具
 
+
+----------------------------------------------------------------------------
+					一、深度学习之数据增强库imgaug使用方法
+		https://blog.csdn.net/zong596568821xp/article/details/83105700
+----------------------------------------------------------------------------
+安装方法：
+	pip install six numpy scipy matplotlib scikit-image opencv-python imageio
+	pip install imgaug
+
+
+	或者：
+	pip install git+https://github.com/aleju/imgaug
+
+	或者：
+	git clone https://github.com/aleju/imgaug
+	cd imgaug 
+	python setup.py install
+
+
+	整体流程为：定义变换序列（Sequential）→读入图片（imread）→执行变换（augment_images）→保存图片（imwrite）
+
+		# -*- coding: utf-8 -*-
+		import cv2
+		from imgaug import augmenters as iaa
+		 
+		# imgaug test
+		seq = iaa.Sequential([
+		    iaa.Crop(px=(0, 16)), # 从每侧裁剪图像0到16px（随机选择）
+		    iaa.Fliplr(0.5), # 水平翻转图像
+		    iaa.GaussianBlur(sigma=(0, 3.0)) # 使用0到3.0的sigma模糊图像
+		])
+		 
+		imglist=[]
+		img = cv2.imread('kobe.jpg')
+		imglist.append(img)
+		images_aug = seq.augment_images(imglist)
+		cv2.imwrite("imgaug.jpg",images_aug[0])
+
+
+
+
 ----------------------------------------------------------------------------
 Augmentor和imgaug——python图像数据增强库
 https://www.cnblogs.com/vincentcheng/p/9186540.html
