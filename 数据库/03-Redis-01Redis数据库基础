@@ -1,0 +1,63 @@
+Redis数据库基础：
+
+1、为何引入NoSql
+
+	1）因为内存级的读写速度。加快读取速度。
+	2）数据数量增加，访问人数增加。
+			直接从物理存储中读取，会影响速度，增加服务器的压力。
+			让服务器抗压能力更强。在客户端和物理关系型数据库mysql存储之间增加一个nosql，很多数据直接从缓存中读取，而不用直接用MySql读取物理存储。
+
+
+2、安装：
+	安装包复制到解压到/usr/local/redis下
+	sudo cp -r redis[tab]/* /usr/local/redis/
+	cd /usr/local/redis/
+	sudo make 生成：
+	测试：
+	sudo make test
+
+	安装：
+		将redis命令安装到/usr/bin/目录
+	sudo make install
+
+3、配置：
+	https://www.cnblogs.com/zongfa/p/7808807.html
+	用vi打开Redis服务器的配置文件
+	sudo vi /etc/redis/redis.conf
+
+	####让Redis服务器被远程访问:同MongDB.####
+		默认情况下，Redis服务器不允许远程访问，只允许本机访问，所以我们需要设置打开远程访问的功能。
+
+		#注释bind
+		#bind 127.0.0.1
+	修改后，重启Redis服务器。
+		redis-server restart
+
+	loglevel notice。默认设置日志级别为notice。
+
+	默认数据有16个，没有名字。从0到15。可以从配置文件修改
+
+	内存数据库，有一定的时间频率将数据写入硬盘存取下来。
+		save 900 1	        :如果900秒内进行了一次写操作。
+		save 300 10			:如果300秒内进行了10次写操作。
+		save 60 10000		:如果60秒内进行了10000次写操作。
+		那么将进行一次物理写操作。
+
+	dbfilename dump.rdb  	此处决定了物理存储的文件名字
+	dir /var/lib/redis 		默认数据文件存储文件位置。pwd.
+
+	总结：ip ，端口，数据库存储目录，日志存储目录，
+
+
+
+4、运行：
+	启动服务端：
+		redis-server
+		ctrl+c停止。
+	启动客户端：
+		redis-cli
+
+	停止：
+		ps ajx|grep redis
+		sudo kill -9 redis的进程ID。
+

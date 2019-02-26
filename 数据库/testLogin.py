@@ -1,5 +1,5 @@
 # coding=utf-8
-import mysqlhelper
+import MysqlHelper
 import hashlib
 
 
@@ -10,12 +10,13 @@ pwd = input('请输入密码：')
 # 对密码加密：
 s1 = hashlib.sha1()
 s1.update(pwd.encode('utf-8'))
+# 此处加上一句：encode('utf-8'),否则提示：TypeError: Unicode-objects must be encoded before hashing
 pwd2 = s1.hexdigest()
 
 
 # 根据用户名查询密码：
 sql = 'select passwd from users where name=%s'
-helper = mysqlhelper.MysqlHelper('192.168.85.20', 3306, 'follow', 'root', '123456')
+helper = MysqlHelper.MysqlHelper('192.168.85.20', 3306, 'follow', 'root', '123456')
 result = helper.get_all(sql, [name])
 if len(result) == 0:
     print("用户名错误。")

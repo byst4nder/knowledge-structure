@@ -1,0 +1,19 @@
+MySql、MongDB、Redis区分总结：
+
+1、默认端口：
+	mysql 		3306
+	MongoDB 	27017
+	Redis  		6379
+
+
+2、启动命令：
+	Mysql:
+		mysql -u root -p 123456
+
+	MongoDB:
+		sudo service mongod start
+		mongo
+
+	Redis： 
+		redis-server
+		redis-cli

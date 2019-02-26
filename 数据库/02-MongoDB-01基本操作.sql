@@ -44,7 +44,6 @@ MongoDB
 		·根据业界规则，偶数为稳定版，如1.6.X，奇数为开发版，如1.7.X
 		·32bit的mongodb最大只能存放2G的数据，64bit就没有限制
 	安装指南：
-	https://blog.csdn.net/zhushh/article/details/52451441
 
 	1.导入软件源的公钥
 		sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv EA312927
@@ -106,38 +105,42 @@ MongoDB
 	直接在bin下将文件打开，【create】 【save】【connnect】
 	
 	看到的数据库，到命令行中查看
-		show dbs
+		show dbs       <<<=======
 		查看是否真的存在。
 	
+	如果本地连接失败：检查vmware workstations中，网络虚拟编辑器的NAT设置。
+		
 
 6、数据库操作：
 	切换数据库
 	如果数据库不存在，则指向数据库，但不创建，直到插入数据或创建集合时数据库才被创建
-		use 数据库名称
+		use 数据库名称  		<<<=======
 	默认连接的是test的数据库：为test，如果你没有创建新的数据库，集合将存放在test数据库中。
 
 	数据库删除：
 		删除当前指向的数据库
 		如果数据库不存在，则什么也不做
-		db.dropDatabase()
+		db.dropDatabase()		<<<=======
 
 7、集合操作：
 	集合创建：
-		db.createCollection(name,options)
+		db.createCollection(name,options)		<<<=======
 	·name是要创建的集合的名称
 	·options是一个文档，用于指定集合的配置
 	·选项​​参数是可选的，所以只需要到指定的集合名称。以下是可以使用的选项列表：
-		db.createCollection("sub", { capped : true, size : 10 } )
+		db.createCollection("sub", { capped : true, size : 10 } )		<<<=======
+			参数capped：默认值为false表示不设置上限，值为true表示设置上限
+			参数size：当capped值为true时，需要指定此参数，表示上限大小，当文档达到上限时，会将之前的数据覆盖，单位为字节
 	删除集合：
-		db.集合名.drop()
+		db.集合名.drop()			<<<=======
 
 8、数据类型：
 
-	object id：文档ID
+	object ID：文档ID 			<<<=======
 	每个文档都有一个属性，为_id，保证每个文档的唯一性
-	Object ID：文档ID
+	Object ID：文档ID 			<<<=======
 	String：字符串，最常用，必须是有效的UTF-8
-	Boolean：存储一个布尔值，true或false
+	Boolean：存储一个布尔值，true或false 		<<<=======
 	Integer：整数可以是32位或64位，这取决于服务器
 	Double：存储浮点值
 	Arrays：数组或列表，多个值存储到一个键
@@ -149,7 +152,7 @@ MongoDB
 
 9、数据操作：
 	插入：
-		db.集合名称.insert(document)
+		db.集合名称.insert(document) 		<<<=======
 		·插入文档时，如果不指定_id参数，MongoDB会为文档分配一个唯一的ObjectId
 		·而且如果集合不存在则自动创建一个集合。不需要事先存在集合。
 			db.stu.insert({name:'gj',gender:1})
@@ -172,6 +175,7 @@ MongoDB
 			默认第一个筛选条件都没有写，应该所有匹配的都改，但是第三个参数为默认，所以只修改了第一条记录。
 			如果想修改多条，只要把第三个参数修改即可。同时需要用 `$set` 指定属性更新。如果不加则是全文档修改，
 			导致文档结构也被修改。
+			注意：`$set`后面用的是冒号： `:`
 
 	保存：
 		db.集合名称.save(document)
