@@ -295,4 +295,6 @@ windows中比较两个版本问题的不同。FC 文件1 文件2
 		所以：
 			每次工作之后:git push origin master
 			每次工作之前:git pull
-			每到一个新的环境：git pull
+			每到一个新的环境：
+							先看：git status
+							然后：git pull
