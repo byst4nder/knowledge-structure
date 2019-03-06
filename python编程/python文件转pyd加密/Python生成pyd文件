@@ -1,0 +1,136 @@
+Python生成pyd文件加密
+
+
+python3生成pyd文件
+https://blog.csdn.net/qq_34106574/article/details/81166062
+
+	pip install cython
+	pip install easycython
+	
+main.pyx
+	def test():
+		print("Hello sanfenzui!")
+
+转换步骤：   两次重命名：一次转化。
+	
+	1、重命名：
+		将.py文件重命名为.pyx
+	2、在目录下运行：
+		转化所有文件：easycython *.pyx
+		转化指定文件：easycython main.pyx
+	3、重命名：
+		将生成文件的后缀：cp35-win_amd64.pyd手动修改为main.pyd
+
+		import main
+		main.test()
+
+用pyd混淆后，还可以将py2exe,然后迷惑一层，
+在pyd或者exe后，通过第三方软件加壳。
+
+
+
+
+
+
+python2
+参考文档一：
+http://yshblog.com/blog/117
+
+	为了保护源码，对Python代码进行混淆加密保护。
+
+	pyminifier可以实现混淆代码。
+
+		pyd格式是D语言(C/C++综合进化版本)生成的二进制文件，实际也会是dll文件。
+		该文件目前位置没找到可以被反编译的消息，只能被反汇编。
+		Sublime text编辑器也是使用该格式。
+
+	Python的py文件生成pyd文件步骤如下：
+
+	1、安装Cython
+
+		pip install Cython
+		或：
+		python2 -m pip install Cython
+
+	2、处理vcvarsall.bat
+		若不处理，当后期编译的时候：
+			python setup.py build_ext --inplace
+			可能会出现"error:Unable to find vcvarsall.bat"的错误。
+
+		故安装完Cython后，需要指定vcvarsall.bat的位置。
+
+		vcvarsall.bat是VC编译Python环境的文件之一。而vcvarsall.bat需要安装VC For Python2.7。我的Python是2.7，刚好可以使用这个。
+
+		下载安装：VCForPython27.msi
+			
+	参考文档二：
+		windows平台使用Microsoft Visual C++ Compiler for Python 2.7编译python扩展
+		http://www.cnblogs.com/lazyboy/p/4017567.html
+			下载地址：http://aka.ms/vcpython27
+			https://www.microsoft.com/en-us/download/details.aspx?id=44266
+
+				System Requirements
+					Supported Operating System
+					Windows 7, Windows 8, Windows 8.1
+
+				Microsoft Visual C++ 2008 SP1 Redistributable Package (x86, x64)
+					Windows 8 and later require the Microsoft .NET Framework 3.5. See here for installation instructions.
+						here:	https://docs.microsoft.com/en-us/dotnet/framework/install/dotnet-35-windows-10
+
+				Disk Space Requirements
+					Installation requires 380 megabytes (MB) of hard disk space.
+
+				Python Packages
+					setuptools 6.0 or later is required for Python to automatically detect this compiler package.
+					wheel is recommended for producing pre-built binary packages.
+
+			目测不支持win 10,win需要装.NET 3.5。
+				安装包指引：https://www.microsoft.com/en-us/download/developer-tools.aspx
+				.NET3.5下载：https://www.microsoft.com/en-us/download/details.aspx?id=21
+				安装指引：https://docs.microsoft.com/en-us/dotnet/framework/install/dotnet-35-windows-10
+			还需要安装setuptools和wheel.
+
+				安装setuptools:
+					https://www.cnblogs.com/katios/p/5321491.html
+
+		安装完成.NET3.5重启，然后安装setuptools。
+		安装VCForPython27.msi
+
+			完美解决“Unable to find vcvarsall.bat”错误
+			https://blog.csdn.net/donger_soft/article/details/44838109
+				注册表创建如下项： 
+				HKEY_CURRENT_USER\Software\Wow6432Node\Microsoft\VisualStudio\9.0\Setup\VC 
+				// 3、并在此项下新建字符串值： 
+				名称：productdir 
+				数据：vcvarsall.bat所在路径 
+				注意：路径中不包含最后的反斜杠。
+
+		3、创建工作目录并生成pyd文件：
+			程序所在的目录路径不能包含中文文字。
+			test.py
+				#coding:utf-8
+				def hello():
+					print("Hello World.")
+					input("<press ENTER to quit>")
+
+			setup.py
+				from distutils.core import setup
+				from Cython.Build import cythonize
+
+				setup(name="Hello World app", ext_modules=cythonize("test.py"),)
+
+			python2 setup.py build_ext --inplace
+
+			index.py
+				import test
+				if __name__=="__main__":
+					test.hello()
+
+		4、打包：
+			重新将index.py和test.pyd复制到新目录下：
+			然后py2exe打包：将index.py处理成index.exe
+
+
+
+
+
