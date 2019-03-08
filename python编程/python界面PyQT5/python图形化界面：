@@ -1,0 +1,92 @@
+python图形化界面：
+
+
+PyQT可以做到非常漂亮，但是有一个问题：商业付费问题：
+
+
+
+
+
+
+---------------------------------------------------------------
+丑拒！如何在Python中编写精美图形界面
+https://cloud.tencent.com/developer/article/1345469
+---------------------------------------------------------------
+
+一、对界面进行布局和组件的布置
+
+
+在图像界面编程中，一个好的布局有助于全局把控界面的形态，而在PyQt5中，有多种布局的方式供我们选择，比较常用的布局有以下几种：
+	表单布局：QFormLayout
+	网格布局：QGridLayout
+	水平排列布局：QHBoxLayout
+	垂直排列布局：QVBoxLayout
+
+在网格布局内，使用两个QWidget()部件分别作为左侧菜单模块的部件和右侧内容模块的部件。所以这个图形界面的最基本结构代码如下所示：
+
+# coding:utf-8
+
+from PyQt5 import QtCore,QtGui,QtWidgets
+import sys
+import qtawesome
+
+class MainUi(QtWidgets.QMainWindow):
+    def __init__(self):
+        super().__init__()
+        self.init_ui()
+
+    def init_ui(self):
+        self.setFixedSize(960,700)
+        self.main_widget = QtWidgets.QWidget()  # 创建窗口主部件
+        self.main_layout = QtWidgets.QGridLayout()  # 创建主部件的网格布局
+        self.main_widget.setLayout(self.main_layout)  # 设置窗口主部件布局为网格布局
+
+        self.left_widget = QtWidgets.QWidget()  # 创建左侧部件
+        self.left_widget.setObjectName('left_widget')
+        self.left_layout = QtWidgets.QGridLayout()  # 创建左侧部件的网格布局层
+        self.left_widget.setLayout(self.left_layout) # 设置左侧部件布局为网格
+
+        self.right_widget = QtWidgets.QWidget() # 创建右侧部件
+        self.right_widget.setObjectName('right_widget')
+        self.right_layout = QtWidgets.QGridLayout()
+        self.right_widget.setLayout(self.right_layout) # 设置右侧部件布局为网格
+
+        self.main_layout.addWidget(self.left_widget,0,0,12,2) # 左侧部件在第0行第0列，占8行3列
+        self.main_layout.addWidget(self.right_widget,0,2,12,10) # 右侧部件在第0行第3列，占8行9列
+        self.setCentralWidget(self.main_widget) # 设置窗口主部件
+
+def main():
+    app = QtWidgets.QApplication(sys.argv)
+    gui = MainUi()
+    gui.show()
+    sys.exit(app.exec_())
+
+if __name__ == '__main__':
+    main()
+
+---------------------------------------------------------------
+PyQt5简介
+https://maicss.gitbooks.io/pyqt5/content/%E4%BB%8B%E7%BB%8D.html
+---------------------------------------------------------------
+
+
+
+
+---------------------------------------------------------------
+python界面 | 实战Tkinter图形界面开发
+https://www.jianshu.com/p/311749e3b91a
+---------------------------------------------------------------
+
+
+---------------------------------------------------------------
+使用PyQt来编写第一个Python GUI程序
+https://blog.csdn.net/wuxiaobingandbob/article/details/53167674
+---------------------------------------------------------------
+
+
+
+
+---------------------------------------------------------------
+Python学生管理系统(界面版)
+https://blog.csdn.net/zeal9s/article/details/83472581
+---------------------------------------------------------------

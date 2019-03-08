@@ -1,0 +1,57 @@
+#!/usr/bin/python3
+# -*- coding: utf-8 -*-
+
+"""
+This program creates a checkable menu.
+一个行为菜单。这个行为／动作能切换状态栏显示或者隐藏。
+-------------------------------------------------------------------------
+--      viewStatAct = QAction('View statusbar', self, checkable=True)
+--      viewStatAct.setStatusTip('View statusbar')
+--      viewStatAct.setChecked(True)
+--      viewStatAct.triggered.connect(self.toggleMenu)
+def toggleMenu:
+-------------------------------------------------------------------------
+"""
+import sys
+from PyQt5.QtWidgets import QMainWindow, QAction, QApplication
+
+
+class Example(QMainWindow):
+
+    def __init__(self):
+        super().__init__()
+
+        self.initUI()
+
+    def initUI(self):
+
+        self.statusbar = self.statusBar()
+        self.statusbar.showMessage('Ready')
+
+        menubar = self.menuBar()
+        viewMenu = menubar.addMenu('View')
+
+        viewStatAct = QAction('View statusbar', self, checkable=True)
+        viewStatAct.setStatusTip('View statusbar')
+        viewStatAct.setChecked(True)
+        viewStatAct.triggered.connect(self.toggleMenu)
+
+        viewMenu.addAction(viewStatAct)
+
+        self.setGeometry(300, 300, 300, 200)
+        self.setWindowTitle('Check menu')
+        self.show()
+
+    def toggleMenu(self, state):
+
+        if state:
+            self.statusbar.show()
+        else:
+            self.statusbar.hide()
+
+
+if __name__ == '__main__':
+
+    app = QApplication(sys.argv)
+    ex = Example()
+    sys.exit(app.exec_())
