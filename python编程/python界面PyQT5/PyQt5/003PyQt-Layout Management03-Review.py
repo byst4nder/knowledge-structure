@@ -56,5 +56,5 @@ if __name__ == '__main__':
     ex = Example()
     sys.exit(app.exec_())
 
-
-6个参数表示控件名，行，列，占用行数，占用列数，对齐方式
+# QGridLayout中addWidget的参数设置
+# 6个参数表示控件名，行，列，占用行数，占用列数，对齐方式
