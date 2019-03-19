@@ -250,7 +250,7 @@ kernel = np.ones((5, 5), np.uint8)
 # 17.5 形态学梯度：
 # 一幅图像膨胀与腐蚀的差别。结果看上去就像前景物体的轮廓。
 gradient = cv2.morphologyEx(img, cv2.MORPH_GRADIENT, kernel)
-# 17.6 礼帽：
+
 
 
 plt.show()

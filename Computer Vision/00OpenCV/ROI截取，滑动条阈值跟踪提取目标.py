@@ -62,8 +62,10 @@ def OnMaskBlur(x):
         upper_val = np.array([h, s, v])
     # 根据阈值构建掩模。
     mask = cv2.inRange(hsv, lower_val, upper_val)
+    # 等价阈值筛选
+    # mask = cv2.threshold(hsv, lower_val, upper_val, cv2.THRESH_BINARY)
 
-    # 对原图像和掩模进行位运算。
+    # 对原图像和掩模进行位运算。!!!!!!!这个是重点。
     res = cv2.bitwise_and(img, img, mask=mask)
 
     # cv2.imshow("origin_img", img)
@@ -73,9 +75,18 @@ def OnMaskBlur(x):
     print("Lower_Val:", lower_val)
     print("Upper_Val:", upper_val)
 
+    # 将目标区域轮廓画出。
+    copy = cv2.cvtColor(res, cv2.COLOR_BGR2GRAY)
+    contours, hierarchy = cv2.findContours(copy, cv2.RETR_TREE, cv2.CHAIN_APPROX_NONE)
+
+    blue_contours = cv2.drawContours(img, contours, 3, (0, 255, 0), 3)
+    cv2.imshow("blue_contours", blue_contours)
+
 
 # 一个调节区调节两个值，所以，需要一个转换开关。
-cv2.namedWindow("HSVBlur", cv2.WINDOW_NORMAL)
+# cv2.namedWindow("HSVBlur", cv2.WINDOW_NORMAL)
+cv2.namedWindow("HSVBlur")
+
 switch_name = "low:0\nup:1"
 cv2.createTrackbar(switch_name, "HSVBlur", 0, 1, OnMaskBlur)
 cv2.createTrackbar("H", "HSVBlur", 0, 255, OnMaskBlur)
