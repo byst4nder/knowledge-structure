@@ -72,11 +72,14 @@ def OnMaskBlur(x):
     cv2.imshow("hsv", hsv)
     cv2.imshow("mask", mask)
     cv2.imshow("HSVBlur", res)
+    cv2.imwrite("./image/roi.jpg", res)
+    cv2.imwrite("./image/roi_mask.jpg", mask)
     print("Lower_Val:", lower_val)
     print("Upper_Val:", upper_val)
 
     # 将目标区域轮廓画出。
-    copy = cv2.cvtColor(res, cv2.COLOR_BGR2GRAY)
+    copy = res.copy()
+    copy = cv2.cvtColor(copy, cv2.COLOR_BGR2GRAY)
     contours, hierarchy = cv2.findContours(copy, cv2.RETR_TREE, cv2.CHAIN_APPROX_NONE)
 
     blue_contours = cv2.drawContours(img, contours, 3, (0, 255, 0), 3)
