@@ -13,4 +13,8 @@ loc = np.where(res >= threshold)
 for pt in zip(*loc[::-1]):
     cv2.rectangle(img_rgb, pt, (pt[0] + w, pt[1] + h), (0, 0, 255), 1)
 
-cv2.imwrite('res.png', img_rgb)
+# cv2.imwrite('res.png', img_rgb)
+cv2.imshow("res", img_rgb)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+# 此处可以配合滑动条，设置上下阈值进行过滤筛选。
