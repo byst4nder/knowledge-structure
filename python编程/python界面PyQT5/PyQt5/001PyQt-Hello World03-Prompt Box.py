@@ -28,12 +28,12 @@ class Example(QWidget):
 
     def initUI(self):   # 使用initUI()方法创建一个GUI。
 
-        QToolTip.setFont(QFont('SansSerif', 10))
+        QToolTip.setFont(QFont('SansSerif', 10))   # 静态方法设置了提示框的字体，我们使用了10px的SansSerif字体。
 
-        self.setToolTip('This is a <b>QWidget</b> widget')
+        # self.setToolTip('This is a <b>QWidget</b> widget')  # 可有可无
 
-        btn = QPushButton('Button', self)
-        btn.setToolTip('This is a <b>QPushButton</b> widget')   # 创建一个按钮，当鼠标悬浮于按钮时，提示内容。
+        btn = QPushButton('Button', self)   # 创建一个按钮
+        btn.setToolTip('This is a <b>QPushButton</b> widget')   # 创建一个按钮提示框，当鼠标悬浮于按钮时，提示内容。
         # btn.resize(btn.sizeHint())
         # btn.resize(btn.sizeHint())
         # btn.resize(QSize(500, 309))

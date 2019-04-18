@@ -21,7 +21,7 @@ if __name__ == '__main__':
 
     app = QApplication(sys.argv)
 
-    w = QWidget()       # 实例化构造一个窗口（window）
+    w = QWidget()       # 实例化构造一个窗口（window）  QWidget()就是一个顶级的
     w.resize(960, 700)    # 整个窗口大小
     w.move(300, 200)      # 左上角移动多少，窗口打开初始位置
     w.setWindowTitle('Simple')     # 窗口标题
