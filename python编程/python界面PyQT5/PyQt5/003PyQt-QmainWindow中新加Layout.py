@@ -156,3 +156,18 @@ if __name__ == '__main__':
     app = QApplication(sys.argv)
     ex = Example()
     sys.exit(app.exec_())
+
+# ERROR :
+#   QWidget::setLayout: Attempting to set QLayout "" on Example "", which alread  has a layout。
+#   继承QMainWindow类条件下：已有一个Layout存在：
+
+# 在Qt的主窗口(MainWindow)中使用setLayout()函数时，运行时即会报如题所示的错误，
+# MainWindow主框架已经有了一个Layout了，Layout包括了菜单栏、工具栏、停驻窗口区、中心窗口区、底部状态栏五部分，
+
+# 如果还要再使用一个Layout来布局，可以新建一个窗口，在新建的窗口中使用Layout,
+# 然后在使用SetCentralWidget()将新建的窗口设成主窗口的Central Widget
+
+# 代码：
+# myWidget = QWidget()
+# myWidget.setLayout(self.vbox)
+# self.setCentralWidget(myWidget)

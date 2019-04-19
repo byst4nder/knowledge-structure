@@ -15,7 +15,7 @@ class MainUi(QtWidgets.QMainWindow):
     def init_ui(self):
 
         # 在网格布局内，使用两个QWidget()部件分别作为左侧菜单模块的部件和右侧内容模块的部件。
-    # 最基本结构代码
+        # 最基本结构代码
         self.setFixedSize(960, 700)
         self.main_widget = QtWidgets.QWidget()  # 创建窗口主部件
         self.main_layout = QtWidgets.QGridLayout()  # 创建主部件的网格布局
@@ -37,7 +37,7 @@ class MainUi(QtWidgets.QMainWindow):
 
     # 左侧菜单栏
 
-        self.left_close = QtWidgets.QPushButton("")  # 关闭按钮
+        self.left_close = QtWidgets.QPushButton("关闭")  # 关闭按钮
         self.left_visit = QtWidgets.QPushButton("")  # 空白按钮
         self.left_mini = QtWidgets.QPushButton("")  # 最小化按钮
 

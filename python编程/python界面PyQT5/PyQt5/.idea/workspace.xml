@@ -10,8 +10,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/PyQt5$my_gui_pyqt.coverage" NAME="my_gui_pyqt Coverage Results" MODIFIED="1555664363746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../GUI-PyQt5-QSS" />
     <SUITE FILE_PATH="coverage/PyQt5$.coverage" NAME="俄罗斯方块 Coverage Results" MODIFIED="1555576282458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PyQt5$003PyQt_.coverage" NAME="003PyQt-盒布局重写 Coverage Results" MODIFIED="1555667187191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PyQt5$003PyQt_Layout_Management01_BoxLayout.coverage" NAME="003PyQt-Layout Management01-BoxLayout Coverage Results" MODIFIED="1555579436478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PyQt5$003PyQt_QmainWindowLayout.coverage" NAME="003PyQt-QmainWindow中新加Layout Coverage Results" MODIFIED="1555645562095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PyQt5$002PyQt__.coverage" NAME="002PyQt-综合以上-绝对定位布局版 Coverage Results" MODIFIED="1555579964112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PyQt5$2.coverage" NAME="综合调整2 Coverage Results" MODIFIED="1555582985993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
@@ -24,6 +27,9 @@
         <option value="$PROJECT_DIR$/俄罗斯方块.py" />
         <option value="$PROJECT_DIR$/003PyQt-Layout Management01-BoxLayout.py" />
         <option value="$PROJECT_DIR$/综合调整2.py" />
+        <option value="$PROJECT_DIR$/003PyQt-QmainWindow中新加Layout.py" />
+        <option value="$PROJECT_DIR$/../GUI-PyQt5-QSS/my_gui_pyqt.py" />
+        <option value="$PROJECT_DIR$/003PyQt-盒布局重写.py" />
       </list>
     </option>
   </component>
@@ -37,10 +43,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="358" />
-    <option name="y" value="17" />
-    <option name="width" value="1044" />
-    <option name="height" value="788" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -68,7 +74,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/projects/trainGUI" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/003PyQt-盒布局重写.py" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -82,26 +89,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.综合调整2">
-    <configuration name="俄罗斯方块" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PyQt5" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/俄罗斯方块.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.003PyQt-盒布局重写">
     <configuration name="002PyQt-综合以上-绝对定位布局版" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PyQt5" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -121,7 +109,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="003PyQt-Layout Management01-BoxLayout" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="003PyQt-盒布局重写" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PyQt5" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -134,7 +122,26 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/003PyQt-Layout Management01-BoxLayout.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/003PyQt-盒布局重写.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="003PyQt-QmainWindow中新加Layout" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PyQt5" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/003PyQt-QmainWindow中新加Layout.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -159,18 +166,39 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="my_gui_pyqt" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PyQt5" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../GUI-PyQt5-QSS" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../GUI-PyQt5-QSS/my_gui_pyqt.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
-      <item itemvalue="Python.俄罗斯方块" />
-      <item itemvalue="Python.003PyQt-Layout Management01-BoxLayout" />
       <item itemvalue="Python.002PyQt-综合以上-绝对定位布局版" />
       <item itemvalue="Python.综合调整2" />
+      <item itemvalue="Python.003PyQt-盒布局重写" />
+      <item itemvalue="Python.003PyQt-QmainWindow中新加Layout" />
+      <item itemvalue="Python.my_gui_pyqt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.003PyQt-盒布局重写" />
+        <item itemvalue="Python.my_gui_pyqt" />
+        <item itemvalue="Python.003PyQt-QmainWindow中新加Layout" />
         <item itemvalue="Python.综合调整2" />
         <item itemvalue="Python.002PyQt-综合以上-绝对定位布局版" />
-        <item itemvalue="Python.003PyQt-Layout Management01-BoxLayout" />
-        <item itemvalue="Python.俄罗斯方块" />
       </list>
     </recent_temporary>
   </component>
@@ -191,11 +219,11 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5005208" side_tool="true" weight="0.32943678" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32943678" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947917" weight="0.32943678" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
@@ -219,6 +247,11 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/004PyQt-Events and Signals01-signals and slots.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -234,31 +267,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/002PyQt-综合以上-绝对定位布局版.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-540">
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-540" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/俄罗斯方块.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="26" column="27" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="27" />
-          <folding>
-            <element signature="e#84#161#0" expanded="true" />
-            <element signature="e#1062#9070#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/综合调整2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="133" lean-forward="true" selection-start-line="133" selection-end-line="133" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -266,8 +281,98 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="473">
           <caret line="35" column="36" lean-forward="true" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/综合调整2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1143">
+          <caret line="171" column="31" lean-forward="true" selection-start-line="171" selection-start-column="31" selection-end-line="171" selection-end-column="31" />
           <folding>
-            <element signature="e#220#230#0" expanded="true" />
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-2068372222/PyQt5/QtWidgets/QMainWindow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="54" column="8" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/001PyQt-Hello World06-Center Window.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="37" column="4" lean-forward="true" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-2068372222/PyQt5/QtWidgets/QWidget.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="703" column="8" selection-start-line="703" selection-start-column="8" selection-end-line="703" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-2068372222/PyQt5/QtCore/QObject.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="163" column="13" selection-start-line="163" selection-start-column="8" selection-end-line="163" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/003PyQt-盒布局重写.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="90" column="50" selection-start-line="90" selection-start-column="41" selection-end-line="90" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#179#238#0" />
+            <element signature="e#6191#17107#0" />
+            <element signature="e#14674#14897#0" />
+            <element signature="e#14900#15614#0" />
+            <element signature="e#15696#15849#0" />
+            <element signature="e#15929#16082#0" />
+            <element signature="e#16141#16734#0" />
+            <element signature="e#16790#16928#0" />
+            <element signature="e#16991#17106#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../GUI-PyQt5-QSS/my_gui_pyqt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="72" column="62" lean-forward="true" selection-start-line="72" selection-start-column="62" selection-end-line="72" selection-end-column="62" />
+          <folding>
+            <element signature="e#88#130#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/002PyQt-Menus And Toolbars01-StatusBar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="653">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="e#448#458#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/003PyQt-QmainWindow中新加Layout.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="78" column="19" selection-start-line="78" selection-end-line="79" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#1065#1538#0" />
+            <element signature="e#1570#1712#0" />
+            <element signature="e#3050#3496#0" />
+            <element signature="e#3758#4455#0" />
+            <element signature="e#4489#4574#0" />
+            <element signature="e#4618#4709#0" />
           </folding>
         </state>
       </provider>
