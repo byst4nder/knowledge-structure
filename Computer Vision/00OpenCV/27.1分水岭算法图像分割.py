@@ -24,9 +24,9 @@ dist_transform = cv2.distanceTransform(opening, 1, 5)
 ret, sure_fg = cv2.threshold(dist_transform, 0.7*dist_transform.max(), 255, 0)
 # Finding unknown region
 sure_fg = np.uint8(sure_fg)
-cv2.imshow("sure_fg", sure_fg)
+# cv2.imshow("sure_fg", sure_fg)
 unknown = cv2.subtract(sure_bg, sure_fg)
-cv2.imshow("unknown", unknown)
+# cv2.imshow("unknown", unknown)
 
 # Marker labelling
 ret, markers1 = cv2.connectedComponents(sure_fg)
@@ -39,6 +39,9 @@ markers[unknown == 255] = 0
 # 现在标签准备好了。到最后一步：实施分水岭算法了。标签图像将会被修改，边界区域的标记将变为 -1.
 markers3 = cv2.watershed(img, markers)
 img[markers3 == -1] = [255, 0, 0]
+
+plt.subplot(1, 4, 1), plt.show()
+
 
 cv2.imshow("marker", img)
 cv2.waitKey(0)
