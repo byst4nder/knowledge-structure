@@ -13,3 +13,37 @@ https://blog.csdn.net/qq_36919570/article/details/81020885
     219.76.4.4  github-cloud.s3.amazonaws.com
 然后在命令行中刷新dns: ipconfig/flushdns
 
+
+
+—————————————————————————————————————————————————————————————————————————————————————
+git pull报错：Auto Merge Failed; Fix Conflicts and Then Commit the Result.
+解决方案：
+	https://blog.csdn.net/trochiluses/article/details/10100719
+
+	解决方法
+
+		方法一：如果我们确定远程的分支正好是我们需要的，而本地的分支上的修改比较陈旧或者不正确，那么可以直接丢弃本地分支内容，运行如下命令(看需要决定是否需要运行git fetch取得远程分支)：
+
+			$:git reset --hard origin/master
+
+			或者$:git reset --hard ORIG_HEAD
+
+			解释：
+
+			 git-reset - Reset current HEAD to the specified state
+
+			--hard
+			               Resets the index and working tree. Any changes to tracked files
+			               in the working tree since <commit> are discarded.
+
+		方法二：我们不能丢弃本地修改，因为其中的某些内容的确是我们需要的，此时需要对unmerged的文件进行手动修改，删掉其中冲突的部分，然后运行如下命令
+
+			$:git add filename
+
+			$:git commit -m "message"
+
+
+
+		方法三：如果我们觉得合并以后的文件内容比价混乱，想要废弃这次合并，回到合并之前的状态，那么可以运行如下命令：
+
+			$:git reset --hard HEAD
