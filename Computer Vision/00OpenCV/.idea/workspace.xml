@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a717af9a-f708-4cbe-b245-b21517875e8a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/27.1分水岭算法图像分割.py" beforeDir="false" afterPath="$PROJECT_DIR$/27.1分水岭算法图像分割.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenCV官方教程中文版（For Python）-标注.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/OpenCV官方教程中文版（For Python）-标注.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/ball.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/messi5.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/滑动条调参.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/滑动条阈值过滤.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,8 +14,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/00OpenCV$7_2_.coverage" NAME="7.2鼠标事件-人机交互式 Coverage Results" MODIFIED="1556528228153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/00OpenCV$28_1GrabCut.coverage" NAME="28.1GrabCut算法前景提取 Coverage Results" MODIFIED="1556356764192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/00OpenCV$7_1OpenCV.coverage" NAME="7.1OpenCV鼠标时间处理 Coverage Results" MODIFIED="1556526127107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/00OpenCV$27_1.coverage" NAME="27.1分水岭算法图像分割 Coverage Results" MODIFIED="1556347982954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/00OpenCV$.coverage" NAME="滑动条阈值过滤 Coverage Results" MODIFIED="1556524598803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/00OpenCV$28_2GrabCut_.coverage" NAME="28.2GrabCut算法前景提取_预设掩码效果 Coverage Results" MODIFIED="1556359467188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/00OpenCV$26_Hough.coverage" NAME="26.Hough圆环变换 Coverage Results" MODIFIED="1556172895572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/00OpenCV$25_0hough.coverage" NAME="25.0hough变换 Coverage Results" MODIFIED="1556333128899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -41,6 +43,9 @@
         <option value="$PROJECT_DIR$/28.1GrabCut算法前景提取.py" />
         <option value="$PROJECT_DIR$/27.1分水岭算法图像分割.py" />
         <option value="$PROJECT_DIR$/28.2GrabCut算法前景提取_预设掩码效果.py" />
+        <option value="$PROJECT_DIR$/滑动条调参.py" />
+        <option value="$PROJECT_DIR$/7.1OpenCV鼠标时间处理.py" />
+        <option value="$PROJECT_DIR$/7.2鼠标事件-人机交互式.py" />
       </list>
     </option>
   </component>
@@ -65,6 +70,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -72,21 +78,15 @@
               <item name="00OpenCV" type="b2602c69:ProjectViewProjectNode" />
               <item name="00OpenCV" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="00OpenCV" type="b2602c69:ProjectViewProjectNode" />
-              <item name="00OpenCV" type="462c0819:PsiDirectoryNode" />
-              <item name="image" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="F:/test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -103,8 +103,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.28.2GrabCut算法前景提取_预设掩码效果">
-    <configuration name="25.0hough变换" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.7.2鼠标事件-人机交互式">
+    <configuration name="滑动条调参" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="00OpenCV" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -117,13 +117,13 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/25.0hough变换.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/滑动条调参.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="26.Hough圆环变换" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="滑动条阈值过滤" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="00OpenCV" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -136,45 +136,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/26.Hough圆环变换.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="27.1分水岭算法图像分割" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="00OpenCV" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/27.1分水岭算法图像分割.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="28.1GrabCut算法前景提取" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="00OpenCV" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/28.1GrabCut算法前景提取.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/滑动条阈值过滤.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -199,20 +161,58 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="7.1OpenCV鼠标时间处理" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="00OpenCV" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/7.1OpenCV鼠标时间处理.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="7.2鼠标事件-人机交互式" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="00OpenCV" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/7.2鼠标事件-人机交互式.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
-      <item itemvalue="Python.27.1分水岭算法图像分割" />
-      <item itemvalue="Python.26.Hough圆环变换" />
-      <item itemvalue="Python.25.0hough变换" />
-      <item itemvalue="Python.28.1GrabCut算法前景提取" />
       <item itemvalue="Python.28.2GrabCut算法前景提取_预设掩码效果" />
+      <item itemvalue="Python.滑动条调参" />
+      <item itemvalue="Python.滑动条阈值过滤" />
+      <item itemvalue="Python.7.1OpenCV鼠标时间处理" />
+      <item itemvalue="Python.7.2鼠标事件-人机交互式" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.7.2鼠标事件-人机交互式" />
+        <item itemvalue="Python.7.1OpenCV鼠标时间处理" />
+        <item itemvalue="Python.滑动条阈值过滤" />
+        <item itemvalue="Python.滑动条调参" />
         <item itemvalue="Python.28.2GrabCut算法前景提取_预设掩码效果" />
-        <item itemvalue="Python.28.1GrabCut算法前景提取" />
-        <item itemvalue="Python.27.1分水岭算法图像分割" />
-        <item itemvalue="Python.25.0hough变换" />
-        <item itemvalue="Python.26.Hough圆环变换" />
       </list>
     </recent_temporary>
   </component>
@@ -243,7 +243,7 @@
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32978722" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16302083" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25260416" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" weight="0.58177084" />
@@ -311,20 +311,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/滑动条阈值过滤.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="21" column="86" lean-forward="true" selection-start-line="21" selection-start-column="86" selection-end-line="21" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/滑动条inRange阈值+膨胀腐蚀开闭运算+mask以及反码+matchShape.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="24" column="76" lean-forward="true" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="76" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -332,9 +322,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="10" column="30" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -348,13 +335,6 @@
     <entry file="file://$PROJECT_DIR$/image/girl_mask.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-2068372222/cv2/cv2/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="9259" column="19" selection-start-line="9259" selection-start-column="15" selection-end-line="9259" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/27.1分水岭算法图像分割.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-320">
@@ -366,9 +346,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="24" column="35" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -376,6 +353,73 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="26" column="33" lean-forward="true" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/滑动条调参.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="508">
+          <caret line="45" column="40" lean-forward="true" selection-start-line="45" selection-start-column="40" selection-end-line="45" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/滑动条阈值过滤.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8.1滑动条做调色板.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="972">
+          <caret line="46" column="26" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hsv.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7.1OpenCV鼠标时间处理.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/messigray.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-2068372222/cv2/cv2/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="1662" column="16" lean-forward="true" selection-start-line="1662" selection-start-column="16" selection-end-line="1662" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8.2滑动条阈值过滤.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="38" column="29" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7.2鼠标事件-人机交互式.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="16" column="72" selection-start-line="16" selection-start-column="72" selection-end-line="16" selection-end-column="72" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7.1OpenCV鼠标事件处理.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-320">
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
