@@ -1,0 +1,75 @@
+opencv自带Samples的介绍和运行操作
+
+
+	1、https://www.cnblogs.com/Anita9002/p/6237513.html
+	2、https://blog.csdn.net/mangobar/article/details/79672814
+
+
+3calibration.cpp 三个相机的标定，没有三个相机，所以没测试
+autofocus.cpp 自动对焦，没有这种相机，没测试
+bgfg_segm.cpp   混合高斯模型的前景背景分割
+camshiftdemo.cpp camshift跟踪，默认打开摄像头，鼠标选中一个物体即可跟踪
+calibration.cpp 单个摄像头标定，需要用imagelist_creator.cpp 生成一个图像文件list，一个参考的命令参数是：-w=7 -h=8 -s=30 -o=camera.yml -op -oe imagelist.yml  
+cloning_demo.cpp  /cloning_gui.cpp    图像融合
+connected_components.cpp   连通域分析
+contours2.cpp    轮廓/绘制 轮廓
+convexhull.cpp  寻找凸包
+cout_mat.cpp    输出 mat中的数据
+create_mask.cpp  生成剪影图，用来做图像融合之类的。用鼠标操作即可
+delaunay2.cpp   随机点生成delaunay三角网，可以用来做三维重建之类的吧。
+dbt_face_detection.cpp  linux下的人脸识别，没试
+demhist.cpp    直方图生成 绘图
+detect_blob.cpp  团块检测
+detect_mser.cpp   最大稳定极值区域（MSER-Maximally Stable Extremal Regions）可以用于图像的斑点区域检测。该算法最早是由Matas等人于2002年提出，它是基于分水岭的概念。
+dft.cpp   dft变换
+distrans.cpp  距离变换   距离变换和线性滤波器，形态学变换处于平等位置，是图像处理的一种方法，通过使用两遍扫描光栅算法可以快速计算到曲线或点集的距离。 应用：水平集 快速斜切匹配 图像拼接 图像混合的羽化 临近点配准
+drawing.cpp  直线，多边形，椭圆，文字等绘画
+edge.cpp canny边缘检测
+em.cpp  em聚类，em model使用的例子，可以用来预测分类、聚类，类似多个高斯函数叠加
+facedetect.cpp 人脸人眼检测
+facial_features.cpp    Haarcascade classifiers for face, eyes, nose and mouth 人脸，人眼，鼻子嘴巴之类的检测
+ fback.cpp          稠密点的光流法跟踪       This program demonstrates dense optical flow algorithm by Gunnar Farneback\n"
+ffilldemo.cpp   漫水算法
+filestorage.cpp  存取文件操作，可以保存为。txt或者任何其他后缀的格式的数据
+fitellipse.cpp  拖圆拟合，将图片二值化之后取轮廓，拟合。
+grabcut.cpp  选取区域，前景点背景点，前背景自动分割。能反复选取前景，背景点像素，分割效果还是挺好的，另外有抓取屏幕点的操作可以借鉴。具体的算法看这个http://blog.csdn.net/zouxy09/article/details/8534954
+houghcircles.cpp  霍夫圆检测
+houghlines.cpp  霍夫直线检测
+image.cpp  iplimag转Mat 三通道分离合并，YUY RGB转换等
+image_alignment.cpp  图像配准的算法，用的是ECC图像配准方法，我所试验的几个图片配准效果都不是很好，但是有几个warp函数可以借鉴，用来旋转、平移和仿射变换等。下面是一个调用的命令参数格式。D:\\Users\\jack\\Desktop\\ForTheOpencv\\5.jpg D:\\Users\\jack\\Desktop\\ForTheOpencv\\7.jpg -o=outWarp.ecc -m=homography -e=1e-6 -N=70 -v=1
+image_sequence.cpp   用VideoCapture 读取连续的 图像序列，挺实用的一个例子。  下面是一个调用的命令参数格式    C:\Users\Administrator\Desktop\matlabEyeTraking\1\%d.bmp
+imagelist_creator.cpp     创建一个调用过的agv参数的list并且保存。 命令参数的格式为 xx.yml  G:\opencv31\opencv\sources\samples\data\left13.jpg 后面可以加载n个图像文件路径，用空格隔开即可。  
+inpaint.cpp  应该是用来给视频或者图像“打码”的算法，通过鼠标画需要处理的部分，按下空格键处理图像。
+intelperc_capture.cpp  这个好像要有英特尔的深度相机才能玩的。 This program demonstrates usage of camera supported\nby Intel Perceptual computing SDK
+kalman.cpp 卡尔曼滤波的调用，生成一个随机运动的点，然后用卡尔曼滤波来预测跟踪。
+kmeans.cpp K均值聚类方法，随机生成几个点云然后聚类
+laplace.cpp  拉普拉斯边缘，二次微分的边缘，可用于增强之类的。
+letter_recog.cpp 字符识别（分类） 可以选择 随机森林，boost ,k近邻，正态贝叶斯，SVM,多层神经网络等方法。是一个机器学习的训练和测试的demo. 通过修改命令参数测试发现，这个代码中效果最好的居然是knn. 具体问题分类的效果还是要看具体的特征，一个个试吧。
+lkdemo.cpp   LK光流法跟踪，点击一些点然后可以跟踪，效果不错，速度也比较快。
+logistic_regression.cpp  logistic回归做分类（二分） 用的是手写数字0和1分类，好像效果还行。
+lsd_lines.cpp  lsd直线检测，效果好像比hoghline好点 短线段比较多。
+mask_tmpl.cpp  用一个掩模来做模板匹配.掩模的作用是权值吧，比如寻找某些标志时候，用相同的几何形状来早匹配。不用掩模也可以做匹配。
+matchmethod_orb_akaze_brisk.cpp   ORB BRISK   AKAZE特征描述子的提取和匹配，通过空格键控制不同的描述子或者匹配方式，在鲁棒性上SIFT<SURF<BRISK<FREAK<ORB 在对有较大模糊的图像配准时，BRISK算法在其中表现最为出色。这几个特征点匹配的方法。
+minarea.cpp 计算最小外接圆，矩形和三角形的函数。
+morphology2.cpp 形态学的开运算，闭运算，膨胀腐蚀的示例
+npr_demo.cpp  非真实渲染，给图片增强、模糊，转化成水彩或者铅笔图等。
+opencv_version.cpp  输出opencv版本号
+openni_capture.cpp  深度相机的采集（Kinect等）
+pca.cpp   PCA降维，在命令参数中输入一个list，list可以是一个txt之类的文本文件，文本每一行是一张图片的完整路径。可以下载作者提供的人脸数据库，最后降维成特征脸。
+phase_corr.cpp  相位相关法（phase correlate）可以用于检测两幅内容相同的图像之间的相对位移量，本程序调用摄像头，直接计算两帧之间的相对运动并显示出了，速度比较快，但是效果不一定很好。可以做稳像，防抖之类的吧
+points_classifier.cpp  点分类器，只有0 1 两个类通过键盘上的按键来确定当前类，用鼠标在弹出的窗口上点击一些点作为训练点，用0 1两个按键来控制当前点的类别（红色和绿色）最后输入字幕r即可看分类效果。程序把二维空间分类成两个部分。方法有EM KNN SVM 决策树，adaboost, gradient boosted trees, 随机森林，神经网络等方法。是一个比较好的机器学习的demo。
+polar_transforms.cpp  This program illustrates Linear-Polar and Log-Polar image transforms  极坐标转换，在命令参数中输入数字（0）打开摄像头或者输入完整的avi路径和文件名即可运行。
+segment_objects.cpp  混合高斯模型的前背景分割用了联通阈分析形态学运算之类的来进一步refine前景和背景，可以通过空格键控制是否学习背景。 默认打开摄像头，也可以用完整的avi路径作为输入。
+select3dobj.cpp  这个需要先标定相机的内参，本程序能够实时的矫正畸变。据说还有一些grabcut和3d的track的功能，但我运行的时候总有bug,没试出，大家可以自己试试吧，我放弃了。
+shape_example.cpp  shape context形状匹配算法。可以对比形状的相似性。用的是轮廓点的坐标作为输入。
+smiledetect.cpp 笑脸检测，效果还是可以的，速度略慢，用一个bar来输出笑脸的分数。
+squares.cpp 矩形检测，检测图像中的矩形（挺实用的）
+starter_imagelist.cpp 上面imaglist_creator创建出的list的图像读取的demo
+starter_video.cpp 打开摄像头或者avi，按下空格键就保存图像，挺实用的，比如相机标定的时候
+stereo_calib.cpp  双目视觉标定，默认打开data文件夹下的图片和图片的list,list可能需要根据自己电脑修改。输出一个相机外参的文件。
+stereo_match.cpp  视差图生成。输入左右两个相机的内外参数，输入左右图像以及一些其他参数，生成视差图，可能是在内参或者外参标定的时候有问题，视差图效果不好。
+stitching.cpp 全景图拼接，手机随便拍了三张图，在命令参数处输入他们的地址，试了下效果还是可以，就是时间比较长用了一分多钟。
+stitching_detailed.cpp  也是全景图拼接，可这个比较detail各种参数，实在不是干这个的，就不试了。
+videostab.cpp 电子稳像，在命令参数输入一个画面抖动的avi文件，运行程序能自动生成画面稳定的视频，对的，就这么神奇。各种参数多多我也不想深究。
+watershed.cpp 分水岭算法。运行之后在图像上用鼠标选取一些点，空格键即可运行 
+cpp文件夹里还有两个没试的算法 一个是tvl1_optical_flow.cpp，另一个是tree_engine.cpp 这两个都是机器学习的代码，以后专门写一个吧。
