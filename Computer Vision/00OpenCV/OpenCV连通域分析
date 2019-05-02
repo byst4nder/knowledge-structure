@@ -1,5 +1,32 @@
 OpenCV连通域分析
 
+
+---------------------------------------------------------------------------
+			OpenCV中的新函数connectedComponentsWithStats使用
+			https://www.cnblogs.com/jsxyhelu/p/7439655.html
+---------------------------------------------------------------------------
+	对比新旧函数，用于过滤原始图像中轮廓分析后较小的区域，留下较大区域。
+
+	在以前，常用的方法是是“先调用 findContours() 函数（传入RETR_CCOMP 标志），随后在得到的连通区域上循环调用 drawContours() ”
+
+	在OpenCV3中有了新的专门的函数 connectedComponents() 和函数 connectedComponentsWithStats()
+
+	其中：
+		
+		connectedComponents()仅仅创建了一个标记图（图中不同连通域使用不同的标记，和原图宽高一致），
+		
+		connectedComponentsWithStats()也可以完成上面任务，
+			除此之外，还可以返回每个连通区域的重要信息--bounding box, area, and center of mass(centroid).
+			如果不需要连通域的质心，将参数centroids设置为cv::noArray()，
+
+			函数返回值为连通区域的总数N，范围为[0,N-1]，其中0代表背景。
+
+
+
+
+
+
+
 -----------------------------------------------------------------
 	OpenCV_连通区域分析（Connected Component Analysis-Labeling）
 		https://blog.csdn.net/icvpr/article/details/10259577
@@ -87,6 +114,8 @@ OpenCV连通域分析
 
 
 
+
+
 ---------------------------------------------------------------------------
 						OpenCV-二值图像连通域分析
 		https://blog.csdn.net/qq_37059483/article/details/78018539
@@ -98,3 +127,9 @@ OpenCV连通域分析
 	3）医学图像处理（感兴趣目标区域提取）
 
 	在需要将前景目标提取出来以便后续进行处理的应用场景中都能够用到连通区域分析方法，通常连通区域分析处理的对象是一张二值化后的图像。
+
+
+
+
+
+
