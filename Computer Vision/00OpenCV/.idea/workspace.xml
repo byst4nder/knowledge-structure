@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a717af9a-f708-4cbe-b245-b21517875e8a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/OpenCV官方教程中文版（For Python）-标注.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/OpenCV官方教程中文版（For Python）-标注.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/32.0尺度不变特征变换SIFT.py" beforeDir="false" afterPath="$PROJECT_DIR$/32.0尺度不变特征变换SIFT.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/33.0加速稳健特征SURF.py" beforeDir="false" afterPath="$PROJECT_DIR$/33.0加速稳健特征SURF.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,69 +16,30 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/00OpenCV$7_1OpenCV.coverage" NAME="7.1OpenCV鼠标时间处理 Coverage Results" MODIFIED="1556526127107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/00OpenCV$25_0hough.coverage" NAME="25.0hough变换 Coverage Results" MODIFIED="1556333128899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/00OpenCV$32_0SIFT.coverage" NAME="32.0尺度不变特征变换SIFT Coverage Results" MODIFIED="1556860461866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/00OpenCV$37_5_FLANN.coverage" NAME="37.5-FLANN匹配器 Coverage Results" MODIFIED="1556985089225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-Python-Tutorial-master/ch37-特征匹配" />
+    <SUITE FILE_PATH="coverage/00OpenCV$32_0SIFT.coverage" NAME="32.0尺度不变特征变换SIFT Coverage Results" MODIFIED="1556956475884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/00OpenCV$36_0ORB_Oriented_FAST_and_Rotated_BRIEF_.coverage" NAME="36.0ORB(Oriented FAST and Rotated BRIEF) Coverage Results" MODIFIED="1556969806325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/00OpenCV$41_2_BackgroundSubtractorMOG.coverage" NAME="41.2-BackgroundSubtractorMOG Coverage Results" MODIFIED="1556985393971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-Python-Tutorial-master/ch41-背景减除" />
+    <SUITE FILE_PATH="coverage/00OpenCV$34_0FAST.coverage" NAME="34.0角点检测的FAST算法 Coverage Results" MODIFIED="1556956563864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/00OpenCV$28_2GrabCut_.coverage" NAME="28.2GrabCut算法前景提取_预设掩码效果 Coverage Results" MODIFIED="1556359467188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/00OpenCV$26_Hough.coverage" NAME="26.Hough圆环变换 Coverage Results" MODIFIED="1556172895572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/00OpenCV$37_2ORB.coverage" NAME="37.2对ORB描述符进行蛮力匹配 Coverage Results" MODIFIED="1556984926555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/00OpenCV$7_2_.coverage" NAME="7.2鼠标事件-人机交互式 Coverage Results" MODIFIED="1556528228153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/00OpenCV$28_3grabcut.coverage" NAME="28.3grabcut Coverage Results" MODIFIED="1556893063397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/00OpenCV$41_3_BackgroundSubtractorMOG2.coverage" NAME="41.3-BackgroundSubtractorMOG2 Coverage Results" MODIFIED="1556985400261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-Python-Tutorial-master/ch41-背景减除" />
+    <SUITE FILE_PATH="coverage/00OpenCV$35_BRIEF.coverage" NAME="35 BRIEF二进制独立鲁棒特征 Coverage Results" MODIFIED="1556958222982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/00OpenCV$31Shi_Tomasi_.coverage" NAME="31Shi-Tomasi角点检测&amp;适合于跟踪的图像特征 Coverage Results" MODIFIED="1556844654169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/00OpenCV$28_1GrabCut.coverage" NAME="28.1GrabCut算法前景提取 Coverage Results" MODIFIED="1556356764192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/00OpenCV$41_4_morphologyEx.coverage" NAME="41.4-morphologyEx Coverage Results" MODIFIED="1556985409536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-Python-Tutorial-master/ch41-背景减除" />
+    <SUITE FILE_PATH="coverage/00OpenCV$28_1GrabCut.coverage" NAME="28.1GrabCut算法前景提取 Coverage Results" MODIFIED="1556893050166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/00OpenCV$.coverage" NAME="滑动条阈值过滤 Coverage Results" MODIFIED="1556524598803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/00OpenCV$37_4_SIFT_match.coverage" NAME="37.4-SIFT_match Coverage Results" MODIFIED="1556985128991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-Python-Tutorial-master/ch37-特征匹配" />
     <SUITE FILE_PATH="coverage/00OpenCV$30_2.coverage" NAME="30.2亚像素级精度角点 Coverage Results" MODIFIED="1556814333400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/00OpenCV$30_1OpenCVHarris.coverage" NAME="30.1OpenCV中的Harris角点检测 Coverage Results" MODIFIED="1556814432522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/00OpenCV$33_0SURF.coverage" NAME="33.0加速稳健特征SURF Coverage Results" MODIFIED="1556861943014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/00OpenCV$27_1.coverage" NAME="27.1分水岭算法图像分割 Coverage Results" MODIFIED="1556347982954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/00OpenCV$33_0SURF.coverage" NAME="33.0加速稳健特征SURF Coverage Results" MODIFIED="1556905311201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/00OpenCV$27_1.coverage" NAME="27.1分水岭算法图像分割 Coverage Results" MODIFIED="1556892962523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="31Shi-Tomasi角点检测&amp;适合于跟踪的图像特征.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/31Shi-Tomasi角点检测&amp;适合于跟踪的图像特征.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="7" column="33" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="33" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="30.2亚像素级精度角点.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/30.2亚像素级精度角点.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="21" column="3" selection-start-line="21" selection-end-line="21" selection-end-column="3" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="32.0尺度不变特征变换SIFT.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/32.0尺度不变特征变换SIFT.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="33.0加速稳健特征SURF.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/33.0加速稳健特征SURF.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="579">
-              <caret line="55" selection-start-line="55" selection-end-line="55" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -102,7 +65,12 @@
         <option value="$PROJECT_DIR$/30.1OpenCV中的Harris角点检测.py" />
         <option value="$PROJECT_DIR$/31Shi-Tomasi角点检测&amp;适合于跟踪的图像特征.py" />
         <option value="$PROJECT_DIR$/32.0尺度不变特征变换SIFT.py" />
+        <option value="$PROJECT_DIR$/34.0角点检测的FAST算法.py" />
         <option value="$PROJECT_DIR$/33.0加速稳健特征SURF.py" />
+        <option value="$PROJECT_DIR$/35 BRIEF二进制独立鲁棒特征.py" />
+        <option value="$PROJECT_DIR$/36.0ORB(Oriented FAST and Rotated BRIEF).py" />
+        <option value="$PROJECT_DIR$/37.2对ORB描述符进行蛮力匹配.py" />
+        <option value="$PROJECT_DIR$/OpenCV-Python-Tutorial-master/ch37-特征匹配/37.4-SIFT_match.py" />
       </list>
     </option>
   </component>
@@ -116,10 +84,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="2410" />
+    <option name="y" value="71" />
+    <option name="width" value="1038" />
+    <option name="height" value="742" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -127,7 +95,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -135,15 +102,21 @@
               <item name="00OpenCV" type="b2602c69:ProjectViewProjectNode" />
               <item name="00OpenCV" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="00OpenCV" type="b2602c69:ProjectViewProjectNode" />
+              <item name="00OpenCV" type="462c0819:PsiDirectoryNode" />
+              <item name="OpenCV-Python-Tutorial-master" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/OpenCV-Python-Tutorial-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -160,45 +133,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.33.0加速稳健特征SURF">
-    <configuration name="30.1OpenCV中的Harris角点检测" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="00OpenCV" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/30.1OpenCV中的Harris角点检测.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="30.2亚像素级精度角点" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="00OpenCV" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/30.2亚像素级精度角点.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.41.4-morphologyEx">
     <configuration name="31Shi-Tomasi角点检测&amp;适合于跟踪的图像特征" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="00OpenCV" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -218,7 +153,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="32.0尺度不变特征变换SIFT" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="37.4-SIFT_match" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="00OpenCV" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -226,18 +161,18 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OpenCV-Python-Tutorial-master/ch37-特征匹配" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/32.0尺度不变特征变换SIFT.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OpenCV-Python-Tutorial-master/ch37-特征匹配/37.4-SIFT_match.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="33.0加速稳健特征SURF" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="37.5-FLANN匹配器" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="00OpenCV" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -245,18 +180,18 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OpenCV-Python-Tutorial-master/ch37-特征匹配" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/33.0加速稳健特征SURF.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OpenCV-Python-Tutorial-master/ch37-特征匹配/37.5-FLANN匹配器.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="滑动条阈值过滤" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="41.2-BackgroundSubtractorMOG" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="00OpenCV" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -264,31 +199,69 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OpenCV-Python-Tutorial-master/ch41-背景减除" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/滑动条阈值过滤.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OpenCV-Python-Tutorial-master/ch41-背景减除/41.2-BackgroundSubtractorMOG.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="41.3-BackgroundSubtractorMOG2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="00OpenCV" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OpenCV-Python-Tutorial-master/ch41-背景减除" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OpenCV-Python-Tutorial-master/ch41-背景减除/41.3-BackgroundSubtractorMOG2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="41.4-morphologyEx" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="00OpenCV" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OpenCV-Python-Tutorial-master/ch41-背景减除" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OpenCV-Python-Tutorial-master/ch41-背景减除/41.4-morphologyEx.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.30.1OpenCV中的Harris角点检测" />
-      <item itemvalue="Python.30.2亚像素级精度角点" />
-      <item itemvalue="Python.31Shi-Tomasi角点检测&amp;适合于跟踪的图像特征" />
-      <item itemvalue="Python.32.0尺度不变特征变换SIFT" />
-      <item itemvalue="Python.33.0加速稳健特征SURF" />
+      <item itemvalue="Python.37.5-FLANN匹配器" />
+      <item itemvalue="Python.37.4-SIFT_match" />
+      <item itemvalue="Python.41.2-BackgroundSubtractorMOG" />
+      <item itemvalue="Python.41.3-BackgroundSubtractorMOG2" />
+      <item itemvalue="Python.41.4-morphologyEx" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.33.0加速稳健特征SURF" />
-        <item itemvalue="Python.32.0尺度不变特征变换SIFT" />
-        <item itemvalue="Python.31Shi-Tomasi角点检测&amp;适合于跟踪的图像特征" />
-        <item itemvalue="Python.30.1OpenCV中的Harris角点检测" />
-        <item itemvalue="Python.30.2亚像素级精度角点" />
+        <item itemvalue="Python.41.4-morphologyEx" />
+        <item itemvalue="Python.41.3-BackgroundSubtractorMOG2" />
+        <item itemvalue="Python.41.2-BackgroundSubtractorMOG" />
+        <item itemvalue="Python.37.4-SIFT_match" />
+        <item itemvalue="Python.37.5-FLANN匹配器" />
       </list>
     </recent_temporary>
   </component>
@@ -316,20 +289,20 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Redis Servers" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3293348" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2857143" />
       <window_info anchor="right" id="Mongo Explorer" order="3" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2521322" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26119402" />
       <window_info anchor="right" id="R Packages" order="3" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="R Graphics" order="3" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" weight="0.5815565" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -345,7 +318,40 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/31Shi-Tomasi角点检测&amp;适合于跟踪的图像特征.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/30.2亚像素级精度角点.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="21" column="3" selection-start-line="21" selection-end-line="21" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/32.0尺度不变特征变换SIFT.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/33.0加速稳健特征SURF.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1696">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/25hough直线变换" />
     <entry file="file://$PROJECT_DIR$/image/coin_b.jpg">
       <provider selected="true" editor-type-id="images" />
@@ -407,24 +413,10 @@
     <entry file="file://$PROJECT_DIR$/image/girl_mask.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/27.1分水岭算法图像分割.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-320">
-          <caret line="38" column="76" selection-start-line="38" selection-start-column="76" selection-end-line="38" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/28.2GrabCut算法前景提取_预设掩码效果.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="24" column="35" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/28.1GrabCut算法前景提取.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="26" column="33" lean-forward="true" selection-end-line="36" />
         </state>
       </provider>
     </entry>
@@ -483,45 +475,107 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/30.2亚像素级精度角点.py">
+    <entry file="file://$PROJECT_DIR$/31Shi-Tomasi角点检测&amp;适合于跟踪的图像特征.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="21" column="3" selection-start-line="21" selection-end-line="21" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="160">
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/31Shi-Tomasi角点检测&amp;适合于跟踪的图像特征.py">
+    <entry file="file://$PROJECT_DIR$/30.2亚像素级精度角点.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="7" column="33" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="259">
+          <caret line="21" column="3" selection-start-line="21" selection-end-line="21" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image/CornerSample.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/28.1GrabCut算法前景提取.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="26" column="33" lean-forward="true" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/27.1分水岭算法图像分割.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="38" column="76" selection-start-line="38" selection-start-column="76" selection-end-line="38" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fast_true.png" />
+    <entry file="file://$PROJECT_DIR$/fast_false.png" />
+    <entry file="file://$PROJECT_DIR$/33.0加速稳健特征SURF.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-171">
+          <caret line="35" column="18" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/35 BRIEF二进制独立鲁棒特征.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image/ska07_b.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenCV-Python-Tutorial-master/ch37-特征匹配/37.2-对ORB描述符进行蛮力匹配.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-384" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/37.2对ORB描述符进行蛮力匹配.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/34.0角点检测的FAST算法.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-579">
+          <caret line="4" column="42" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/32.0尺度不变特征变换SIFT.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="125">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/33.0加速稳健特征SURF.py">
+    <entry file="file://$PROJECT_DIR$/36.0ORB(Oriented FAST and Rotated BRIEF).py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="579">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="352">
+          <caret line="11" column="22" selection-start-line="11" selection-end-line="12" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenCV-Python-Tutorial-master/ch37-特征匹配/37.4-SIFT_match.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenCV-Python-Tutorial-master/ch37-特征匹配/37.5-FLANN匹配器.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenCV-Python-Tutorial-master/ch41-背景减除/41.4-morphologyEx.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenCV-Python-Tutorial-master/ch41-背景减除/41.3-BackgroundSubtractorMOG2.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenCV-Python-Tutorial-master/ch41-背景减除/41.2-BackgroundSubtractorMOG.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

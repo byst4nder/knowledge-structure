@@ -37,7 +37,7 @@ print(surf.upright)
 
 surf.upright = True
 # Recompute the feature points and draw it
-kp = surf.detect(img,None)
+kp = surf.detect(img, None)
 img2 = cv2.drawKeypoints(img, kp, None, (255, 0, 0), 4)
 plt.imshow(img2), plt.show()
 
@@ -49,7 +49,7 @@ print(surf.extended)
 
 # So we make it to True to get 128-dim descriptors.
 surf.extended = True
-kp, des = surf.detectAndCompute(img,None)
+kp, des = surf.detectAndCompute(img, None)
 print(surf.descriptorSize())
 
 print(des.shape)
