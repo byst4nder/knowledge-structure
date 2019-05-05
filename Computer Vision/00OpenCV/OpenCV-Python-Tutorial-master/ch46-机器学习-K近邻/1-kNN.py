@@ -19,7 +19,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-# Feature set containing (x,y) values of 25 known/training data
+# Feature set containing (x,y) values of 25 known/training data， 25行2列；
 trainData = np.random.randint(0, 100, (25, 2)).astype(np.float32)
 # Labels each one either Red or Blue with numbers 0 and 1
 responses = np.random.randint(0, 2, (25, 1)).astype(np.float32)
@@ -35,10 +35,10 @@ plt.show()
 
 # 测试数据被标记为绿色
 # # 回值包括 
-# 1. 由 kNN算法计算得到的测 数据的类别标志0或1 。
-# 如果你想使用最近邻算法 只需 将 k  置为 1 k 就是最近邻的数目。
-# 2. k 个最近邻居的类别标志。
-# 3. 每个最近邻居到测 数据的 离。
+# 1. 由 kNN算法计算得到的测试数据的类别标志0或1 。
+#   如果你想使用最近邻算法，只需要将k设置为1，k就是最近邻的数目。
+# 2. k个最近邻居的类别标志。
+# 3. 每个最近邻居到测试数据的距离。
 newcomer = np.random.randint(0, 100, (1, 2)).astype(np.float32)
 plt.scatter(newcomer[:, 0], newcomer[:, 1], 80, 'g', 'o')
 knn = cv2.ml.KNearest_create()
@@ -50,7 +50,7 @@ print("neighbours: ", neighbours, "\n")
 print("distance: ", dist)
 plt.show()
 
-# 如果我们有大 的数据   测  可以直接传入一个数组。对应的结果 同样也是数组
+# 如果我们有大量的数据要进行测试，可以直接传入一个数组。对应的结果同样也是数组。
 
 # 10 new comers
 newcomers = np.random.randint(0, 100, (10, 2)).astype(np.float32)

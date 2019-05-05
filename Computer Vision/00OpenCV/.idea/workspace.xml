@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a717af9a-f708-4cbe-b245-b21517875e8a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/32.0尺度不变特征变换SIFT.py" beforeDir="false" afterPath="$PROJECT_DIR$/32.0尺度不变特征变换SIFT.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/33.0加速稳健特征SURF.py" beforeDir="false" afterPath="$PROJECT_DIR$/33.0加速稳健特征SURF.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenCV-Python-Tutorial-master/ch46-机器学习-K近邻/1-kNN.py" beforeDir="false" afterPath="$PROJECT_DIR$/OpenCV-Python-Tutorial-master/ch46-机器学习-K近邻/1-kNN.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,31 +13,56 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/00OpenCV$7_1OpenCV.coverage" NAME="7.1OpenCV鼠标时间处理 Coverage Results" MODIFIED="1556526127107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/00OpenCV$25_0hough.coverage" NAME="25.0hough变换 Coverage Results" MODIFIED="1556333128899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/00OpenCV$37_5_FLANN.coverage" NAME="37.5-FLANN匹配器 Coverage Results" MODIFIED="1556985089225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-Python-Tutorial-master/ch37-特征匹配" />
+    <SUITE FILE_PATH="coverage/00OpenCV$1_kNN.coverage" NAME="1-kNN Coverage Results" MODIFIED="1557021967149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-Python-Tutorial-master/ch46-机器学习-K近邻" />
     <SUITE FILE_PATH="coverage/00OpenCV$32_0SIFT.coverage" NAME="32.0尺度不变特征变换SIFT Coverage Results" MODIFIED="1556956475884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/00OpenCV$36_0ORB_Oriented_FAST_and_Rotated_BRIEF_.coverage" NAME="36.0ORB(Oriented FAST and Rotated BRIEF) Coverage Results" MODIFIED="1556969806325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/00OpenCV$2_fastNlMeansDenoisingMulti.coverage" NAME="2-fastNlMeansDenoisingMulti Coverage Results" MODIFIED="1557045659108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-Python-Tutorial-master/ch49-计算摄影学-图像去噪" />
     <SUITE FILE_PATH="coverage/00OpenCV$41_2_BackgroundSubtractorMOG.coverage" NAME="41.2-BackgroundSubtractorMOG Coverage Results" MODIFIED="1556985393971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-Python-Tutorial-master/ch41-背景减除" />
     <SUITE FILE_PATH="coverage/00OpenCV$34_0FAST.coverage" NAME="34.0角点检测的FAST算法 Coverage Results" MODIFIED="1556956563864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/00OpenCV$7_2_.coverage" NAME="7.2鼠标事件-人机交互式 Coverage Results" MODIFIED="1556528228153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/00OpenCV$35_BRIEF.coverage" NAME="35 BRIEF二进制独立鲁棒特征 Coverage Results" MODIFIED="1556958222982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/00OpenCV$41_4_morphologyEx.coverage" NAME="41.4-morphologyEx Coverage Results" MODIFIED="1557021943803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-Python-Tutorial-master/ch41-背景减除" />
+    <SUITE FILE_PATH="coverage/00OpenCV$30_2.coverage" NAME="30.2亚像素级精度角点 Coverage Results" MODIFIED="1556814333400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/00OpenCV$1_fastNlMeansDenoisingColored.coverage" NAME="1-fastNlMeansDenoisingColored Coverage Results" MODIFIED="1557045628182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-Python-Tutorial-master/ch49-计算摄影学-图像去噪" />
+    <SUITE FILE_PATH="coverage/00OpenCV$30_1OpenCVHarris.coverage" NAME="30.1OpenCV中的Harris角点检测 Coverage Results" MODIFIED="1556814432522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/00OpenCV$27_1.coverage" NAME="27.1分水岭算法图像分割 Coverage Results" MODIFIED="1556892962523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/00OpenCV$25_0hough.coverage" NAME="25.0hough变换 Coverage Results" MODIFIED="1556333128899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/00OpenCV$37_5_FLANN.coverage" NAME="37.5-FLANN匹配器 Coverage Results" MODIFIED="1556985089225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-Python-Tutorial-master/ch37-特征匹配" />
+    <SUITE FILE_PATH="coverage/00OpenCV$36_0ORB_Oriented_FAST_and_Rotated_BRIEF_.coverage" NAME="36.0ORB(Oriented FAST and Rotated BRIEF) Coverage Results" MODIFIED="1556969806325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/00OpenCV$28_2GrabCut_.coverage" NAME="28.2GrabCut算法前景提取_预设掩码效果 Coverage Results" MODIFIED="1556359467188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/00OpenCV$26_Hough.coverage" NAME="26.Hough圆环变换 Coverage Results" MODIFIED="1556172895572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/00OpenCV$37_2ORB.coverage" NAME="37.2对ORB描述符进行蛮力匹配 Coverage Results" MODIFIED="1556984926555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/00OpenCV$7_2_.coverage" NAME="7.2鼠标事件-人机交互式 Coverage Results" MODIFIED="1556528228153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/00OpenCV$28_3grabcut.coverage" NAME="28.3grabcut Coverage Results" MODIFIED="1556893063397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/00OpenCV$41_3_BackgroundSubtractorMOG2.coverage" NAME="41.3-BackgroundSubtractorMOG2 Coverage Results" MODIFIED="1556985400261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-Python-Tutorial-master/ch41-背景减除" />
-    <SUITE FILE_PATH="coverage/00OpenCV$35_BRIEF.coverage" NAME="35 BRIEF二进制独立鲁棒特征 Coverage Results" MODIFIED="1556958222982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/00OpenCV$31Shi_Tomasi_.coverage" NAME="31Shi-Tomasi角点检测&amp;适合于跟踪的图像特征 Coverage Results" MODIFIED="1556844654169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/00OpenCV$41_4_morphologyEx.coverage" NAME="41.4-morphologyEx Coverage Results" MODIFIED="1556985409536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-Python-Tutorial-master/ch41-背景减除" />
+    <SUITE FILE_PATH="coverage/00OpenCV$inpaint.coverage" NAME="inpaint Coverage Results" MODIFIED="1557046182719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-Python-Tutorial-master/ch50-图像修补" />
     <SUITE FILE_PATH="coverage/00OpenCV$28_1GrabCut.coverage" NAME="28.1GrabCut算法前景提取 Coverage Results" MODIFIED="1556893050166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/00OpenCV$.coverage" NAME="滑动条阈值过滤 Coverage Results" MODIFIED="1556524598803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/00OpenCV$37_4_SIFT_match.coverage" NAME="37.4-SIFT_match Coverage Results" MODIFIED="1556985128991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV-Python-Tutorial-master/ch37-特征匹配" />
-    <SUITE FILE_PATH="coverage/00OpenCV$30_2.coverage" NAME="30.2亚像素级精度角点 Coverage Results" MODIFIED="1556814333400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/00OpenCV$30_1OpenCVHarris.coverage" NAME="30.1OpenCV中的Harris角点检测 Coverage Results" MODIFIED="1556814432522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/00OpenCV$33_0SURF.coverage" NAME="33.0加速稳健特征SURF Coverage Results" MODIFIED="1556905311201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/00OpenCV$27_1.coverage" NAME="27.1分水岭算法图像分割 Coverage Results" MODIFIED="1556892962523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="1tl.jpg" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/OpenCV-Python-Tutorial-master/ch50-2-HDR-HighDynamicRange/1tl.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="2tr.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OpenCV-Python-Tutorial-master/ch50-2-HDR-HighDynamicRange/2tr.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="3bl.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OpenCV-Python-Tutorial-master/ch50-2-HDR-HighDynamicRange/3bl.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="4br.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OpenCV-Python-Tutorial-master/ch50-2-HDR-HighDynamicRange/4br.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -71,6 +94,8 @@
         <option value="$PROJECT_DIR$/36.0ORB(Oriented FAST and Rotated BRIEF).py" />
         <option value="$PROJECT_DIR$/37.2对ORB描述符进行蛮力匹配.py" />
         <option value="$PROJECT_DIR$/OpenCV-Python-Tutorial-master/ch37-特征匹配/37.4-SIFT_match.py" />
+        <option value="$PROJECT_DIR$/OpenCV-Python-Tutorial-master/ch46-机器学习-K近邻/1-kNN.py" />
+        <option value="$PROJECT_DIR$/OpenCV-Python-Tutorial-master/ch46-机器学习-K近邻/2-使用kNN对手写数字OCR.py" />
       </list>
     </option>
   </component>
@@ -84,10 +109,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2410" />
-    <option name="y" value="71" />
-    <option name="width" value="1038" />
-    <option name="height" value="742" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -95,6 +120,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -111,7 +137,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -133,7 +158,64 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.41.4-morphologyEx">
+  <component name="RunManager" selected="Python.inpaint">
+    <configuration name="1-fastNlMeansDenoisingColored" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="00OpenCV" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OpenCV-Python-Tutorial-master/ch49-计算摄影学-图像去噪" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OpenCV-Python-Tutorial-master/ch49-计算摄影学-图像去噪/1-fastNlMeansDenoisingColored.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="1-kNN" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="00OpenCV" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OpenCV-Python-Tutorial-master/ch46-机器学习-K近邻" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OpenCV-Python-Tutorial-master/ch46-机器学习-K近邻/1-kNN.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="2-fastNlMeansDenoisingMulti" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="00OpenCV" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OpenCV-Python-Tutorial-master/ch49-计算摄影学-图像去噪" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OpenCV-Python-Tutorial-master/ch49-计算摄影学-图像去噪/2-fastNlMeansDenoisingMulti.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="31Shi-Tomasi角点检测&amp;适合于跟踪的图像特征" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="00OpenCV" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -148,82 +230,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/31Shi-Tomasi角点检测&amp;适合于跟踪的图像特征.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="37.4-SIFT_match" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="00OpenCV" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OpenCV-Python-Tutorial-master/ch37-特征匹配" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OpenCV-Python-Tutorial-master/ch37-特征匹配/37.4-SIFT_match.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="37.5-FLANN匹配器" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="00OpenCV" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OpenCV-Python-Tutorial-master/ch37-特征匹配" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OpenCV-Python-Tutorial-master/ch37-特征匹配/37.5-FLANN匹配器.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="41.2-BackgroundSubtractorMOG" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="00OpenCV" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OpenCV-Python-Tutorial-master/ch41-背景减除" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OpenCV-Python-Tutorial-master/ch41-背景减除/41.2-BackgroundSubtractorMOG.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="41.3-BackgroundSubtractorMOG2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="00OpenCV" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OpenCV-Python-Tutorial-master/ch41-背景减除" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OpenCV-Python-Tutorial-master/ch41-背景减除/41.3-BackgroundSubtractorMOG2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -248,20 +254,39 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="inpaint" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="00OpenCV" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OpenCV-Python-Tutorial-master/ch50-图像修补" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OpenCV-Python-Tutorial-master/ch50-图像修补/inpaint.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
-      <item itemvalue="Python.37.5-FLANN匹配器" />
-      <item itemvalue="Python.37.4-SIFT_match" />
-      <item itemvalue="Python.41.2-BackgroundSubtractorMOG" />
-      <item itemvalue="Python.41.3-BackgroundSubtractorMOG2" />
       <item itemvalue="Python.41.4-morphologyEx" />
+      <item itemvalue="Python.1-kNN" />
+      <item itemvalue="Python.1-fastNlMeansDenoisingColored" />
+      <item itemvalue="Python.2-fastNlMeansDenoisingMulti" />
+      <item itemvalue="Python.inpaint" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.inpaint" />
+        <item itemvalue="Python.2-fastNlMeansDenoisingMulti" />
+        <item itemvalue="Python.1-fastNlMeansDenoisingColored" />
+        <item itemvalue="Python.1-kNN" />
         <item itemvalue="Python.41.4-morphologyEx" />
-        <item itemvalue="Python.41.3-BackgroundSubtractorMOG2" />
-        <item itemvalue="Python.41.2-BackgroundSubtractorMOG" />
-        <item itemvalue="Python.37.4-SIFT_match" />
-        <item itemvalue="Python.37.5-FLANN匹配器" />
       </list>
     </recent_temporary>
   </component>
@@ -283,7 +308,7 @@
     <option name="totallyTimeSpent" value="802000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1040" height="744" extended-state="6" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -291,10 +316,10 @@
       <window_info anchor="bottom" id="Database Changes" order="7" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2857143" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.43305784" />
       <window_info anchor="right" id="Mongo Explorer" order="3" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26119402" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.4989796" />
       <window_info anchor="right" id="R Packages" order="3" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="R Graphics" order="3" />
@@ -320,75 +345,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/31Shi-Tomasi角点检测&amp;适合于跟踪的图像特征.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="7" column="33" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/30.2亚像素级精度角点.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="21" column="3" selection-start-line="21" selection-end-line="21" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/32.0尺度不变特征变换SIFT.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/33.0加速稳健特征SURF.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1696">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/25hough直线变换" />
-    <entry file="file://$PROJECT_DIR$/image/coin_b.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/26.Hough圆环变换.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-608">
-          <caret line="13" column="28" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python35/Lib/site-packages/matplotlib/pyplot.py" />
-    <entry file="file://$PROJECT_DIR$/23.1.1Numpy中的傅里叶变换.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="42" column="26" selection-start-line="42" selection-end-line="42" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/22.4.2直方图反向投影_OpenCV方法_calcBackProject.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/23.1.4不同算子傅里叶变换分析.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/22.4.1直方图反向投影_numpy方法.py" />
-    <entry file="file://$PROJECT_DIR$/25.0hough变换.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="602">
-          <caret line="26" column="32" lean-forward="true" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/滑动条inRange阈值+膨胀腐蚀开闭运算+mask以及反码+matchShape.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -576,6 +536,59 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/OpenCV-Python-Tutorial-master/ch41-背景减除/41.2-BackgroundSubtractorMOG.py">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenCV-Python-Tutorial-master/ch46-机器学习-K近邻/2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenCV-Python-Tutorial-master/ch46-机器学习-K近邻/1-kNN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="56" column="36" selection-start-line="56" selection-start-column="33" selection-end-line="56" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenCV-Python-Tutorial-master/ch46-机器学习-K近邻/2-使用kNN对手写数字OCR.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-96">
+          <caret line="47" column="64" lean-forward="true" selection-start-line="47" selection-start-column="64" selection-end-line="47" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenCV-Python-Tutorial-master/ch49-计算摄影学-图像去噪/1-fastNlMeansDenoisingColored.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-99" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenCV-Python-Tutorial-master/ch50-2-HDR-HighDynamicRange/exposures.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenCV-Python-Tutorial-master/ch50-2-HDR-HighDynamicRange/fusion_mertens.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenCV-Python-Tutorial-master/ch50-2-HDR-HighDynamicRange/HDR.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1873" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenCV-Python-Tutorial-master/ch50-图像修补/inpaint.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-288" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenCV-Python-Tutorial-master/ch49-计算摄影学-图像去噪/2-fastNlMeansDenoisingMulti.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenCV-Python-Tutorial-master/ch50-2-HDR-HighDynamicRange/4br.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenCV-Python-Tutorial-master/ch50-2-HDR-HighDynamicRange/3bl.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenCV-Python-Tutorial-master/ch50-2-HDR-HighDynamicRange/2tr.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenCV-Python-Tutorial-master/ch50-2-HDR-HighDynamicRange/1tl.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
 </project>
