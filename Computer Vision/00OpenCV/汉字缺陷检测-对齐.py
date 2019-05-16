@@ -3,8 +3,8 @@ import numpy as np
 from matplotlib import pyplot as plt
 
 
-img = cv2.imread("./origin.bmp")
-qd = cv2.imread("./quedian.bmp")
+img = cv2.imread("./image/origin.bmp")
+qd = cv2.imread("./image/quedian.bmp")
 # qd = cv2.imread("./abc.bmp")
 # qd = cv2.resize(qd, (qd.shape[0]//2, qd.shape[1]//2))
 zero = np.zeros(img.shape, dtype=bool)
