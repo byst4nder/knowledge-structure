@@ -47,3 +47,22 @@ git pull报错：Auto Merge Failed; Fix Conflicts and Then Commit the Result.
 		方法三：如果我们觉得合并以后的文件内容比价混乱，想要废弃这次合并，回到合并之前的状态，那么可以运行如下命令：
 
 			$:git reset --hard HEAD
+
+
+
+—————————————————————————————————————————————————————————————————————————————————————
+git pull 出现如下提示：
+	There is no tracking information for the current branch.
+	Please specify which branch you want to merge with.
+	See git-pull(1) for details.
+
+	git pull <remote> <branch>
+
+	If you wish to set tracking information for this branch you can do so with:
+
+	git branch --set-upstream-to=origin/<branch> release
+
+解决方案：
+	https://www.jianshu.com/p/403d6ad11e30
+
+	git branch --set-upstream-to=origin/master  master
