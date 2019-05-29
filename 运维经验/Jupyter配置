@@ -1,0 +1,34 @@
+Jupyter配置
+史上最全Jupyter Lab 配置:
+https://blog.csdn.net/weixin_41571493/article/details/88830458
+
+一、Jupyter Lab 安装
+	pip install jupyterlab
+	pip install ipython
+
+	ipython环境中：配置密码：
+	from notebook.auth import passwd
+	passwd()
+	修改 JupyterLab 配置文件：
+		jupyter lab --generate-config
+
+	修改以下配置：
+
+		c.NotebookApp.allow_root = True
+		c.NotebookApp.open_browser = False
+		c.NotebookApp.password = '刚才复制的输出粘贴到这里来'
+
+	下载npm:
+		https://nodejs.org/zh-cn/download/
+
+
+二、nodejs通过nvm来安装：
+	https://www.cnblogs.com/musings/p/8976074.html
+
+		1、wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | bash
+		2、重启：Xshell
+		3、command -v nvm
+		4、nvm ls
+		5、nvm ls-remote
+		6、nvm install 10.8.0
+		7、node -v
