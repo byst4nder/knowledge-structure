@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>html表格</title>
+</head>
+<body>
+	<h3>产品名称</h3>
+	<table border="10" width="500" height="200">
+		<tr>
+			<th valign="top">产品序号</th>
+			<th>产品名称</th>
+			<th>产品价格</th>
+			<th>产品数量</th>
+		</tr>
+		
+		<tr>
+			<td align="center">1</td>
+			<td align="center">苹果</td>
+			<td align="center">￥5.00</td>
+			<td align="center">100</td>
+		</tr>
+		<tr>
+			<td align="center">2</td>
+			<td align="center">橘子</td>
+			<td align="center">￥6.00</td>
+			<td align="center">300</td>
+		</tr>
+		<tr>
+			<td align="center">3</td>
+			<td align="center">香蕉</td>
+			<td align="center">￥7.00</td>
+			<td align="center">500</td>
+		</tr>
+
+
+	</table>
+	
+	<h2>个人简历表</h2>  <!-- 5列六行的写法，先列后行, 里面是列，外面是行 -->
+
+	<!-- 格式写法： table>(tr>td*5)*6 -->
+	<table border="1" width="500", height="300">
+		<tr>	
+			<!--第一行横跨五列，所以在第一个td中修改合并,将剩余的td删掉-->
+			<!--然后第一列可以看作表头，td修改为th -->
+			<th colspan="5" align="left" height="50">基本情况</th>
+		</tr>
+		<tr>
+			<td width="17%">姓名</td>
+			<td width="17%"></td>
+			<td width="17%">性别</td>
+			<td width="17%"></td>
+			<!--照片列从第二行开始横跨五行，所以从第二个td中修改合并,将剩余的td删掉-->
+			<td rowspan="5" width="32"><img src="images/1.jpg" alt="人物" width="160"  height="256"></td>
+		</tr>
+		<tr>
+			<td>民族</td>
+			<td></td>
+			<td></td>
+			<td></td>			
+		</tr>
+		<tr>
+			<td>政治面貌</td>
+			<td></td>
+			<td></td>
+			<td></td>			
+		</tr>
+		<tr>
+			<td>籍贯</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			
+		</tr>
+		<tr>
+			<td>电子邮箱</td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+	</table>
+
+
+</body>
+</html>
