@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>表单实例</title>
+</head>
+<body>
+	<h3>用户注册</h3>
+	<!-- form定义一个表单区域,action属性定义表单数据提交的地址，method属性定义提交的方式。 -->
+	<form action="http://itcast.cn">
+		<!-- div将每一部分分离 -->
+		<div>
+			<!-- label标签定义表单控件的文字标注，input类型为text定义了一个单行文本输入框  -->
+			<label for="usrname">用户名：</label>
+			<input type="text" name="usrname" id="usrname">
+			<!-- label标签中的for属性：可以匹配文字和选项选框。 配合input的id选项-->
+		</div>
+		<br />
+
+
+		<div>
+			<!-- input类型为password定义了一个密码输入框  -->
+			<label for="pwd">密码：</label>
+			<input type="password" name="pwd" id="pwd">
+		</div>
+		
+		<br />
+
+		<div>
+			<!-- input类型为radio定义了单选框  -->
+			<label>性别：</label>
+			<input type="radio" name="gender" id="male"> <label for="male">男</label>
+			<input type="radio" name="gender" id="female"> <label for="female">女</label>
+			<!-- label标签中的for属性：可以匹配文字和选项选框。 配合input的id选项,可以明显提高用户的体验性-->
+		</div>
+		<br>
+
+		<!-- (div>label+input+br)*3 -->
+
+		<div>
+			<!-- input类型为checkbox定义了多选框  -->
+			<label>爱好：</label>
+			<input type="checkbox" name="like"> 运动
+			<input type="checkbox" name="like"> 读书like
+			<input type="checkbox" name="like"> 书法
+			<input type="checkbox" name="like"> 游戏
+			<input type="checkbox" name="like"> 睡觉
+		</div>
+		<br>
+
+		<!-- select定义下拉列表选择  -->
+		<div>
+			<label>籍贯：</label>
+			<select name="" id="">
+				<option value="">北京</option>
+				<option value="">上海</option>
+				<option value="">广州</option>
+				<option value="">深圳</option>
+			</select>
+		</div>
+		<br>
+		
+		<div>
+			<!-- input类型为file定义上传照片或文件等资源  -->
+			<label for="">照片：</label>
+			<input type="file">
+		</div>
+		<br>
+
+		<div>
+			<!-- textarea定义多行文本输入 -->
+			<lable>个人描述：</lable>
+			<textarea name="about" id="" cols="30" rows="10"></textarea>
+			<br />
+		</div>
+		<br>
+
+		<div>
+			<!-- input类型为submit定义提交按钮  -->
+			<input type="submit" name="" value="提交">
+			<input type="reset" name="" value="重置">
+
+		</div>
+		<br>
+	</form>
+</body>
+</html>
+
+<!-- label标签中的for属性：可以匹配文字和选项选框。 -->
