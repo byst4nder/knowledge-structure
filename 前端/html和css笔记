@@ -8,7 +8,9 @@ sublime text中，在Project中，可以将文件或文件夹加到目录中。
 注释的写法：
 	<!-- 这是注释 -->
 
-
+新建Html文件两种方式：
+	html:5 加 Tab键
+	！ 加 Tab键
 
 
 Emment高效编辑：
