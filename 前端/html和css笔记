@@ -22,7 +22,8 @@ Emment高效编辑：
 
 	然后按住ctrl键，点击要编辑的行，然后选中，可以并行编辑。太棒了。
 
-
+	写.rem：点.加classname加tab键：可以直接写出div带有class的标签：
+	写#rem：井号键加idname加tab键：可以直接写出div带有id的标签：
 
 
 安装插件， Sidebar Enhancements，可以实现新建文件同时完成打开输入文件名的框。
