@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JavaScript实例-倒计时</title>
+	<script>
+		window.onload = function(){
+			var oDiv = document.getElementById('div1');
+
+			function timeleft() {
+				//这种操作是从本地获取时间，实际操作中，要从服务器上获取时间。要不然本地修改时间没完没了。
+				var now = new Date();  
+				var future = new Date(2019,5,19,0,10,0);
+				// alert(future-now);
+				var lefts = parseInt((future-now)/1000);
+				// alert(lefts);
+				// 计算剩余天数小时数分钟数秒数
+				var day = parseInt(lefts/86400);
+				var hour = parseInt((lefts%86400)/3600);
+				var minute = parseInt(((lefts%86400)%3600)/60);
+				var second = lefts % 60;
+				
+				if(lefts<=0){
+					// 内置重定向：前段的一种下线方法：跳转。
+					window.location.href = "http://www.baidu.com";
+				}
+
+				oDiv.innerHTML = "距离 2019年6月20日晚23时55分55秒 还有： " + todouble(day) +'天'+ todouble(hour)+ "时"+ todouble(minute)+ "分" + todouble(second) +"秒";
+
+			}
+			timeleft();
+			setInterval(timeleft, 1000);
+
+
+
+			function todouble(num) {
+				if (num<10){
+					return "0"+num;
+
+				}
+				else{
+					return num;
+				}
+			}
+		
+
+
+		}
+
+		
+
+	</script>
+
+</head>
+<body>
+	<div id="div1"></div>
+</body>
+</html>
