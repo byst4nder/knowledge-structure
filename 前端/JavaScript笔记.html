@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JavaScript演示</title>
+	<!-- 第二种嵌入JS的方式：嵌入式 -->
+	<!-- <script type="text/javascript"> -->
+		<!-- alert("hello javascript"); -->
+	<!-- </script> -->
+	<!-- 第三种嵌入JS的方式：外链式 -->
+	<!-- <script type="text/javascript" src="hello.js"></script> -->
+	<script>
+
+	var a=0.1;
+	var b=0.2;
+
+	alert(a+b);
+	alert(parseFloat(a)+parseFloat(b));
+	// 相加等于0.300000000004的问题，解决方法是先乘以100，再除以100。
+	alert((parseFloat(a)*100+parseFloat(b)*100)/100);
+
+	</script>
+</head>
+<body>
+	<!-- 第一种嵌入JS的方式：行间事件，不推荐使用 -->
+	<!-- <input type="button" name="" value="弹框" onclick="alert('OK！')";> -->
+	
+</body>
+</html>
