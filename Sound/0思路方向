@@ -1,0 +1,22 @@
+思路方向
+
+1、音频流实时录入。
+    https://so.csdn.net/so/search/s.do?q=python%E6%89%93%E5%BC%80%E9%BA%A6%E5%85%8B%E9%A3%8E&t=blog&u=wangdongwei0
+    通过硬件将音频流导入。
+    1）利用Python进行录音和音频分析
+    https://blog.csdn.net/qq_42370150/article/details/90753907
+    2）Python调用麦克风录音生成wav文件
+    https://blog.csdn.net/zzZ_CMing/article/details/81739193
+    3）python实现录音功能，可随时停止录音
+    https://blog.csdn.net/qq_29934825/article/details/82982737
+    4）python 通过麦克风录音 生成wav文件
+    https://blog.csdn.net/coder_ai/article/details/66010493
+2、音频处理：频率检测，高频触发事件。事件触发绑定硬件亮灯。
+    综述：
+    https://www.cnblogs.com/lxp-never/p/10078200.html
+    这一篇就够了 python语音识别指南终极版
+    https://blog.csdn.net/j2IaYU7Y/article/details/79878310
+    Python声音处理入门
+    https://blog.csdn.net/shiner3089/article/details/50389330
+    Python0018 音频处理（一）音频基础知识
+    https://blog.csdn.net/Moluth/article/details/79793903
