@@ -112,6 +112,9 @@ Git教程
 
 		如果是远程库中先建立好仓库，本地拉取的话：
 		git clone git@github.com:wjay88/LearnGit.git
+		有时候上面命令出错：则：
+		git clone git@github.com:wjay88/LearnGit
+
 
 	协议问题说明：
 		Git支持多种协议：默认是git：//使用的ssh协议（快），也可以使用https协议（慢）。
@@ -298,3 +301,25 @@ windows中比较两个版本问题的不同。FC 文件1 文件2
 			每到一个新的环境：
 							先看：git status
 							然后：git pull
+
+问题2：
+	Clone failed RPC failed; curl 56 GnuTLS recv error (-54): Error in the pull function.
+	解决方案：https://blog.csdn.net/qq_21508727/article/details/89413590
+
+	打开终端
+
+	git config --global http.postBuffer 524288000
+
+	修改配置文件
+
+	gedit ~/.bashrc
+
+	然后在配置文件的最下面加上这三行
+
+	export GIT_TRACE_PACKET=1
+
+	export GIT_TRACE=1
+
+	export GIT_CURL_VERBOSE=1
+
+	然后保存退出后运行：source ~/.bashrc  是配置文件生效
