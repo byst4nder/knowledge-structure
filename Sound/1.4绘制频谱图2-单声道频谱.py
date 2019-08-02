@@ -35,4 +35,7 @@ for i in range(numframes):
 # framerate就是44100，文件初读取的值。然后本程序最关键的一步！specgram！实在太简单了。。。
 Fs = framerate
 specgram(y, NFFT=1024, Fs=Fs, noverlap=900)
+# 三位伪彩图，采样率定律：采样率（44100）是最大频率的二倍，才能不失真。
+# 纵轴是频率，横轴是时间，通过颜色的深浅来显示对应时间下频率的值大小。
+# 越深的，说明当前时间的频率能量越强。
 show()
