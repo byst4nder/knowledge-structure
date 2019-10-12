@@ -14,12 +14,12 @@ import numpy as np
 img = cv2.imread('../data/lightning.png')
 imgray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
-image, contours, hierarchy = cv2.findContours(imgray, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+contours, hierarchy = cv2.findContours(imgray, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
 contours = [cnt for cnt in contours if cv2.contourArea(cnt) > 100]
 print('len(contours)', len(contours))
 cnt = contours[0]
 
-#方向是物体定向的角度
+# 方向是物体定向的角度
 (x, y), (MA, ma), angle = cv2.fitEllipse(cnt)
 print((x, y), (MA, ma), angle)
 
