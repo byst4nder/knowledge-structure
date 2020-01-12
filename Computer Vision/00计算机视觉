@@ -602,7 +602,13 @@ http://daily.zhihu.com/story/9329525?utm_campaign=in_app_share&utm_medium=Androi
 
 
 ㊂ 机器学习
+		统计机器学习虽然方法不少，但是基本都无法应对图像这么大的数据量。 现在基本都用深度学习选特征+分类
 
+
+㊃ 数学
+	凸优化
+
+㊄
 --------------------------------------------------------------------
 计算机视觉概述(待续...)
 https://blog.csdn.net/mzpmzk/article/details/72236923
