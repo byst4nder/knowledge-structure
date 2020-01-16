@@ -9,8 +9,41 @@ https://blog.csdn.net/weixin_34018202/article/details/88874795
 硬件：
 	树莓派上的自带的3.5mm的接口只能作为语音输出口，不能接麦克风。所以录音需要另外购买USB声卡和麦克风。
 
+硬件检查：
+	
+	使用arecord -l可以列出所有录音设备。
 
+		List of CAPTURE Hardware Devices
+		card 1: Device [USB Audio Device], device 0: USB Audio [USB Audio]
+		Subdevices: 1/1
+		Subdevice #0: subdevice #0
+
+	aplay -l可以列出所有播放设备，输出中也能找到形如 Device [USB Audio Device] 的设备。
+
+
+	执行Linux自带的录音/播放命令，测试硬件是否正常：
+		arecord -D hw:1,0 -t wav -c 1 -r 44100 -f S16_LE test.wav
+		aplay -D hw:0,0 test.wav
+
+
+	arecord 是录音命令，
+		其中 hw:1,0 表示 card 1: Device [USB Audio Device], device 0: USB Audio [USB Audio] 的 card 1 , device 0 ，如果你的USB声卡录音设备不是 card 1 , device 0 ，还请进行相应修改。另外，录音过程需要手动按CTRL + C结束。
+	aplay 是播放命令，
+		其中 hw:0,0 表示树莓派板载音频接口，如果你把耳机插在USB声卡接口，还请进行相应修改，如改成 hw:1,0 。
+
+安装pyaudio
+使用Python录音
+隐藏错误消息
+	os.close(sys.stderr.fileno())
+
+	
 ︵︵︵︵︵︵︵︵︵︵︵︵︵︵︵︵︵︵︵︵︵︵︵︵︵︵︵︵︵︵︵︵︵︵︵︵︵︵︵︵︵︵
 使用树莓派3B+开发智能音乐播放器(续---加入自动唤醒功能)
 https://blog.csdn.net/qq_42044484/article/details/80946174
+︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶
+
+
+︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶
+使用Python把树莓派改造成一个语音助手
+https://segmentfault.com/a/1190000014000349
 ︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶
