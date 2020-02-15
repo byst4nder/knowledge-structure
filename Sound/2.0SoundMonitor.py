@@ -22,6 +22,8 @@ def Sound_record(rec_time):
 
     frame = []  # 录制的音频流、录音缓存数组
     for i in range(0, int(RATE / CHUNK * rec_time)):
+        # 每秒采集Rate速率，这些点，乘以时间。除以段长。
+        # 所以频率点数为RATE个点。hz赫兹。
         data = stream.read(CHUNK)
 
         # print(type(data))   # <class 'bytes'>
