@@ -1,0 +1,63 @@
+使用GitBook编辑知识技能点构建知识体系
+
+参考链接：https://www.cnblogs.com/kingsonfu/p/10255123.html
+
+ GitBook 是一个基于 Node.js 的命令行工具，可使用 Github/Git 和 Markdown 来制作精美的电子书。
+ 好处：https://baike.baidu.com/item/GitBook/17969908
+
+一、官网下载nodejs直接安装 
+	https://nodejs.org/en/download/
+	可以看到npm也安装了，此时可以在cmd控制台进行验证（win+r）,输入cmd进入控制台：
+
+		C:\pc>node -v
+		v8.11.1
+
+		C:\pc>npm -v
+		5.6.0
+二、安装gitbook
+
+在cmd控制台输入如下命令进行安装：
+
+	C:\pc>npm install gitbook-cli -g
+		npm WARN notice [SECURITY] lodash has the following vulnerability: 1 low. Go here for more details: https://nodesecurity.io/advisories?search=lodash&version=4.17.4 - Run `npm i npm@latest -g` to upgrade your npm version, and then `npm audit` to get more info.
+		C:\pc\AppData\Roaming\npm\gitbook -> C:\pc\AppData\Roaming\npm\node_modules\gitbook-cli\bin\gitbook.js
+		+ gitbook-cli@2.3.2
+		added 578 packages in 134.873s
+	查看安装的版本：
+
+		C:\pc>gitbook -V
+		CLI version: 2.3.2
+		GitBook version: 3.2.3
+
+三、安装gitbook editor windows版
+
+	官网地址：gitbook editor windows版：https://www.gitbook.com/editor
+
+	 备用下载链接：https://pan.baidu.com/s/1nX6FRtyzvdNXj8ijaVIfng  提取码：3b7w 
+
+	直接运行.exe文件，开始创建新书。
+
+四、测试
+
+	cmd控制台进入所建的电子书目录下：
+
+	输入：gitbook init 进行初始化
+
+	输入：gitbook serve 启动查看服务
+	浏览器访问：http://localhost:4000
+
+五、问题
+
+1、生成的静态文件无法跳转
+
+	解决方法：修改js文件，
+	参照https://blog.csdn.net/weixin_42057852/article/details/81776917
+
+	找到项目目录gitbook
+	找到目录下的theme.js文件
+	将if(m)改成if(false) 提示：定位代码位置直接搜索： if(m)for(n.handler&&
+
+GitBook MM ：WJay65
+
+
+https://www.jianshu.com/p/421cc442f06c
