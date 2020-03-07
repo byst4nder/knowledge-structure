@@ -1,0 +1,12 @@
+{
+	"title":"GitBook电子书教程",
+	"description":"GitBook电子书教程",
+	"author":"Vincent.Wu",
+	"language":"zh-hans",
+	"root":".",
+
+
+	"plugins":[
+		"toggle-chapters"
+	]
+}
