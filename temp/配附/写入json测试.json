@@ -1,0 +1,10 @@
+{
+    "basic_info": {
+        "Name": "张三",
+        "Age": 19,
+        "Sex": "男"
+    },
+    "bg_info": {
+        "Home": "北京"
+    }
+}
