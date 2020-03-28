@@ -24,7 +24,7 @@
      </rect>
     </property>
     <property name="currentIndex">
-     <number>2</number>
+     <number>1</number>
     </property>
     <widget class="QWidget" name="page">
      <widget class="QPushButton" name="pushButton">
@@ -232,8 +232,8 @@
        <widget class="QGroupBox" name="groupBox_2">
         <property name="geometry">
          <rect>
-          <x>50</x>
-          <y>20</y>
+          <x>10</x>
+          <y>10</y>
           <width>681</width>
           <height>641</height>
          </rect>
@@ -250,7 +250,7 @@
          <property name="geometry">
           <rect>
            <x>20</x>
-           <y>40</y>
+           <y>50</y>
            <width>211</width>
            <height>58</height>
           </rect>
@@ -285,54 +285,11 @@
           </property>
          </widget>
         </widget>
-        <widget class="QGroupBox" name="groupBox_4">
-         <property name="geometry">
-          <rect>
-           <x>20</x>
-           <y>120</y>
-           <width>211</width>
-           <height>85</height>
-          </rect>
-         </property>
-         <property name="title">
-          <string>年龄段：</string>
-         </property>
-         <layout class="QGridLayout" name="gridLayout">
-          <item row="0" column="0">
-           <widget class="QRadioButton" name="radioButton_3">
-            <property name="text">
-             <string>51-60</string>
-            </property>
-           </widget>
-          </item>
-          <item row="0" column="1">
-           <widget class="QRadioButton" name="radioButton_6">
-            <property name="text">
-             <string>61-70</string>
-            </property>
-           </widget>
-          </item>
-          <item row="1" column="0">
-           <widget class="QRadioButton" name="radioButton_5">
-            <property name="text">
-             <string>71-80</string>
-            </property>
-           </widget>
-          </item>
-          <item row="1" column="1">
-           <widget class="QRadioButton" name="radioButton_4">
-            <property name="text">
-             <string>80以上</string>
-            </property>
-           </widget>
-          </item>
-         </layout>
-        </widget>
         <widget class="QGroupBox" name="groupBox_5">
          <property name="geometry">
           <rect>
            <x>360</x>
-           <y>120</y>
+           <y>130</y>
            <width>241</width>
            <height>85</height>
           </rect>
@@ -375,7 +332,7 @@
          <property name="geometry">
           <rect>
            <x>20</x>
-           <y>220</y>
+           <y>130</y>
            <width>211</width>
            <height>85</height>
           </rect>
@@ -427,7 +384,7 @@
          <property name="geometry">
           <rect>
            <x>360</x>
-           <y>40</y>
+           <y>50</y>
            <width>241</width>
            <height>58</height>
           </rect>
@@ -456,7 +413,7 @@
          <property name="geometry">
           <rect>
            <x>20</x>
-           <y>310</y>
+           <y>240</y>
            <width>211</width>
            <height>58</height>
           </rect>
@@ -495,7 +452,7 @@
          <property name="geometry">
           <rect>
            <x>360</x>
-           <y>310</y>
+           <y>240</y>
            <width>241</width>
            <height>58</height>
           </rect>
@@ -534,7 +491,7 @@
          <property name="geometry">
           <rect>
            <x>20</x>
-           <y>400</y>
+           <y>330</y>
            <width>211</width>
            <height>58</height>
           </rect>
@@ -573,7 +530,7 @@
          <property name="geometry">
           <rect>
            <x>360</x>
-           <y>400</y>
+           <y>330</y>
            <width>241</width>
            <height>58</height>
           </rect>
@@ -612,7 +569,7 @@
          <property name="geometry">
           <rect>
            <x>20</x>
-           <y>480</y>
+           <y>420</y>
            <width>581</width>
            <height>58</height>
           </rect>
@@ -651,7 +608,7 @@
          <property name="geometry">
           <rect>
            <x>20</x>
-           <y>550</y>
+           <y>510</y>
            <width>581</width>
            <height>58</height>
           </rect>
