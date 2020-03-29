@@ -1,5 +1,5 @@
 # 通过mainUI.ui已经搭建好主程序的界面：下面分步来实现所有功能。
-# S1:首先实现通过点击左侧btn来切换右侧窗口显示功能。
+# S1:首先实现通过点击左侧btn来切换右侧窗口显示功能。https://www.jianshu.com/p/8de926dd96a1
 #       新建一个窗口开始测试：保存为BtnChangeStackedWidget.ui
 #       搭建好ui，转换为python文件，拷贝到当前测试路径下，等待主界面调取。
 #       转入python编辑。

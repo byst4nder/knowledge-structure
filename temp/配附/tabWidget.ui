@@ -1,0 +1,1289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>979</width>
+    <height>888</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>70</y>
+     <width>871</width>
+     <height>751</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <kerning>true</kerning>
+    </font>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="tabPosition">
+    <enum>QTabWidget::North</enum>
+   </property>
+   <property name="tabShape">
+    <enum>QTabWidget::Triangular</enum>
+   </property>
+   <property name="currentIndex">
+    <number>1</number>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>16</width>
+     <height>16</height>
+    </size>
+   </property>
+   <widget class="QWidget" name="widget_2">
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <attribute name="title">
+     <string>背景调查</string>
+    </attribute>
+    <widget class="QGroupBox" name="groupBox_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>20</y>
+       <width>681</width>
+       <height>641</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>13</pointsize>
+      </font>
+     </property>
+     <property name="title">
+      <string>老年人听力障碍调查表（HHIE）</string>
+     </property>
+     <widget class="QGroupBox" name="groupBox_3">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>50</y>
+        <width>211</width>
+        <height>58</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>居住地：</string>
+      </property>
+      <widget class="QRadioButton" name="radioButton">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>27</y>
+         <width>57</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>北京</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="radioButton_2">
+       <property name="geometry">
+        <rect>
+         <x>109</x>
+         <y>27</y>
+         <width>57</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>外地</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_5">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>130</y>
+        <width>241</width>
+        <height>85</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>文化程度</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_2">
+       <item row="1" column="1">
+        <widget class="QRadioButton" name="radioButton_9">
+         <property name="text">
+          <string>中专及以上</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QRadioButton" name="radioButton_8">
+         <property name="text">
+          <string>初中</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QRadioButton" name="radioButton_10">
+         <property name="text">
+          <string>高中</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0">
+        <widget class="QRadioButton" name="radioButton_7">
+         <property name="text">
+          <string>小学</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_6">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>130</y>
+        <width>211</width>
+        <height>85</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>婚姻状况</string>
+      </property>
+      <widget class="QRadioButton" name="radioButton_11">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>27</y>
+         <width>91</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>配偶健在</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="radioButton_12">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>54</y>
+         <width>57</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>丧偶</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="radioButton_13">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>27</y>
+         <width>57</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>离异</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_7">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>50</y>
+        <width>241</width>
+        <height>58</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>居住状况</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_4">
+       <item row="0" column="0">
+        <widget class="QRadioButton" name="radioButton_15">
+         <property name="text">
+          <string>独居</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QRadioButton" name="radioButton_17">
+         <property name="text">
+          <string>与子女同住</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_8">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>240</y>
+        <width>211</width>
+        <height>58</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>是否有长期吸烟史</string>
+      </property>
+      <widget class="QRadioButton" name="radioButton_14">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>27</y>
+         <width>40</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>是</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="radioButton_18">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>27</y>
+         <width>40</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>否</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_9">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>240</y>
+        <width>241</width>
+        <height>58</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>是否有长期饮酒史</string>
+      </property>
+      <widget class="QRadioButton" name="radioButton_20">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>27</y>
+         <width>40</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>是</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="radioButton_22">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>27</y>
+         <width>40</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>否</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_10">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>330</y>
+        <width>211</width>
+        <height>58</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>家族是否有遗传性耳聋史</string>
+      </property>
+      <widget class="QRadioButton" name="radioButton_24">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>27</y>
+         <width>40</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>是</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="radioButton_25">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>20</y>
+         <width>40</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>否</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_11">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>330</y>
+        <width>241</width>
+        <height>58</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>是否有长时间噪声接触史</string>
+      </property>
+      <widget class="QRadioButton" name="radioButton_26">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>27</y>
+         <width>40</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>是</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="radioButton_27">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>27</y>
+         <width>40</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>否</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_12">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>420</y>
+        <width>581</width>
+        <height>58</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>是否使用过耳毒性药物（如庆大霉素，链霉素等）</string>
+      </property>
+      <widget class="QRadioButton" name="radioButton_28">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>27</y>
+         <width>40</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>是</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="radioButton_29">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>27</y>
+         <width>40</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>否</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_13">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>510</y>
+        <width>581</width>
+        <height>58</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>是否有以下慢性病（可多选）</string>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QCheckBox" name="checkBox">
+         <property name="text">
+          <string>高血压</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="checkBox_2">
+         <property name="text">
+          <string>高血脂</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="checkBox_3">
+         <property name="text">
+          <string>糖尿病</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="checkBox_4">
+         <property name="text">
+          <string>肿瘤</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="checkBox_5">
+         <property name="text">
+          <string>心脑血管疾病</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab">
+    <attribute name="title">
+     <string>HHIE-S</string>
+    </attribute>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>0</y>
+       <width>441</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+       <kerning>true</kerning>
+      </font>
+     </property>
+     <property name="text">
+      <string>如果您佩戴助听器，请回答在您不用助听器时情况。</string>
+     </property>
+     <property name="textFormat">
+      <enum>Qt::AutoText</enum>
+     </property>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_14">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>30</y>
+       <width>561</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>1、遇到不熟悉的人时，您会因担心听不清楚而感到窘迫（紧张）吗？</string>
+     </property>
+     <widget class="QRadioButton" name="radioButton_30">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>30</y>
+        <width>89</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>会</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="radioButton_31">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>30</y>
+        <width>89</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>有时有点</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="radioButton_32">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>30</y>
+        <width>89</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>无</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_15">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>90</y>
+       <width>561</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>2、听力问题使您和家人聊天时会感到有困难(受影响)吗？</string>
+     </property>
+     <widget class="QRadioButton" name="radioButton_33">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>30</y>
+        <width>89</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>会</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="radioButton_34">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>30</y>
+        <width>89</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>有时有点</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="radioButton_35">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>30</y>
+        <width>89</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>无</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_16">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>150</y>
+       <width>561</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>3、别人跟您小声说话的时候，您觉得听起来很费劲吗？</string>
+     </property>
+     <widget class="QRadioButton" name="radioButton_36">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>30</y>
+        <width>89</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>会</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="radioButton_37">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>30</y>
+        <width>89</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>有时有点</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="radioButton_38">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>30</y>
+        <width>89</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>无</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_18">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>220</y>
+       <width>561</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>4、听力不好会不会让您感觉自己有缺陷（像残疾人一样）？</string>
+     </property>
+     <widget class="QRadioButton" name="radioButton_42">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>30</y>
+        <width>89</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>会</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="radioButton_43">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>30</y>
+        <width>89</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>有时有点</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="radioButton_44">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>30</y>
+        <width>89</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>无</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_20">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>300</y>
+       <width>561</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>5、走亲访友时，您是否因听力不好而感到交往困难？</string>
+     </property>
+     <widget class="QRadioButton" name="radioButton_48">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>30</y>
+        <width>89</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>会</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="radioButton_49">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>30</y>
+        <width>89</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>有时有点</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="radioButton_50">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>30</y>
+        <width>89</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>无</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_21">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>370</y>
+       <width>561</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>6、听力问题会让您经常不愿意参加公众聚会活动吗？</string>
+     </property>
+     <widget class="QRadioButton" name="radioButton_51">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>30</y>
+        <width>89</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>会</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="radioButton_52">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>30</y>
+        <width>89</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>有时有点</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="radioButton_53">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>30</y>
+        <width>89</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>无</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_22">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>440</y>
+       <width>561</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>7、会因为听力不好导致您和家人吵架吗?</string>
+     </property>
+     <widget class="QRadioButton" name="radioButton_54">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>30</y>
+        <width>89</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>会</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="radioButton_55">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>30</y>
+        <width>89</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>有时有点</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="radioButton_56">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>30</y>
+        <width>89</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>无</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_23">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>510</y>
+       <width>561</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>8、听力问题让您在看电视或者听收音机广播时感到会有困难吗？</string>
+     </property>
+     <widget class="QRadioButton" name="radioButton_57">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>30</y>
+        <width>89</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>会</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="radioButton_58">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>30</y>
+        <width>89</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>有时有点</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="radioButton_59">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>30</y>
+        <width>89</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>无</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_24">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>580</y>
+       <width>561</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>9、听力问题会让您的私人及社交活动有影响吗？</string>
+     </property>
+     <widget class="QRadioButton" name="radioButton_60">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>30</y>
+        <width>89</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>会</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="radioButton_61">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>30</y>
+        <width>89</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>有时有点</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="radioButton_62">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>30</y>
+        <width>89</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>无</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_25">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>650</y>
+       <width>561</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>10、在酒店就餐，听力问题会让您与亲友交谈时感到困难吗？</string>
+     </property>
+     <widget class="QRadioButton" name="radioButton_63">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>30</y>
+        <width>89</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>会</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="radioButton_64">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>30</y>
+        <width>89</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>有时有点</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="radioButton_65">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>30</y>
+        <width>89</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>无</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_27">
+     <property name="geometry">
+      <rect>
+       <x>660</x>
+       <y>140</y>
+       <width>191</width>
+       <height>151</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>测评结果：</string>
+     </property>
+     <widget class="QLabel" name="label_6">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>30</y>
+        <width>54</width>
+        <height>12</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_2">
+    <attribute name="title">
+     <string>听力评估</string>
+    </attribute>
+    <widget class="QGroupBox" name="groupBox_17">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>70</y>
+       <width>831</width>
+       <height>121</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>PTA</string>
+     </property>
+     <widget class="QTableWidget" name="tableWidget">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>20</y>
+        <width>821</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="lineWidth">
+       <number>1</number>
+      </property>
+      <property name="midLineWidth">
+       <number>0</number>
+      </property>
+      <property name="textElideMode">
+       <enum>Qt::ElideRight</enum>
+      </property>
+      <property name="showGrid">
+       <bool>true</bool>
+      </property>
+      <property name="gridStyle">
+       <enum>Qt::SolidLine</enum>
+      </property>
+      <property name="sortingEnabled">
+       <bool>false</bool>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+      <property name="cornerButtonEnabled">
+       <bool>true</bool>
+      </property>
+      <property name="columnCount">
+       <number>8</number>
+      </property>
+      <row>
+       <property name="text">
+        <string>R</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>L</string>
+       </property>
+      </row>
+      <column>
+       <property name="text">
+        <string>0.25 kHZ</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>0.5 kHZ</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>1 kHZ</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>2 kHZ</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>3 kHZ</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>4 kHZ</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>6 kHZ</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>8 kHZ</string>
+       </property>
+      </column>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_19">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>250</y>
+       <width>831</width>
+       <height>141</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>DPOAE</string>
+     </property>
+     <widget class="QTableWidget" name="tableWidget_5">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>621</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <row>
+       <property name="text">
+        <string>R</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>L</string>
+       </property>
+      </row>
+      <column>
+       <property name="text">
+        <string>0.75 kHZ</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>1 kHZ</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>2 kHZ</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>4 kHZ</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>6 kHZ</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>8 kHZ</string>
+       </property>
+      </column>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_26">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>460</y>
+       <width>831</width>
+       <height>131</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>声导抗 </string>
+     </property>
+     <widget class="QTableWidget" name="tableWidget_4">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>431</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <row>
+       <property name="text">
+        <string>R</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>L</string>
+       </property>
+      </row>
+      <column>
+       <property name="text">
+        <string>鼓室图类型</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>峰压值</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>声顺</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>耳道容积</string>
+       </property>
+      </column>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
