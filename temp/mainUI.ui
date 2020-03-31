@@ -36,7 +36,7 @@
      </sizepolicy>
     </property>
     <property name="currentIndex">
-     <number>0</number>
+     <number>1</number>
     </property>
     <widget class="QWidget" name="page_1">
      <widget class="QGroupBox" name="groupBox">
@@ -1843,7 +1843,7 @@
      <x>0</x>
      <y>0</y>
      <width>1166</width>
-     <height>23</height>
+     <height>26</height>
     </rect>
    </property>
   </widget>

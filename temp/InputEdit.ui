@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>822</width>
-    <height>524</height>
+    <height>767</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -16,21 +16,21 @@
   <widget class="QGroupBox" name="groupBox">
    <property name="geometry">
     <rect>
-     <x>200</x>
+     <x>158</x>
      <y>240</y>
-     <width>119</width>
+     <width>171</width>
      <height>48</height>
     </rect>
    </property>
    <property name="title">
     <string>单选：</string>
    </property>
-   <widget class="QRadioButton" name="radioButton">
+   <widget class="QRadioButton" name="radioButton_1">
     <property name="geometry">
      <rect>
       <x>10</x>
       <y>22</y>
-      <width>29</width>
+      <width>41</width>
       <height>16</height>
      </rect>
     </property>
@@ -41,9 +41,9 @@
    <widget class="QRadioButton" name="radioButton_2">
     <property name="geometry">
      <rect>
-      <x>45</x>
+      <x>70</x>
       <y>22</y>
-      <width>29</width>
+      <width>41</width>
       <height>16</height>
      </rect>
     </property>
@@ -54,9 +54,9 @@
    <widget class="QRadioButton" name="radioButton_3">
     <property name="geometry">
      <rect>
-      <x>80</x>
+      <x>120</x>
       <y>22</y>
-      <width>29</width>
+      <width>41</width>
       <height>16</height>
      </rect>
     </property>
@@ -65,66 +65,13 @@
     </property>
    </widget>
   </widget>
-  <widget class="QGroupBox" name="groupBox_2">
-   <property name="geometry">
-    <rect>
-     <x>359</x>
-     <y>240</y>
-     <width>154</width>
-     <height>48</height>
-    </rect>
-   </property>
-   <property name="title">
-    <string>多选：</string>
-   </property>
-   <widget class="QWidget" name="layoutWidget">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>22</y>
-      <width>136</width>
-      <height>18</height>
-     </rect>
-    </property>
-    <layout class="QHBoxLayout" name="horizontalLayout">
-     <item>
-      <widget class="QCheckBox" name="checkBox">
-       <property name="text">
-        <string>A</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QCheckBox" name="checkBox_2">
-       <property name="text">
-        <string>B</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QCheckBox" name="checkBox_3">
-       <property name="text">
-        <string>C</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QCheckBox" name="checkBox_4">
-       <property name="text">
-        <string>D</string>
-       </property>
-      </widget>
-     </item>
-    </layout>
-   </widget>
-  </widget>
   <widget class="QGroupBox" name="groupBox_3">
    <property name="geometry">
     <rect>
      <x>100</x>
      <y>330</y>
-     <width>501</width>
-     <height>131</height>
+     <width>611</width>
+     <height>201</height>
     </rect>
    </property>
    <property name="title">
@@ -135,8 +82,8 @@
      <rect>
       <x>30</x>
       <y>20</y>
-      <width>431</width>
-      <height>101</height>
+      <width>531</width>
+      <height>111</height>
      </rect>
     </property>
     <row>
@@ -177,7 +124,7 @@
      <x>60</x>
      <y>100</y>
      <width>536</width>
-     <height>22</height>
+     <height>26</height>
     </rect>
    </property>
    <layout class="QHBoxLayout" name="horizontalLayout_2">
@@ -281,7 +228,121 @@
     </property>
    </widget>
   </widget>
+  <widget class="QGroupBox" name="groupBox_2">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>240</y>
+     <width>185</width>
+     <height>58</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>多选：</string>
+   </property>
+   <widget class="QCheckBox" name="checkBox">
+    <property name="geometry">
+     <rect>
+      <x>13</x>
+      <y>28</y>
+      <width>35</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>A</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox_2">
+    <property name="geometry">
+     <rect>
+      <x>55</x>
+      <y>28</y>
+      <width>35</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>B</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox_3">
+    <property name="geometry">
+     <rect>
+      <x>97</x>
+      <y>28</y>
+      <width>35</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>C</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox_4">
+    <property name="geometry">
+     <rect>
+      <x>139</x>
+      <y>28</y>
+      <width>35</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>D</string>
+    </property>
+   </widget>
+  </widget>
  </widget>
  <resources/>
- <connections/>
+ <connections>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>lineEdit</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>193</x>
+     <y>180</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>171</x>
+     <y>118</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>lineEdit_2</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>215</x>
+     <y>187</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>527</x>
+     <y>117</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>tableWidget</receiver>
+   <slot>clearContents()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>151</x>
+     <y>195</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>175</x>
+     <y>357</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
 </ui>
