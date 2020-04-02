@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'InputEdit.ui'
 #
-# Created by: PyQt5 UI code generator 5.13.0
+# Created by: PyQt5 UI code generator 5.14.1
 #
 # WARNING! All changes made in this file will be lost!
 
@@ -27,10 +27,10 @@ class Ui_Form(object):
         self.radioButton_3.setGeometry(QtCore.QRect(120, 22, 41, 16))
         self.radioButton_3.setObjectName("radioButton_3")
         self.groupBox_3 = QtWidgets.QGroupBox(Form)
-        self.groupBox_3.setGeometry(QtCore.QRect(100, 330, 611, 201))
+        self.groupBox_3.setGeometry(QtCore.QRect(100, 330, 501, 201))
         self.groupBox_3.setObjectName("groupBox_3")
         self.tableWidget = QtWidgets.QTableWidget(self.groupBox_3)
-        self.tableWidget.setGeometry(QtCore.QRect(30, 20, 531, 111))
+        self.tableWidget.setGeometry(QtCore.QRect(30, 20, 441, 101))
         self.tableWidget.setObjectName("tableWidget")
         self.tableWidget.setColumnCount(4)
         self.tableWidget.setRowCount(2)
@@ -46,6 +46,9 @@ class Ui_Form(object):
         self.tableWidget.setHorizontalHeaderItem(2, item)
         item = QtWidgets.QTableWidgetItem()
         self.tableWidget.setHorizontalHeaderItem(3, item)
+        self.pushButton_3 = QtWidgets.QPushButton(self.groupBox_3)
+        self.pushButton_3.setGeometry(QtCore.QRect(320, 150, 75, 23))
+        self.pushButton_3.setObjectName("pushButton_3")
         self.layoutWidget = QtWidgets.QWidget(Form)
         self.layoutWidget.setGeometry(QtCore.QRect(60, 100, 536, 26))
         self.layoutWidget.setObjectName("layoutWidget")
@@ -101,9 +104,6 @@ class Ui_Form(object):
         self.checkBox_4.setObjectName("checkBox_4")
 
         self.retranslateUi(Form)
-        self.pushButton.clicked.connect(self.lineEdit.clear)
-        self.pushButton.clicked.connect(self.lineEdit_2.clear)
-        self.pushButton.clicked.connect(self.tableWidget.clearContents)
         QtCore.QMetaObject.connectSlotsByName(Form)
 
     def retranslateUi(self, Form):
@@ -126,6 +126,7 @@ class Ui_Form(object):
         item.setText(_translate("Form", "选项三"))
         item = self.tableWidget.horizontalHeaderItem(3)
         item.setText(_translate("Form", "选项四"))
+        self.pushButton_3.setText(_translate("Form", "保存"))
         self.label.setText(_translate("Form", "姓名："))
         self.lineEdit.setPlaceholderText(_translate("Form", "姓名"))
         self.label_2.setText(_translate("Form", "性别："))

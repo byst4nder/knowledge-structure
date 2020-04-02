@@ -5,7 +5,8 @@ from PyQt5.QtWidgets import QApplication, QMainWindow, QGroupBox
 from mainUI import Ui_MainWindow
 import json
 
-# Version1.0 界面reset问题：重新一遍__init__函数，或者使用__new__函数。
+# Version1.01 解决一个新建一个文件保存的问题。
+# 后续需要更新设置输入格式限制的问题，以及部分美工。
 
 
 class MyMainWindow(QMainWindow, Ui_MainWindow):
@@ -16,6 +17,7 @@ class MyMainWindow(QMainWindow, Ui_MainWindow):
         # 定义数据结构：字典json形式。
         self.Info_dict = {"baseInfo": {}, "bg_info": {}, "HHIE-S": {}, "Estimate": {}}
         self.myInit()
+        self.file = 0
 
     def myInit(self):
         # 左侧插件控制右侧主窗显示：
@@ -38,7 +40,7 @@ class MyMainWindow(QMainWindow, Ui_MainWindow):
 
         # Page4内容编辑：
         self.saveTable()
-        self.Btn_Save4.clicked.connect(self.saveFile)
+        self.Btn_Save4.clicked.connect(self.closeFile)
         self.Btn_Save4.clicked.connect(lambda: self.stack_display(0))
     # ===============================================主页面切换函数==================================
 
@@ -55,6 +57,15 @@ class MyMainWindow(QMainWindow, Ui_MainWindow):
         (self.Info_dict["baseInfo"])["性别"] = sex
         (self.Info_dict["baseInfo"])["年龄"] = age
         # print("dict1:", self.Info_dict)
+
+        date = datetime.datetime.now()
+        fileName = date.strftime("%Y-%m-%d-%H%M%S") + ".json"
+        filePath = "./data/"
+        if not os.path.exists(filePath):
+            os.mkdir(filePath)
+        path = os.path.join(filePath, fileName)
+        self.file = open(path, "wt", encoding="utf-8")
+        json.dump(self.Info_dict, self.file, ensure_ascii=False, indent=4)
         # 点击新建按钮后将输入保存下来，然后跳转到第二页。
         self.stackedWidget.setCurrentIndex(1)
 
@@ -136,20 +147,17 @@ class MyMainWindow(QMainWindow, Ui_MainWindow):
 
     # ====================================保存输出文件========================================
     def saveFile(self):
-        date = datetime.datetime.now()
-        fileName = date.strftime("%Y-%m-%d-%H%M%S") + ".json"
-        filePath = "./data/"
-        if not os.path.exists(filePath):
-            os.mkdir(filePath)
-        path = os.path.join(filePath, fileName)
-        with open(path, "wt", encoding="utf-8") as f:
-            json.dump(self.Info_dict, f, ensure_ascii=False, indent=4)
+        json.dump(self.Info_dict, self.file, ensure_ascii=False, indent=4)
+
+    def closeFile(self):
+        self.file.close()
 
     def ResetUI(self):
         self.setupUi(self)
         # 定义数据结构：字典json形式。
         self.Info_dict = {"baseInfo": {}, "bg_info": {}, "HHIE-S": {}, "Estimate": {}}
         self.myInit()
+        self.file = 0
 
 
 if __name__ == '__main__':

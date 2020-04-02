@@ -49,8 +49,9 @@ class MyMainWindow(QMainWindow, Ui_Form):
         self.Info_dict["bg_info"]["爱好"] = self.checkGroupBox_return(self.groupBox_2)
         print(self.Info_dict)
 
-        # 此处需要修改为：temp.toggled.connect(radioGroupBox_return)
-        # 设置触发激活功能后再读取text()。详细见pdf教程。
+        # 此处需要修改为：temp.toggled.connect(radioGroupBox_return)：状态切换了，就需要触发信号。
+        # 设置触发激活功能后再读取text()。详细见pdf教程。目前的方法无法读取选项。
+        # ==================================重写一个==========================================
 
     def checkGroupBox_return(self, GroupBoxName):
         # (self.Info_dict["bg_info"])[str1] = []

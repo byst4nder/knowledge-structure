@@ -31,7 +31,7 @@ class MyMainWindow(QMainWindow, Ui_Form):
         print("dict1:", self.Info_dict)
 
 #     返回单复选信息：
-    def radioGroupBox_return(self, GroupBoxName, str1):
+#     def radioGroupBox_return(self, GroupBoxName, str1):
         # 思路如下:第一种：
         # for temp in radioGroupBoxlist:
         #     if temp.isChecked():
@@ -48,11 +48,12 @@ class MyMainWindow(QMainWindow, Ui_Form):
         # elif radio[3].isChecked():
         #         (self.Info_dict["bg_info"])[str1] = temp.text()
 
-    def checkGroupBox_return(self, GroupBoxName, str1):
+    # def checkGroupBox_return(self, GroupBoxName, str1):
         # (self.Info_dict["bg_info"])[str1] = []
         # for temp in checkGroupBoxlist:
         #     (self.Info_dict["bg_info"])[str1].append(temp.text())
         pass
+
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     myWin = MyMainWindow()
