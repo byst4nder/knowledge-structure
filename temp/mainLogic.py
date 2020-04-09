@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 import os
 import sys
 import datetime
@@ -7,6 +9,9 @@ import json
 
 # Version1.01 解决一个新建一个文件保存的问题。
 # 后续需要更新设置输入格式限制的问题，以及部分美工。
+
+
+sys.setrecursionlimit(1000000)
 
 
 class MyMainWindow(QMainWindow, Ui_MainWindow):
@@ -160,8 +165,8 @@ class MyMainWindow(QMainWindow, Ui_MainWindow):
         self.file = 0
 
 
-if __name__ == '__main__':
-    app = QApplication(sys.argv)
-    myWin = MyMainWindow()
-    myWin.show()
-    sys.exit(app.exec_())
+# if __name__ == '__main__':
+#     app = QApplication(sys.argv)
+#     myWin = MyMainWindow()
+#     myWin.show()
+#     sys.exit(app.exec_())
