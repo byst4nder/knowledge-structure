@@ -1,0 +1,31 @@
+关于python文件生成exe
+
+pip install pyinstaller
+
+1、直接生成exe
+pyinstaller -F main.py
+
+2、将py文件生成pyd文件，最好只将核心隐藏。
+pip install Cython
+python build_pyd.py build_ext --inplace
+build_pyd.py文件内容如下：
+# -*- coding: utf-8 -*-
+from distutils.core import setup
+from Cython.Build import cythonize
+ 
+setup(
+  name = 'any words.....',
+  ext_modules = cythonize(["mylib.py",
+                          ]
+  ),
+)
+生成pyd文件后，然后再执行2。
+
+
+3、解决exe生成后弹窗的问题：
+http://www.360doc.com/content/18/1006/01/9824753_792316098.shtml
+核心：windows平台将.py改成.pyw。重新执行2即可。
+
+
+4、解决pyd生成exe无法执行的问题（py生成exe可以运行，但是pyd的不行。）
+
