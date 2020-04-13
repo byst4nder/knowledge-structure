@@ -1,8 +1,14 @@
 # -*- coding: utf-8 -*-
+import os
 import sys
 import time
+import json
+import datetime
+from mainUI import Ui_MainWindow
 from mainLogic import MyMainWindow
-from PyQt5.QtWidgets import QApplication
+from PyQt5 import QtCore, QtGui, QtWidgets
+from PyQt5.QtWidgets import QApplication, QMainWindow, QGroupBox
+
 
 sys.setrecursionlimit(1000000)
 log_file = open('logTest.txt', 'a+', buffering=1, encoding="utf-8")

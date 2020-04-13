@@ -13,19 +13,33 @@ build_pyd.py文件内容如下：
 from distutils.core import setup
 from Cython.Build import cythonize
  
-setup(
-  name = 'any words.....',
-  ext_modules = cythonize(["mylib.py",
-                          ]
-  ),
-)
+setup(ext_modules = cythonize(["mylib.py"]))
 生成pyd文件后，然后再执行2。
 
+3、关于Cython安装注意事项：
+编译需要相关的VC环境，因为python3.5是基于 VS14版本的，需要搜索python对应版本对应的vs然后安装。在附件中也有相应程序。
+在这片文章中：https://devblogs.microsoft.com/python/unable-to-find-vcvarsall-bat/
+《How to deal with the pain of “unable to find vcvarsall.bat”》文中的表格里，有指定的下载位置。
 
-3、解决exe生成后弹窗的问题：
+
+4、解决exe生成后弹窗的问题：
 http://www.360doc.com/content/18/1006/01/9824753_792316098.shtml
-核心：windows平台将.py改成.pyw。重新执行2即可。
+核心：windows平台将.py改成.pyw。重新执行1即可。
+将main.py改为main.pyw。然后执行1 pyinstaller -F main.pyw
+
+5、解决pyd生成exe无法执行的问题（py生成exe可以运行，但是pyd的不行。）
+    打包成.exe文件，在dist目录下发现main.exe文件大小只有5M，之前采用py文件打包的程序有接近50M，运行之后闪退。
+    这个问题想了半天才想出来，可能是引用了大量的第三方库没有打包进去，于是将源py文件头部import部分全部复制到main.py文件头部。
+    参考：https://blog.csdn.net/weixin_45116696/article/details/104861915
+    Python .py生成.pyd文件并打包.exe注意事项
 
 
-4、解决pyd生成exe无法执行的问题（py生成exe可以运行，但是pyd的不行。）
+    将所有pyd模块中的import，都放在main.py中重新import一次，否则生成exe无法运行。！！！！！！！！
 
+6、拓展：https://blog.csdn.net/creeperone/article/details/80957954
+
+关键指令：
+
+pyinstaller -F main.pyw
+
+python build_pyd.py build_ext --inplace
