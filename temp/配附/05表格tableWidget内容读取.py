@@ -3,7 +3,8 @@ import sys
 from PyQt5.QtWidgets import QApplication, QMainWindow, QTableWidget
 from 配附.InputEdit import Ui_Form
 import numpy as np
-https://my.visualstudio.com/Downloads?q=visual%20studio%202017&wt.mc_id=o~msft~vscom~older-downloads
+# https://my.visualstudio.com/Downloads?q=visual%20studio%202017&wt.mc_id=o~msft~vscom~older-downloads
+
 
 class MyMainWindow(QMainWindow, Ui_Form):
 
