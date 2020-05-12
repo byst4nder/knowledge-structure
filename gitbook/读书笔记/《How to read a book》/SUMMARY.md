@@ -6,8 +6,8 @@
 * [第一篇 阅读的层次](Part1/README.md)
     * [第一章 阅读的活力与艺术](Part1/Chap1 The Activity and Art of Reading.md)
     * [第二章 阅读的层次](Part1/Chap2 The Levels of Reading.md)
-    * [第三章 阅读的第一个层次：基础阅读](Part1/Chap3 The First Level of Reading: Elementary Reading.md)
-    * [第四章 阅读的第二个层次：检视阅读](Part1/Chap4 The Second Level of Reading: Inspectional Reading.md)
+    * [第三章 阅读的第一个层次 基础阅读](Part1/Chap3 The First Level of Reading Elementary Reading.md)
+    * [第四章 阅读的第二个层次 检视阅读](Part1/Chap4 The Second Level of Reading Inspectional Reading.md)
     * [第五章 如何做一个自我要求的读者](Part1/Chap5 How to Be a Demanding Reader.md)
 
 -----
@@ -32,6 +32,6 @@
 
 -----
 * [第四篇 阅读的最终目标](Part4/README.md)
-    * [第二十章 阅读的第四个层次：主题阅读](Part4/Chap20 The Fourth Level of Reading: Syntopical Reading.md)
+    * [第二十章 阅读的第四个层次 主题阅读](Part4/Chap20 The Fourth Level of Reading Syntopical Reading.md)
     * [第二十一章 阅读与心智的成长](Part4/Chap21 Reading and the Growth of the Mind.md)
 
