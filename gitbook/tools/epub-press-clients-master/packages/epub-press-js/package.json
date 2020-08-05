@@ -1,0 +1,58 @@
+{
+    "name": "epub-press-js",
+    "version": "0.5.3",
+    "description": "Javascript client for building books with EpubPress.",
+    "homepage": "https://github.com/haroldtreen/epub-press-clients#readme",
+    "baseUrl": "https://epub.press",
+    "main": "build/index.js",
+    "directories": {
+        "tests": "test"
+    },
+    "scripts": {
+        "test": "export NODE_ENV=test && open http://localhost:5001/tests && webpack-dev-server",
+        "start": "export NODE_ENV=development && webpack --watch --progress --color",
+        "build": "export NODE_ENV=development && webpack",
+        "build-prod": "export NODE_ENV=production && webpack --optimize-minimize --optimize-dedupe",
+        "preversion": "npm run-script build-prod",
+        "prepublish": "npm run build-prod"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/haroldtreen/epub-press-clients.git"
+    },
+    "keywords": [
+        "epub",
+        "publishing",
+        "productivity",
+        "client",
+        "epubpress",
+        "ebooks",
+        "content",
+        "extraction"
+    ],
+    "author": "EpubPress",
+    "license": "GPL-3.0+",
+    "bugs": {
+        "url": "https://github.com/haroldtreen/epub-press-clients/issues"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.7.4",
+        "@babel/plugin-transform-runtime": "^7.7.4",
+        "@babel/preset-env": "^7.7.4",
+        "@babel/runtime": "^7.7.4",
+        "babel-loader": "^8.0.6",
+        "chai": "^3.5.0",
+        "fetch-mock": "^5.13.1",
+        "mocha": "^5.2.0",
+        "mocha-loader": "^2.0.1",
+        "sinon": "^7.5.0",
+        "webpack": "^4.41.2",
+        "webpack-cli": "^3.3.10",
+        "webpack-dev-server": "^3.9.0"
+    },
+    "dependencies": {
+        "bluebird": "^3.4.6",
+        "file-saver": "^1.3.3",
+        "isomorphic-fetch": "^2.2.1"
+    }
+}

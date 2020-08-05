@@ -1,0 +1,42 @@
+{
+    "description": "Chrome extension for epub-press",
+    "main": "index.js",
+    "private": true,
+    "scripts": {
+        "test": "export ENV=test && open http://localhost:5001/tests && webpack-dev-server",
+        "build": "export ENV=development && webpack",
+        "build-prod": "export NODE_ENV=production && webpack",
+        "start": "export ENV=development && webpack --watch --color --progress"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/haroldtreen/epub-press-clients.git"
+    },
+    "author": "EpubPress",
+    "license": "GPL-3.0+",
+    "bugs": {
+        "url": "https://github.com/haroldtreen/epub-press-clients/issues"
+    },
+    "homepage": "https://github.com/haroldtreen/epub-press-clients#readme",
+    "dependencies": {
+        "bluebird": "^3.7.2",
+        "epub-press-js": "^0.5.0",
+        "jquery": "^3.5.1",
+        "sanitize-filename": "^1.6.1"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.10.2",
+        "@babel/plugin-transform-runtime": "^7.10.1",
+        "@babel/preset-env": "^7.10.2",
+        "@babel/runtime": "^7.10.2",
+        "babel-loader": "^8.1.0",
+        "chai": "^4.2.0",
+        "fetch-mock": "^5.1.1",
+        "mocha": "^6.2.3",
+        "mocha-loader": "^2.0.1",
+        "sinon": "^7.5.0",
+        "webpack": "^4.43.0",
+        "webpack-cli": "^3.3.11",
+        "webpack-dev-server": "^3.11.0"
+    }
+}
