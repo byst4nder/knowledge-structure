@@ -36,4 +36,5 @@
 34. **abl,abili**: = able 表示”能“。
 35. **forc, fort**: = force, strong 表示”力量；强壮的“。
 36. **solv, solu, solut**: = to loosen 表示”松开“。
+37. 
 

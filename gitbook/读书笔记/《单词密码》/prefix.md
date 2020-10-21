@@ -91,48 +91,72 @@
 31. ab-,abs-：相反，变坏，离去
 32. tele-：远，引申为电，电从远方来
 33. be-：
-34. il-
-35. im-,in-,ir-
-36. contra-, counter-
-37. sym-,syn-, syl-, sy-
-38. se-
-39. sub-
-40. bene-
-41. retro-
-42. ant-, anti-
-43. vice-
-44. para-
-45. tran-, trans-
-46. by-
-47. step-
-48. sur-
-49. suc-, suf-,sug-, sup-
-50. bi-, bin-
-51. twi(o)-
-52. tri-
-53. bio-, bi-
-54. poly-
-55. demi-, hemi-, semi-
-56. dec-, deca-
-57. mono-
-58. extr-, extro-
-59. homo-
-60. magn(i)-
-61. mal-, male-
-62. ante-
-63. circum-
-64. exo-
-65. multi-
-66. micro-
-67. ge(o)-
-68. per-
-69. pre-
-70. dia-
-71. sus-
+    1. 构成动词：使...成为
+    2. 加以....、饰以....、用...（做某事）
+    3. 在..方位词
+    4. 加强或引申意义
+34. il-：
+    1. 不，无
+    2. 使...成为，进入
+35. im-,in-,ir-：
+    1. 不，无，非
+    2. 进入，向内
+36. contra-, counter-：相反，反对，相对，比较
+37. sym-,syn-, syl-, sy-：相同，共同，同时
+38. se-：分开，离开，区别开
+39. sub-：
+    1. 在下面
+    2. 接近，靠近
+    3. 稍，略，微
+    4. 再，更，sublet:转租。
+    5. 下，下级，副，分支
+40. bene-:善，好。
+41. retro-：向后，回，反
+42. ant-, anti-：反对，相反，防止。
+43. vice-：副，次。
+44. para-：
+    1. 半，类似，准
+    2. 辅助、副：paralanguage：辅助语言。
+    3. 在旁边，靠近，外。parasite：寄生虫。
+    4. 降落伞：paradrop：空投，空降。parachute降落伞
+    5. 错误，伪：paralogism：不合逻辑的推论。paranormal：异常的，不正常的。
+45. tran-, trans-：
+    1. 横过，越过：transect：横切，横断。sect(=to cut)：切割。transgress：冒犯，违背。
+    2. 变换，转移。transparent(par=appear)透明的，显然的。
+46. by-：副的，byproduct副产品。bywork副业。在旁边：bygone过去的，昔日的。
+47. step-：后，继，继或前夫（妻）所生。
+48. sur-：上，外，超。suipass超过，surface表面，surplus多余的。
+49. suc-, suf-,sug-, sup-：下，低，由下向上。succeed成功（ceed走，从下走到上面-成功），succumb屈从；死亡。
+50. bi-, bin-：two,twice, double, twofold；二，两
+51. twi(o)-：二，两。twin双胞胎之一。
+52. tri-：三
+53. bio-, bi-：生命，生物。biocide杀虫剂（cid杀），microbe微生物
+54. poly-：多，复，聚。
+55. demi-, hemi-, semi-：半，次等。
+56. dec-, deca-：=ten,decimal，十，十倍，十分之一，分。decade十年
+57. mon(o)-：单一，独monarch(arch统治，管理)君主，帝王。monologue独白。
+58. extr-, extro-：出，向外，超过，以外。
+59. homo-：相同的，同类的，相似的。同。
+60. magn(i)-：大。magnify放大
+61. mal-, male-：坏，恶，错误。malign邪恶的，诽谤，中伤。
+62. ante-，ance,anti,ant,anci：=before前。antetype原型=prototype,antecedent=forerunner前辈
+63. circum-：周围，环绕。circumspect小心谨慎的。circumvent回避。
+64. exo-: 外部的，外面的。
+65. multi-：多
+66. micro-：小，微。
+67. ge(o)-：地，地球。geometry几何学(metry测量)。
+68. per-：
+    1. 贯穿，自始至终，透，遍，通。permanent永久的。persist坚持。perspective透视的。
+    2. 假，坏。perfidy不忠，背叛(fid相信)perjury伪证，假誓(jur发誓)pervert堕落，滥用。
+    3. 加强意义perturb扰乱，perplex使复杂。
+    4. 过，高（化学名词）peracid过酸。
+69. pre-：前，先。....前的，预先。precede先于，早于。precedent先例。
+70. dia-：穿过，横过，贯通，对穿，透过；分离，分开；二，双。dialogue对话。diameter直径。diagnosis诊断
+71. sus-：下，后面：suspect怀疑，suspend悬挂，中止。sustain支撑，承受。susceptible易受感染的，易受影响的。susceptive敏感的，有接受力的。suspense悬念，焦虑。
 ------
-72. proto-:”原始，原“
+72. proto-:”原始，原“。prototype原型=antetype
 73. paleo-：古，旧
-74. 
+74. peri-：周围，靠近，外层，periderm外皮。
 
 
 
