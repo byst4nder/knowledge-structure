@@ -40,10 +40,31 @@
 38. **preci, prais, pric, priz**: = price, value 表示“价格；价值”，赞扬。appreciate,depreciation
 39. **lax, leas**: = loose 表示“松”。松开，放松。release,laxity。
 40. **found, fund**: = base 表示“根基；创办” ，基础。profound深远的，深度的，深奥的。profundity深度，深刻。
-41. **pend, pens**: = to weigh 表示“称重量”，引申为“花费”。
-42. **serv**: = to serve, to keep 表示“服务；保持”。
-43. **tempt**: = to try 表示“尝试， 引诱”。
-44. **cult， col, colon**: = to till, to raise 表示“耕种；培养;殖民”。
-45. 
-46. 
+41. **pend, pens**: = to weigh 表示“称重量”，引申为“花费”。expensive,pension，compensate,expenditure,dispensable, dispense。
+42. **serv**: = to serve, to keep，to maintain;to preserve；to watch。 表示“服务；保持，保护；观察；”。deserve,conserve,conservation,observe[观察，遵守]，observation[注意，观察；评论；观察资料（或数据）]，reserved,conservative，observatory[ob-,向前，朝向，-serve，观察，atory场所]。
+43. **tempt**: = to try 表示“尝试， 引诱”。temptatious
+44. **cult， col, colon**: = to till, to raise 表示“耕种；培养;殖民”。horticulture[horti(花园=garden,enclosed space,enclosure).园艺，园艺学。]，cult,incult[in(无，未，)]，agricluture[agri田地➡农业]，arboriculture[arbori树木➡树木栽培]，pisciculture[pisci鱼➡养鱼业]，aquiculture[aqui水➡水产养殖]
+45. **pict**: =  to paint 表示“绘画， 绘”，与“图片”有关。 picturesque[-esque像....的]，depict, pictorial, pictograph
+46. **text**: = to weave 表示“编织”。 pretext
+47. **proach, proxim**
+48. **init**
+49. **apt, ept**
+50. **lect, lig**
+51. **opt**
+52. **hap**
+53. **celer**
+54. **ment**
+55. **not**
+56. **grat, gree**
+57. **car, char, cher**
+58. **optim**
+59. **labor**
+60. **erg(o), ert**
+61. **nov**
+62. **nour, nurs, nutri**
+63. **graph, gram**
+64. **ident**
+65. **em, empt, am, ampl**
+66. **bat**: = to beat 表示“打，击”。
+67. **mount**
 
