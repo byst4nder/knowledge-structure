@@ -74,5 +74,4 @@
 65. **em, empt, am, ampl**
 66. **bat**: = to beat 表示“打，击”。
 67. **mount**
->>>>>>> 0064588bb6fec2682aafd5e809a97b7a53e9df11
 
