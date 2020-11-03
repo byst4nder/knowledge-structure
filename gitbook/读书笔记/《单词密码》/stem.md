@@ -32,18 +32,9 @@
 30. **oper**: = work 表示”操作，管理，运转，工作“。operate， operose。
 31. **treat**: = to handle 表示“处理,对待”。treaty, retreat, maltreat, entreat。
 32. **miss, mit**: = to send, to cast 表示"送， 放出, 放，发"。emit, admit[ad-朝，去，往]， commit[=consign], submit, dismiss, permissive[-ive,...多的], omit[o<ob(=intensive), "let go, let fall"]
-33. **us, ut, util**: = to use 表示”用“。使用，利用。abuse,abusive,utility, utilize。
-34. **abl,abili**: = able 表示”能“。能力。rehabilitate[habilit = abilit能]使康复，改造（罪犯）。debilitate[de去掉+bilit=abili]使衰弱。habilitate。
-35. **forc, fort**: = force, strong 表示”力量；强壮的“。reinforce加强，巩固，增援。
-36. **solv, solu, solut**: = to loosen 表示”松开“。解决，解开。resolute坚决的，absolute[ab（离开，分离）“不受任何约束”➡无限制的➡完全的，绝对的]。absolve：免罪。
-37. **techn(o)**: = art, skill 表示“技艺， 技术”。
-38. **preci, prais, pric, priz**: = price, value 表示“价格；价值”，赞扬。appreciate,depreciation
-39. **lax, leas**: = loose 表示“松”。松开，放松。release,laxity。
-40. **found, fund**: = base 表示“根基；创办” ，基础。profound深远的，深度的，深奥的。profundity深度，深刻。
-41. **pend, pens**: = to weigh 表示“称重量”，引申为“花费”。
-42. **serv**: = to serve, to keep 表示“服务；保持”。
-43. **tempt**: = to try 表示“尝试， 引诱”。
-44. **cult， col, colon**: = to till, to raise 表示“耕种；培养;殖民”。
-45. 
-46. 
+33. **us, ut, util**: = to use 表示”用“。
+34. **abl,abili**: = able 表示”能“。
+35. **forc, fort**: = force, strong 表示”力量；强壮的“。
+36. **solv, solu, solut**: = to loosen 表示”松开“。
+37. ****
 
