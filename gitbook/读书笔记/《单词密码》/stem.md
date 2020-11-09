@@ -32,13 +32,6 @@
 30. **oper**: = work 表示”操作，管理，运转，工作“。operate， operose。
 31. **treat**: = to handle 表示“处理,对待”。treaty, retreat, maltreat, entreat。
 32. **miss, mit**: = to send, to cast 表示"送， 放出, 放，发"。emit, admit[ad-朝，去，往]， commit[=consign], submit, dismiss, permissive[-ive,...多的], omit[o<ob(=intensive), "let go, let fall"]
-<<<<<<< HEAD
-33. **us, ut, util**: = to use 表示”用“。
-34. **abl,abili**: = able 表示”能“。
-35. **forc, fort**: = force, strong 表示”力量；强壮的“。
-36. **solv, solu, solut**: = to loosen 表示”松开“。
-37. ****
-=======
 33. **us, ut, util**: = to use 表示”用“。使用，利用。abuse,abusive,utility, utilize。
 34. **abl,abili**: = able 表示”能“。能力。rehabilitate[habilit = abilit能]使康复，改造（罪犯）。debilitate[de去掉+bilit=abili]使衰弱。habilitate。
 35. **forc, fort**: = force, strong 表示”力量；强壮的“。reinforce加强，巩固，增援。
@@ -53,11 +46,11 @@
 44. **cult， col, colon**: = to till, to raise 表示“耕种；培养;殖民”。horticulture[horti(花园=garden,enclosed space,enclosure).园艺，园艺学。]，cult,incult[in(无，未，)]，agricluture[agri田地➡农业]，arboriculture[arbori树木➡树木栽培]，pisciculture[pisci鱼➡养鱼业]，aquiculture[aqui水➡水产养殖]
 45. **pict**: =  to paint 表示“绘画， 绘”，与“图片”有关。 picturesque[-esque像....的]，depict, pictorial, pictograph
 46. **text**: = to weave 表示“编织”。 pretext
-47. **proach, proxim**
-48. **init**
-49. **apt, ept**
-50. **lect, lig**
-51. **opt**
+47. **proach, proxim**:= to close, to become near 表示“接近，靠近”。reproach,proximity。
+48. **init**: = beginning 表示“开始”。
+49. **apt, ept**:
+50. **lect, lig**:
+51. **opt**:
 52. **hap**
 53. **celer**
 54. **ment**
@@ -73,5 +66,19 @@
 64. **ident**
 65. **em, empt, am, ampl**
 66. **bat**: = to beat 表示“打，击”。
-67. **mount**
+67. **mount**：
+68. **art(i)**:
+69. **pot**:
+70. **nom,nomin, onym**:
+71. **son**:
+72. **sight**:
+73. **op, opt**:
+74. **spec(i)**:
+75. **part**:
+76. **grad(i)**:
+77. **pass**:
+78. **habit, hibit**:
+79. **order, ordin**:
+80. **press**:
+81. 
 
