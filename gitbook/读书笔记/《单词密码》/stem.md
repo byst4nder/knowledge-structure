@@ -376,25 +376,350 @@
 
 
 185. **stitut, stit**:
+
 186. **scrib, script**:
+
 187. **lud, lus**:
+
 188. **ver(i)**:
-189. ****:
-190. ****:
-191. ****:
-192. ****:
-193. ****:
-194. ****:
-195. ****:
-196. ****:
-197. ****:
-198. ****:
-199. ****:
-200. ****:
-201. ****:
-202. ****:
-203. ****:
-204. 
+
+189. **am,amor, amat**:
+
+190. **aut, auto**:
+
+191. **patr(i), pater**:
+
+192. **rog**:
+
+193. **spect, spic, specul**:
+
+194. **ware**:
+
+195. **mir**:
+
+196. **vis, vid**:
+
+197. **tail**:
+
+198. **integr**:
+
+199. **bas**:
+
+200. **prim, prem, pri, prin**:
+
+201. **ced, cede, ceed, cess**:
+
+202. **sist**:
+
+203. **st, sta(n), stant, stat, stin**:
+
+204. **ven, vent**
+
+205. **cap, cep(t), ceive, cip, cup**
+
+206. **fer**
+
+207. **gest, gister**
+
+208. **port**
+
+209. **tain, ten, tin**
+
+210. **leg, legis**
+
+211. **norm**
+
+212. **soci**
+
+213. **struct**
+
+214. **ban**
+
+215. **mand**
+
+216. **liber**
+
+217. **fend, fens**
+
+218. **lev, liev**
+
+219. **ori, orig**
+
+220. **pen, pense**
+
+221. **ject**
+
+222. **strain, strict, string**
+
+223. **fin**
+
+224. **lect, lig, leg**
+
+225. **cit**
+
+226. **cern, cert, cret, crimin**
+
+227. **prob, prov**
+
+228. **spond, spons**
+
+229. **liter**
+
+230. **phon(o)**
+
+231. **sper**
+
+232. **verb(i)**
+
+233. **migr**
+
+234. **spers**
+
+235. **rupt**
+
+236. **ped**
+
+237. **cid, cis**
+
+238. **haust**
+
+239. **vict, vinc**
+
+240. **emper, imper**
+
+241. **monstr**
+
+242. **mun(i)**
+
+243. **pen, pun**
+
+244. **terr(i)**
+
+245. **cens**
+
+246. **heir, hered, herit**
+
+247. **man(i), manu**
+
+248. **quant**
+
+249. **quot**
+
+250. **aug, auc**
+
+251. **luc, lust, lumin, lustr**
+
+252. **ac, acr(o), acu, acerb, acet**
+
+253. **aer(o)**
+
+254. **lith(o)**
+
+255. **calc(i)**
+
+256. **strat(i), strato**:
+
+257. **aqu(a), aque**:
+
+258. **hum**:
+
+259. **hydr(o)**
+
+260. **rad(ic)**:
+
+261. **cyt(o)**:
+
+262. **fibr(o)**
+
+263. **seism(o)**:
+
+264. **atmo**
+
+265. **plex, plic, ply**:
+
+266. **vac, vacu, van, void**:
+
+267. **chron(o)**:
+
+268. **dign**
+
+269. **greg**:
+
+270. **sav, salv**
+
+271. **paci**
+
+272. **sid, sed, sess**
+
+273. **cant, cent**
+
+274. **sec, secut, sequ, su**:
+
+275. **sal(i)**:
+
+276. **vor**:
+
+277. **arbit(r)**:
+
+278. **dict, dic**:
+
+279. **doc, doct, dox, dog**:
+
+280. **glut**:
+
+281. **misc, med, ming**:
+
+282. **mut**:
+
+283. **rot**:
+
+284. **tort, tors**:
+
+285. **pel, puls**:
+
+286. **rap(t), rav**:
+
+287. **trud, trus**:
+
+288. **trub**
+
+289. **und**
+
+290. **vibr**
+
+291. **ras, rad**:
+
+292. **ac, acr(o), acu, acerb, acet**
+
+293. **soph**
+
+294. **psych(o)**:
+
+295. **anim**
+
+296. **mort**
+
+297. **tox**:
+
+298. **merg, mers**
+
+299. **fus**:
+
+300. **sol**:
+
+301. **terr**:
+
+302. **nat, nasc, nai**:
+
+303. **astr(o), aster**:
+
+304. **flam, flagr**:
+
+305. **laps**:
+
+306. **pur(i), purg**:
+
+307. **cav**:
+
+308. **spher(e)**:
+
+309. **vapor**:
+
+310. **mar(i), marin**:
+
+311. **therm(o)**:
+
+312. **crud**:
+
+313. **nect, nex**:
+
+314. **sect, seg**:
+
+315. **plod, plos**:
+
+316. **rod, ros**:
+
+317. **somn(i), somno**:
+
+318. **jur, juris**:
+
+319. **monit, mon**:
+
+320. **voc, vok**:
+
+321. **tut, tuit**:
+
+322. **arm**
+
+323. **sacr(i), sanct**:
+
+324. **contamin**:
+
+325. **ethn(o)**:
+
+326. **card, cord(i)**:
+
+327. **sal, sult**:
+
+328. **tend, tent, tens**:
+
+329. **vail, val(u)**:
+
+330. **aud(i), audit**:
+
+331. **corp, corpor**:
+
+332. **tact, tang, tag, ting, tig**:
+
+333. **hal, halit**:
+
+334. **neur, nerv**:
+
+335. **plant**:
+
+336. **equ(i), iqu(i)**:
+
+337. **priv**：
+
+338. **grav, griev, grief**:
+
+339. **meter,metr(y), meas, mens**:
+
+340. **later**:
+
+341. **ann(u), enn**:
+
+342. **brev, bridg**:
+
+343. **sert**:
+
+344. **noc(u), nox**:
+
+345. **vil**:
+
+346. **melior**:
+
+347. **sag**:
+
+348. **cogn**:
+
+349. **phil(o)**:
+
+350. **esthet, aesthet**:
+
+351. **phob**:
+
+352. **medit**:
+
+353. **anthrop**:
+
+354. **spir**:
+
+355. **viv(i), vit, vig**:
+
+356. **sen**:
+
+357. **phem**:
 
      
 
