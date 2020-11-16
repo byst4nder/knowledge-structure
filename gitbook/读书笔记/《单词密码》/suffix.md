@@ -63,13 +63,25 @@
 59. -nom(y)
 60. -itude
 ----
-61. -ose：[形容词后缀]”多...的“。
+61. -**ose**：[形容词后缀]”多...的“。
 
     - operose, 
     - verbose[verb(言语)], 
     - grandiose[grand(雄伟的，壮丽的，大=great,large)+i-(连接词)，过于雄伟就”浮夸了，夸张的“]
 
-62. 
+62. -**ery**:
+
+    1. 表示场所、地点、工作处：nursery[nurs滋养，养育，-ery场所➢➢托儿所，保育室],printery,piggery, eatery
+    2. 表示行为、状态、情况、性质：foolery, trickery欺诈,bravery,bribery贿赂， robbery掠夺，抢劫。
+    3. 表示行为、法、术、身份等：fishery渔业, cookery烹调法, slavery奴隶身份
+
+63. -icle：表示“小东西，小粒子，小。。。”
+
+    1. article
+    2. funicle：纤维，细绳。
+    3. particle：颗粒，微粒；极小量；质点；粒子。
+    
+64. 
 
     
 

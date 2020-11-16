@@ -137,6 +137,7 @@
 57. mon(o)-：单一，独monarch(arch统治，管理)君主，帝王。monologue独白。
 58. extr-, extro-：出，向外，超过，以外。
 59. homo-：相同的，同类的，相似的。同。
+    1. hom**onym**ous同名的。
 60. magn(i)-：大。magnify放大
 61. mal-, male-：坏，恶，错误。malign邪恶的，诽谤，中伤。
 62. ante-，ance,anti,ant,anci：=before前。antetype原型=prototype,antecedent=forerunner前辈
@@ -157,6 +158,21 @@
 72. proto-:”原始，原“。prototype原型=antetype
 73. paleo-：古，旧
 74. peri-：周围，靠近，外层，periderm外皮。
+75. **omni**-:“全、总、公、都”
+    1. omnipresent无所不在的。
+    2. omnipotent全能的
+    3. omnidirectional全向的
+    4. omniform样式齐全的
+    5. omniparity一切平等
+    6. omniscient无所不知的
+    7. 
+76. **pseud**-:”假拟， 伪，虚“。
+    1. pseudo：adj.假的，冒充的。
+    2. pseudonym：n.假名，笔名
+    3. pseudocode：伪码
+    4. pseudorandom：adj.伪随机的。
+    5. pseudoscience：n.假科学，伪科学。
+77. 
 
 
 

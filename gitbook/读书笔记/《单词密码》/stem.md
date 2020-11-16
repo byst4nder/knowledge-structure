@@ -61,20 +61,61 @@
 59. **labor**：= labor, work 表示“劳动，工作”。collaborate, laboratory[-atory:场所]， elaborate, labored, laborious, belabor。
 60. **erg(o), ert**： = energy, to work 表示“能量，活力，工作”。alert, exert(发挥，运用)， exertion,energetic, anergy[an-:无，表否定。]， energize。
 61. **nov**：= new表示“新的”。novel, innovate, renovate, novice。
-62. **nour, nurs, nutri**：= to nourish 表示“滋养”。
-63. **graph, gram**：
-64. **ident**：
-65. **em, empt, am, ampl**：
-66. **bat**: = to beat 表示“打，击”。
-67. **mount**：
-68. **art(i)**:
-69. **pot**:
-70. **nom,nomin, onym**:
-71. **son**:
-72. **sight**:
-73. **op, opt**:
-74. **spec(i)**:
-75. **part**:
+62. **nour, nurs, nutri**：= to nourish 表示“滋养”。nutritious, nutrient营养品，nourish养育，malnutrition营养不良。
+63. **graph, gram**：= to write, to draw 表示“写，画”。同义词根scrib和script。biographer传记作家， autograph签名。
+64. **ident**： = same 表示“相同”。identical一样的。identification辨认，鉴定；身份证明；认同。identify认出，识别，鉴定；
+65. **em, empt, am, ampl**：= to take, to procure 表示“拿，获得”。ample充足的，exemplify举例说明；是...的典范，exemption免除，豁免。redeem[red-=re-向后，往回;eem=em拿]赎回， 买回；偿还。exempt免除，豁免；被免除的，被豁免的。
+66. **bat**: = to beat， to strike 表示“打，击，战斗”。debate辩论，rebate减少，打折，回扣，折扣。combat战斗。abate减少，减轻。
+67. **mount**：= to ascend 表示“山， 登上，升”。
+    1. mountainous多山的，巨大的。
+    2. insurmountable难以克服的。
+    3. surmount   v.登上；超越；克服
+68. **art(i)**: = skill 表示“技巧”。
+    1. artificial人工的，人造的；假的，模拟的。
+    2. artful 狡猾的，诡诈的。
+    3. artifact 工艺品
+    4. artifice 巧计；诡计
+    5. artisan 工匠，技工
+    6. artless：憨厚的，粗俗的；自然的。
+69. **pot**: = ability, power 表示“能力，力量”。
+    1. potential:n.潜力，adj.潜在的；可能的。
+    2. impotence：n.无力，无能。impotent,potent
+    3. omnipotent：omni(全部)全能的。
+70. **nom,nomin, onym**: 表示“名称，名字”。
+    1. nominate:提名；任命。
+    2. anonymous:adj.匿名的，无特色的。
+    3. homonymous：同名的。
+    4. nominal：名义上的，微不足道的。
+    5. **pseud**onym假名，笔名。pseud-假，伪，虚。
+71. **son**: = sound表示“声音”。
+    1. resonant：有回声的，共鸣的。resonance,
+    2. sonic：声音的；声波的。
+    3. consonant：一致的。
+    4. consonance：调和
+72. **sight**: = vision表示“视力，眼光”。
+    1. farsighted：有远见的；能看得很远的。shortsighted<反>。
+    2. insight：洞察力；洞悉；有深刻的见解。
+    3. foresight：远见
+    4. longsighted：远视的。
+    5. oversight：疏忽，失察，勘漏
+73. **op, opt**: = sight,light 表示“视力；光”。
+    1. optic：眼的，视力的；光学的。
+    2. optometrist：验光师，视力测定者。
+74. **spec(i)**: = look,kind, sort 表示“外观；种类”。
+    1. species：种类，物种。
+    2. specimen：样本，标本，样品。
+    3. specialize：v.专攻。specialty n.特性，特质，专业，专长。
+    4. specific：特定的；明确的，具体的。
+    5. conspecific：同种的。
+    6. specious：似是而非的。
+    7. specimen：样本，标本，样品。
+75. **part**: = part, to divide 表示“部分；分开”。
+    1. impartial：adj.公正的，公平的，不偏不倚的。partial.部分的，不公平的，偏爱的，偏袒的。
+    2. impartible：adj.不可分割的。
+    3. parti**cip**ate：v.参加，参与。cip(拿=take,拿一部分，代表了参与，参加。)
+    4. impart.v.传授；告知，透露；赋予，给予。
+    5. counterpart：副本。
+    6. particle：粒子，微粒，颗粒；-icle：表示小东西，小粒子。
 76. **grad(i)**:
 77. **pass**:
 78. **habit, hibit**:
@@ -199,352 +240,178 @@
 
 
 185. **stitut, stit**:
-
 186. **scrib, script**:
-
 187. **lud, lus**:
-
 188. **ver(i)**:
-
 189. **am,amor, amat**:
-
 190. **aut, auto**:
-
 191. **patr(i), pater**:
-
 192. **rog**:
-
 193. **spect, spic, specul**:
-
 194. **ware**:
-
 195. **mir**:
-
 196. **vis, vid**:
-
 197. **tail**:
-
 198. **integr**:
-
 199. **bas**:
-
 200. **prim, prem, pri, prin**:
-
 201. **ced, cede, ceed, cess**:
-
 202. **sist**:
-
 203. **st, sta(n), stant, stat, stin**:
-
 204. **ven, vent**：
-
 205. **cap, cep(t), ceive, cip, cup**：
-
 206. **fer**：
-
 207. **gest, gister**：
-
 208. **port**：
-
 209. **tain, ten, tin**
-
 210. **leg, legis**
-
 211. **norm**
-
 212. **soci**
-
 213. **struct**
-
 214. **ban**
-
 215. **mand**
-
 216. **liber**
-
 217. **fend, fens**
-
 218. **lev, liev**
-
 219. **ori, orig**
-
 220. **pen, pense**
-
 221. **ject**
-
 222. **strain, strict, string**
-
 223. **fin**
-
 224. **lect, lig, leg**
-
 225. **cit**
-
 226. **cern, cert, cret, crimin**
-
 227. **prob, prov**
-
 228. **spond, spons**
-
 229. **liter**
-
 230. **phon(o)**
-
 231. **sper**
-
 232. **verb(i)**
-
 233. **migr**
-
 234. **spers**
-
 235. **rupt**
-
 236. **ped**
-
 237. **cid, cis**
-
 238. **haust**
-
 239. **vict, vinc**
-
 240. **emper, imper**
-
 241. **monstr**
-
 242. **mun(i)**
-
 243. **pen, pun**
-
 244. **terr(i)**
-
 245. **cens**
-
 246. **heir, hered, herit**
-
 247. **man(i), manu**
-
 248. **quant**
-
 249. **quot**
-
 250. **aug, auc**
-
 251. **luc, lust, lumin, lustr**
-
 252. **ac, acr(o), acu, acerb, acet**
-
 253. **aer(o)**
-
 254. **lith(o)**
-
 255. **calc(i)**
-
 256. **strat(i), strato**:
-
 257. **aqu(a), aque**:
-
 258. **hum**:
-
 259. **hydr(o)**
-
 260. **rad(ic)**:
-
 261. **cyt(o)**:
-
 262. **fibr(o)**
-
 263. **seism(o)**:
-
 264. **atmo**
-
 265. **plex, plic, ply**:
-
 266. **vac, vacu, van, void**:
-
 267. **chron(o)**:
-
 268. **dign**
-
 269. **greg**:
-
 270. **sav, salv**
-
 271. **paci**
-
 272. **sid, sed, sess**
-
 273. **cant, cent**
-
 274. **sec, secut, sequ, su**:
-
 275. **sal(i)**:
-
 276. **vor**:
-
 277. **arbit(r)**:
-
 278. **dict, dic**:
-
 279. **doc, doct, dox, dog**:
-
 280. **glut**:
-
 281. **misc, med, ming**:
-
 282. **mut**:
-
 283. **rot**:
-
 284. **tort, tors**:
-
 285. **pel, puls**:
-
 286. **rap(t), rav**:
-
 287. **trud, trus**:
-
 288. **trub**
-
 289. **und**
-
 290. **vibr**
-
 291. **ras, rad**:
-
 292. **ac, acr(o), acu, acerb, acet**
-
 293. **soph**
-
 294. **psych(o)**:
-
 295. **anim**
-
 296. **mort**
-
 297. **tox**:
-
 298. **merg, mers**
-
 299. **fus**:
-
 300. **sol**:
-
 301. **terr**:
-
 302. **nat, nasc, nai**:
-
 303. **astr(o), aster**:
-
 304. **flam, flagr**:
-
 305. **laps**:
-
 306. **pur(i), purg**:
-
 307. **cav**:
-
 308. **spher(e)**:
-
 309. **vapor**:
-
 310. **mar(i), marin**:
-
 311. **therm(o)**:
-
 312. **crud**:
-
 313. **nect, nex**:
-
 314. **sect, seg**:
-
 315. **plod, plos**:
-
 316. **rod, ros**:
-
 317. **somn(i), somno**:
-
 318. **jur, juris**:
-
 319. **monit, mon**:
-
 320. **voc, vok**:
-
 321. **tut, tuit**:
-
 322. **arm**
-
 323. **sacr(i), sanct**:
-
 324. **contamin**:
-
 325. **ethn(o)**:
-
 326. **card, cord(i)**:
-
 327. **sal, sult**:
-
 328. **tend, tent, tens**:
-
 329. **vail, val(u)**:
-
 330. **aud(i), audit**:
-
 331. **corp, corpor**:
-
 332. **tact, tang, tag, ting, tig**:
-
 333. **hal, halit**:
-
 334. **neur, nerv**:
-
 335. **plant**:
-
 336. **equ(i), iqu(i)**:
-
 337. **priv**：
-
 338. **grav, griev, grief**:
-
 339. **meter,metr(y), meas, mens**:
-
 340. **later**:
-
 341. **ann(u), enn**:
-
 342. **brev, bridg**:
-
 343. **sert**:
-
 344. **noc(u), nox**:
-
 345. **vil**:
-
 346. **melior**:
-
 347. **sag**:
-
 348. **cogn**:
-
 349. **phil(o)**:
-
 350. **esthet, aesthet**:
-
 351. **phob**:
-
 352. **medit**:
-
 353. **anthrop**:
-
 354. **spir**:
-
 355. **viv(i), vit, vig**:
-
 356. **sen**:
-
 357. **phem**:
-
-     
-
-
+----
+358. ****:
 
