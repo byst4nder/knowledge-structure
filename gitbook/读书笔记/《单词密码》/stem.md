@@ -116,11 +116,35 @@
     4. impart.v.传授；告知，透露；赋予，给予。
     5. counterpart：副本。
     6. particle：粒子，微粒，颗粒；-icle：表示小东西，小粒子。
-76. **grad(i)**:
-77. **pass**:
-78. **habit, hibit**:
-79. **order, ordin**:
-80. **press**:
+76. **grad(i)**: = step, degree, to walk 表示“走，步；度， 级”。
+    1. graduate：n.毕业生；研究生adj.研究生的。v.毕业；获学位
+    2. degrade：降级；退化；降低....的身份，有辱....的人格。
+    3. downgrade：贬低，降低
+    4. gradation：等级；层级，渐变。
+77. **pass**: = to go, to pass through， to stride to step表示“走；通过”。引申“一段，范围”。
+    1. passport：护照
+    2. compass：范围；指南针
+    3. surpass：胜过
+    4. **tres**pass：侵入；打扰；冒犯；犯罪。
+78. **habit, hibit**: = to have, to hold ， to dwell表示“拥有；拿；占据；居住”。
+    1. cohabit：同居
+    2. inhabit：v.居住 inhabitant n.住户，居民。habitant n.居住者。
+    3. pro**hibit**：阻止；禁止。
+    4. ex**hibit**：n.v.展览，展示；显示
+    5. habitat：n.（动植物）居住地
+    6. habitual：惯常的。
+79. **order, ordin**: = order表示“命令；秩序”。
+    1. coordinate：v.协作，协调。adj.同等的；坐标的 n.坐标。
+    2. ordinary：普通的，平常的。
+    3. **extra**ordinary：adj.特别的，非常的。extra-:出,向外;超越
+    4. **sub**ordinate：adj.附属的；服从的，从属的。n,下属 v.使处于次要地位，使从属于。sub-
+    5. in**sub**ordinate：adj.不服从的；反抗的，犯上的。
+    6. ordinal ：adj.顺序的。
+80. **press**: = to press, to force 表示“挤压；逼迫”。
+    1. suppress：v.镇压， 压制， 抑制，阻止。suppression.
+    2. compress：压紧， 压缩。compression
+    3. repress：v.镇压；压抑(感情)。
+    4. pressing：急迫的
 81. **draw, drag, draft**:
 82. **clos, clud, clus**:
 83. **cover**:
