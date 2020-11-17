@@ -54,14 +54,22 @@
     2. e**leg**ant：高雅的，文雅的；讲究的；简练的。
     3. e**lig**ible：合格的，有资格的。
     4. recol**lect**：v.回想起；振作。
-51. **opt**: = to choose， to wish 表示"选择,希望"。adopt,
+51. **opt**: = to choose， to wish 表示"选择,希望"。
+    1. adopt：采取；接受；收养；正式通过。过继
+    2. optimal：最佳的；最理想的。
+    3. optimum：最适宜的；最佳效果；最适宜条件。
 52. **hap**: = chance， luck 表示”机会，运气“。mishap, haphazard。
 53. **celer**: = quick, speedy表示”快，迅速“。 decelerate
 54. **ment**: = mind 表示”心思；智慧；神智“。comment,commentate。 
 55. **not**: = to know, mark 表示”知道，标记“。notify,notion,notorious, notable, denote, annotate
 56. **grat, gree**: = pleasing, grace 表示”令人高兴的；高雅“。grateful, gratitude, grace, agreeable, gracious, gratify, gratification, ingratiate
 57. **car, char, cher**:= dear 表示”可爱的；关心， 喜爱“。charity, charitable。
-58. **optim**：= best 表示“最好，最佳”。 optimistic, optimize, optimism, optimum , optimal。
+58. **optim**：= best 表示“最好，最佳”。 
+    1. optimistic, 
+    2. optimize, 
+    3. optimism, 
+    4. optimum , 
+    5. optimal。
 59. **labor**：= labor, work 表示“劳动，工作”。collaborate, laboratory[-atory:场所]， elaborate, labored, laborious, belabor。
 60. **erg(o), ert**： = energy, to work 表示“能量，活力，工作”。alert, exert(发挥，运用)， exertion,energetic, anergy[an-:无，表否定。]， energize。
 61. **nov**：= new表示“新的”。novel, innovate, renovate, novice。
@@ -190,6 +198,7 @@
     1. unique：独特的，单一的。
     2. unite：v.联合，团结，合并。统一。
     3. unity：n.单一；统一，一致；团结；联合。unify：v.使联合，统一；使一致
+    4. uni**later**al：单方面的；单边的。
 89. **mor**: = moral 表示“道德”。
     1. moral：道德的；道义上的，精神的。n.教育意义，寓意。
     2. morale：n.士气
@@ -470,7 +479,11 @@
 337. **priv**：
 338. **grav, griev, grief**:
 339. **meter,metr(y), meas, mens**:
-340. **later**:
+340. **later**: = side 表示“侧面，边”。
+
+     1. lateral：侧面的，旁边的。
+     2. bilateral：双边的
+     3. **uni**lateral：单边的；单方面的。uni(88单一)
 341. **ann(u), enn**:
 342. **brev, bridg**:
 343. **sert**:
@@ -489,5 +502,9 @@
 356. **sen**:
 357. **phem**:
 ----
-358. **phyt**: = plant 植物
+358. **phyt**: = plant “植物”。
+359. **lat**: = wide "宽"。
+     1. latitude：纬度；自由
+     2. **di**late：扩大；膨胀；详述。di-：分开，散开=dis
+360. 
 
