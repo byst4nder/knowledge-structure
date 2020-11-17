@@ -49,7 +49,11 @@
 47. **proach, proxim**:= to close, to become near 表示“接近，靠近”。reproach,proximity。
 48. **init**: = beginning 表示“开始”。
 49. **apt, ept， att**: = to fit, ability 表示“适应；适合；能力”。
-50. **lect, lig， leg**: = to choose, to gether 表示“选择；收集,诵读“。dialect,elegant,eligible, recollect
+50. **lect, lig， leg**: = to choose, to gether 表示“选择；收集,诵读“。
+    1. dia**lect**,
+    2. e**leg**ant：高雅的，文雅的；讲究的；简练的。
+    3. e**lig**ible：合格的，有资格的。
+    4. recol**lect**：v.回想起；振作。
 51. **opt**: = to choose， to wish 表示"选择,希望"。adopt,
 52. **hap**: = chance， luck 表示”机会，运气“。mishap, haphazard。
 53. **celer**: = quick, speedy表示”快，迅速“。 decelerate
@@ -145,17 +149,65 @@
     2. compress：压紧， 压缩。compression
     3. repress：v.镇压；压抑(感情)。
     4. pressing：急迫的
-81. **draw, drag, draft**:
-82. **clos, clud, clus**:
-83. **cover**:
-84. **toler**:
-85. **claim, clam**:
-86. **sur**:
-87. **du(o), dub, dou(b)**:
-88. **uni, un**:
-89. **mor**:
-90. **neg**:
-91. **simil, simul(t), sembl**:
+81. **draw, drag, draft**: = to pull 表示“拉，拽”。
+    1. drawback：n.障碍；缺点。
+    2. withdraw：v.撤回，收回；撤退，撤销。
+    3. draggy：adj.拖拉的；极为讨厌的；呆滞的。
+    4. drawl：v.慢吞吞地说。
+82. **clos, clud, clus**: = to close 表示“关闭， 关闭”。
+    1. exclude：v.排除；隔绝，把...排除在外。
+    2. conclude：v.做结论；结束；推论出。
+    3. include：v.包括
+    4. enclose：v.包围，围绕；附上；把...装入信封。
+    5. closure：n.关闭；终止。
+    6. exclusive：adj.排他的；专有的；奢华的，高级的 n.独家新闻
+83. **cover**: = to cover, cover 表示“遮，盖；盖子；覆盖”
+    1. coverage：n.新闻报道；覆盖范围。
+    2. hardcover：n.精装本 adj.精装的。
+    3. covert：adj.隐秘的，秘密的，不公开的 n.隐蔽处
+    4. softcover：adj.软皮，软面
+84. **toler**: = to endure, to bear表示“容忍，忍受”。
+    1. tolerate ：v.忍受，容忍。
+    2. tolerant：宽容的， 容忍的，心胸宽大的。
+    3. intolerant：不能容忍的。
+85. **claim, clam**: = to cry out, to shout 表示“呼喊，叫喊”。
+    1. claim：v/n.要求；声称；论断。
+    2. exclaim：叫喊，惊叫；大声说
+    3. acclaim：v.向...欢呼，为...喝彩 n.喝彩，称赞
+    4. proclaim：v.宣布；声明；表明；赞扬。
+    5. clamorous：吵闹的。clamor：n.喧闹，吵闹。
+86. **sur**: = sure, safe 表示“肯定；安全”。
+    1. assuredly：adv.无疑地。
+    2. **re**assure：re(一再)，使安心，再保证。
+    3. assurance：n.保证；把握，信心；(人寿)保险。assure：v.保证，使确信。
+87. **du(o), dub, dou(b)**: = two 表示“二，双”。 
+    1. dual：二重的，二元的
+    2. duet：二重唱
+    3. duplicate：n.复制品；副本 adj.完全一样的，复制的 v.复制，复印；重复
+    4. dubious：可疑的；靠不住的；不能确定的。
+    5. redouble：v.倍增，加强
+88. **uni, un**: = one 表示“单一，一个”
+    1. unique：独特的，单一的。
+    2. unite：v.联合，团结，合并。统一。
+    3. unity：n.单一；统一，一致；团结；联合。unify：v.使联合，统一；使一致
+89. **mor**: = moral 表示“道德”。
+    1. moral：道德的；道义上的，精神的。n.教育意义，寓意。
+    2. morale：n.士气
+    3. demoralize：v.使士气消沉。
+    4. mores：n.道德观念；风俗，道德观念
+90. **neg**: = to deny 表示“否认，拒绝，消极”
+    1. negative：否认的；消极的 n.底片
+    2. neg**lect**：v.忽视
+    3. neg**lig**ible：可以忽视的，可忽略不计的，微不足道的。neg**lig**ence：n.玩忽职守。
+    4. negate：v.否认；取消；使无效。
+    5. renege：v.背信弃义，违约
+91. **simil, simul(t), sembl**: = alike,same 表示“相类似，一样”。
+    1. resemble：v.类似，像。resemblance：n.类似，相似，形似。
+    2. assemble：v.集合，召集；装配
+    3. similarity：n.类似。
+    4. simul**taneous**：同时发生的，同时存在的，同步的。=at the same time。
+    5. simulate：v.假装；模仿，模拟；冒充
+    6. **veri**similar：像真的一样，貌似真实的；可能的。
 92. **vi(a), vey, voy**:
 93. **fract, frag**:
 94. **temper, tempor**:
@@ -437,5 +489,5 @@
 356. **sen**:
 357. **phem**:
 ----
-358. ****:
+358. **phyt**: = plant 植物
 
