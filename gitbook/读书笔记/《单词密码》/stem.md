@@ -1,12 +1,43 @@
 # 词根：
 
-1. **cent(i)**: = hundred 表示“百”。centennial。
-2. **circ**,**cycl**: = ring, circle 表示“园，环”。circus,cycle, circuit。circulate。encyclopedia。
-3. **line**: = line 表示“线，线条；行”。linear, lineage, hardline。
-4. **long**, **leng**: = long 表示“长”，引申“长远的；长期的”。belong, longing, longitude,longeval,longevity，lengthy。
-5. **mark**, **marc**: = mark 表示“记号，符号，标记“。landmark,remark,marksman, hallmark。
-6. **sign**: = mark, sign 表示”记号，信号“。resign,assign, **consign**, designate, signature, consignment, signalize。
-7. **min(i)**: = small 表示”小“。minus,ministry,minister,mince,diminish,
+1. **cent(i)**: = hundred 表示“百”。
+   1. cent**enn**ial：百年纪念的；n.百年纪念日
+2. **circ**,**cycl**: = ring, circle 表示“园，环”。
+   1. circus：马戏团；圆形广场
+   2. cycle：n.圆；圈子；阶层；v.围着；环绕...移动；盘旋
+   3. circuit：环形；电路
+   4. circulate：使循环，使流通
+   5. **en**cyclo**ped**ia：ped(教育)。百科全书
+3. **line**: = line 表示“线，线条；行”。
+   1. linear：线的，直线的；线性的
+   2. lineage： 血统；世系
+   3. hardline：
+4. **long**, **leng**: = long 表示“长”，引申“长远的；长期的”。
+   1. belong, 
+   2. longing, 
+   3. longitude,
+   4. longeval,
+   5. longevity，
+   6. lengthy。
+5. **mark**, **marc**: = mark 表示“记号，符号，标记“。
+   1. landmark,
+   2. remark,
+   3. marksman, 
+   4. hallmark。
+6. **sign**: = mark, sign 表示”记号，信号“。
+   1. resign：
+   2. assign：
+   3. **consign**：
+   4. designate： 
+   5. signature：
+   6. consignment： 
+   7. signalize：。
+7. **min(i)**: = small 表示”小“。
+   1. minus：
+   2. ministry：
+   3. minister：
+   4. mince：
+   5. diminish,
 8. **cre**, **creas**, **cret**: = to grow, to make 表示”增长；产生，做；创造，新生”。recreation,decrease,increase, secret, secrete,crescent,procreate, recreate。
 9. **sum(m)**: = highest, total表示“最高，合计”。summit,consummate。
 10. **popul,publ**: = people 表示“人民”。populous。
@@ -506,5 +537,33 @@
 359. **lat**: = wide "宽"。
      1. latitude：纬度；自由
      2. **di**late：扩大；膨胀；详述。di-：分开，散开=dis
-360. 
+360. **derm， derma, dermat**：= 皮
+     1. derma：真皮，皮肤
+     2. dermal：皮肤的；真皮的；表皮的。
+     3. dermat**itis**：皮炎。[-itis炎症]
+     4. dermat**oid**：似皮肤的。[-oid如...的。]
+361. **alle， allo, all**：= other, different
+     1. all**onym**：别名
+     2. allograph：别人代笔的文件或签字。
+     3. allo**gamy**：n.异花授粉，异体受精。[gamy结婚]
+     4. allergen：过敏原
+362. **morph** = form，shape,表示“形状”。
+     1. morphology：n.形态学
+     2. **geo**morphic：地貌的。[geo地]
+     3. **a**morphous：无定形的；无组织的；非晶形的。[a-没有，表否定]
+     4. **anthropo**morphous：人形的
+     5. metamorphosis：n.变形；蜕变。(meta-改变)
+     6. **poly**morphic：多形态的；多态的；多晶形的= **poly**morphous
+     7. isomorphic：同形的，同构的。
+     8. **homo**morphic：同形的。
+     9. heteromorphic：异形的，变形的。
+363. **anthrop, anthropo** = people, human 表示"人，人类"。
+364. **iso** = equal, similar “相等，相同。
+365. heter,hetero = different
+     1. 
+366. **joc**=joke 表示“笑话”。
+     1. 
+367. **gyr， gyro** 表示”**旋转**“。
+368. **plast** 表示”生长，形成“。
+369. **trop**：”转向，转“
 

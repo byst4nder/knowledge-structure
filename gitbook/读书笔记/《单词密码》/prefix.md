@@ -157,7 +157,8 @@
 ------
 72. proto-:”原始，原“。prototype原型=antetype
 73. paleo-：古，旧
-74. peri-：周围，靠近，外层，periderm外皮。
+74. peri-：周围，靠近，外层，
+    1. peri**derm**外皮。
 75. **omni**-:“全、总、公、都”
     1. omnipresent无所不在的。
     2. omnipotent全能的
@@ -172,7 +173,15 @@
     3. pseudocode：伪码
     4. pseudorandom：adj.伪随机的。
     5. pseudoscience：n.假科学，伪科学。
-77. 
+77. **hypo-**：= 下，低，次，少，下面，次等。
+    1. hypo**derm**ic：皮下的
+    2. hypo**thesis**：假说，假设
+    3. hypo**mnes**ia：记忆力减退【mnes记忆】
+    4. hypo**trophy**：发育不良【trophy营养】
+    5. 
+78. **meta-**：表示“超，超过；改变，变化”。
+    1. 
+79. 
 
 
 

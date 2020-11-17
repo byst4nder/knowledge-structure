@@ -85,9 +85,19 @@
     3. simultaneous：同时发生的， 同时存在的，同步的。（simul = same, like, equal）
     4. **consent**aneous：同意的，一致的。（consent：同意，赞同。）（sent,sens=feel感觉。）
     5. con**temp**oraneous：同时代的。
-    
 65. -aneity：
     1. instantaneity：立刻
     2. simultaneity：同时发生
     3. con**temp**oraneity：同时代，同时
-66. 
+66. **-itis**：炎症。
+    1. actilnoneritis：
+    2. adenitis：腺炎；淋巴腺炎。
+    3. adrenalitis：肾上腺炎
+    4. **allergy**rhin**itis**：过敏性鼻炎[allergy：过敏。rhin:鼻子。-itis炎症]
+    5. angioitis：血管炎
+    6. angiopancreatitis：
+67. **-oid** :如...的。
+68. **-pathy**：疾病，疗法。
+69. **-osis, -sis, -sia, -sy, -se**：名词后缀，表示疾病名称。
+    1. dermatosis：皮肤病
+70. 
