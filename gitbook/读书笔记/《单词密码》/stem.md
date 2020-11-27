@@ -248,17 +248,87 @@
     4. simul**taneous**：同时发生的，同时存在的，同步的。=at the same time。
     5. simulate：v.假装；模仿，模拟；冒充
     6. **veri**similar：像真的一样，貌似真实的；可能的。
-92. **vi(a), vey, voy**:
-93. **fract, frag**:
-94. **temper, tempor**:
-95. **gress**:
-96. **polic, polit, polis**:
-97. **civ**:
-98. **harm**:
-99. **tour, torn, tourn**:
-100. **quiet, qui**:
-101. **flu, flux**:
-102. **liqu**:
+92. **vi(a), vey, voy**: = way, road 表示“道路”
+    1. previous[pre-先，前，vi路➙走路，行走，-ous形容词后缀，...的；]先前的，以前的。
+    2. trivial：adj.平凡的，平常的，不重要的，轻微的，琐细的。triviality：n。琐事， 琐碎，平凡
+    3. deviate：[de-离开， vi道路➙正道，-ate动词后缀]：背离(正道)，偏离。deviation，deviationist,devious曲折的，迂回的，离开正道的。
+    4. viable：可实行的；可生存的，可独立发展的。
+    5. viatic：道路的，旅行的。
+    6. obviate：[ob=away + vi < via]:vt.排除（危险、困难等），清除；使...成为不必要；避免
+    7. impervious[im<im(=not) + per(=through)+ vi<via(=road, way)]:adj.(水等)不能渗透的；不受影响的，不为所动的。
+93. **fract, frag**: = to break, to shatter 表示“打碎，破碎“。
+    1. fragile：易碎的。fragility：易碎性，脆性，脆弱。
+    2. frail：脆弱的。
+       1. frailty：软弱，脆弱，薄弱；缺点，瑕疵。the frailty of human life 人生命脆弱。
+    3. fragment：碎片，破片，碎块。fragmentary：碎片的，破片的，碎块的。
+    4. fragmentate：v.使裂成碎片。fragmentation：破碎，裂成碎片，分裂。
+    5. fracture：破碎，折断，骨折
+    6. fraction：碎片，片段，小部分。fractional：碎片的，零碎的，部分的，小数的。
+    7. fractious：易怒的，暴怒的；难以对待的，难驾驭的。
+    8. refractory：不听话的，难以驾驭的，执拗的；难以治愈的，痼疾的；难熔的；难以处理的。
+    9. anfractuous：弯曲的，迂回的。
+    10. refract：使折射。refraction：折射，折射度。refrator：折射器，折射望远镜。
+        1. refratable：可折射的。
+        2. refractive：折射的，有折射力的。
+    11. diffract：分散；使绕射。diffraction：绕射。
+    12. infringe：v.触犯，违反；侵害，侵犯权力。infringment：n违反侵害。
+    13. infraction：n。违反，违背。
+    14. refrain：v.节制，忍耐。n副歌。
+94. **temper, tempor**: = time 表示”时间或时间引起的现象“。
+    1. temporary：临时的。
+    2. temporal：现世的；暂时的。
+    3. temorize：v.拖延以等待时机。
+    4. extempore：即席的；临时的。[ex出 + tempore➙超出时间安排➙临时的。]
+       1. extemporaneous：a.即席的。
+       2. extemporize：v.即席演讲（演奏）
+    5. contemporary：a.当代的；同代的。
+95. **gress**: = to go, to walk 表示”行走“。
+    1. progress：n.进步。
+    2. congress：国会，代表大会。
+    3. digress：v.离题
+    4. retrogress：v.倒退，退步
+    5. transgress：v.违背；违反；冒犯。
+    6. aggression：n.侵略；进攻。
+96. **polic, polit, polis**: = state,city 表示”国家，城市“。引申为”政治“。
+    1. politician：政客。
+    2. policy：政策，方针；保险单。
+    3. politics：政治，政治学；政纲，政见。
+    4. metropolis：n.大都市，主要城市，大都会，首府。
+    5. metropolitan：主要城市的，大城市的，大都会的。
+    6. metropolitanize：使大都会化。
+97. **civ**: = citizen表示”公民“
+    1. civilian：n.平民，百姓。
+    2. civic：市民的；公民的。
+    3. civil：公民的；文明的。civilization：n.文明；文化。
+    4. civilize：v.使文明，使开化。
+    5. civility：n.礼貌，文明。
+98. **harm**: = fitting表示”适合“。
+    1. harmony：n.和谐，协调。
+    2. harmonious：adj.和谐的，协调的；悦耳的。
+    3. harmonic：adj.和谐的，和声的 n.泛音。
+    4. harmonical：adj.调和的；音乐般的。
+99. **tour, torn, tourn**: = to turn 表示”转“。
+    1. tournament：锦标赛，比赛。
+    2. contour：n.轮廓
+    3. detour：v.绕路n.便道；绕道。
+    4. attorney：n.律师，代理人。
+100. **quiet, qui**: = still, rest表示”静，静止“。
+     1. disquiet：v.使不安；使担心 n.不安；忧虑。
+     2. quietude：n.宁静。
+     3. inquietude：不安。
+     4. acquiescence：n.默许。acquiescent：默许的；acquiesce：v.默许
+101. **flu, flux**: = to flow 表示”流动，流“。
+     1. fluid：n.流体，液体adj.流动的，变化的，不稳定的。
+     2. fluency：n.流利，流畅。
+     3. flush：v.奔流，冲洗；使(脸等)涨红。adj.齐平的；充裕的n.脸红，红光。
+     4. affluent：富裕的。
+     5. superfluous：adj.过剩的，多余的。
+     6. influenza：n.流行性感冒。
+102. **liqu**: = liquid,fluid 表示”液体；流动的”。
+     1. liquid：adj.液体的；流动的 n.液体。
+     2. liquor：n.酒；酒精饮料。
+     3. liquidity：n.流动性。
+     4. liquidate：v.清偿(债务)；清理(账目)。
 103. **gen(e), gener, geni(t)**:
 104. **cap(it), cip(it)**:
 105. **dent**:
@@ -469,7 +539,16 @@
 296. **mort**
 297. **tox**:
 298. **merg, mers**
-299. **fus**:
+299. **fus**:=to pour, to melt 表示“流，泻；融化”
+
+     1. confusion：confuse:糊涂；混乱
+     2. effusive：热情洋溢的；溢出的；effuse：v.流出；吐露。infuse：v.注入，灌输。infusion
+     3. diffuse：散播；四散的。diffusion：普及；弥漫。
+     4. refute：反驳；驳斥。refuse:拒绝。
+     5. profuse：丰富的；浪费的。
+     6. transfuse：v.输血；倾注；灌输。
+     7. suffuse：v.充满；弥漫。
+     8. 
 300. **sol**:
 301. **terr**:
 302. **nat, nasc, nai**:
@@ -565,5 +644,17 @@
      1. 
 367. **gyr， gyro** 表示”**旋转**“。
 368. **plast** 表示”生长，形成“。
-369. **trop**：”转向，转“
+369. **trop**：”转向，转“。
+370. **temper** ：= moderate, mix， strecth”节制， 调节，混合“。
+     1. temper：n.脾气；心情v.调和。
+        1. attemper：v.缓和；调节；锻炼
+        2. distemper：犬热病；骚动(不适当的)。
+     2. temperance：n.节制，自制；戒酒。
+     3. temperament：n.气质；性格，性情；易激动的
+     4. temperamental：adj.气质引起的，出自本性的；性急的；不冷静的，喜怒无常的。
+     5. temperate：adj.节制的；克制的；不过分的；适度的；温和的。
+     6. intemperate：无节制的；放纵的。
+     7. temperature：n.温度；体温；发烧。
+     8. tempersome：易爆怒的。[-some形容词后缀，表示”具有...性质“]
+371. 
 
