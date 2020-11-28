@@ -329,27 +329,48 @@
      2. liquor：n.酒；酒精饮料。
      3. liquidity：n.流动性。
      4. liquidate：v.清偿(债务)；清理(账目)。
-103. **gen(e), gener, geni(t)**:
+103. **gen(e), gener, geni(t)**: = birth, to produce, race 表示“出生，产生；种族”。
+     1. 
 104. **cap(it), cip(it)**:
+     1. 
 105. **dent**:
+     1. 
 106. **limin, lim**:
+     1. 
 107. **par**:
+     1. 
 108. **test(i)**:
+     1. 
 109. **vail, val(u)**:
+     1. 
 110. **jud, judg, judic(i)**:
+     1. 
 111. **quit**:
+     1. 
 112. **crimin**:
+     1. 
 113. **front**:
+     1. 
 114. **touch**:
+     1. 
 115. **cast**:
+     1. 
 116. **point, punct, pung**:
+     1. 
 117. **number**:
+     1. 
 118. **centr(i)**:
+     1. 
 119. **fac**:
+     1. 
 120. **memor, member, mnes**:
+     1. 
 121. **cur(i), curs, cour(i), cours**:
+     1. 
 122. **vad, vas**:
+     1. 
 123. **fall, fail, fals, fault**:
+     1. 
 124. **sol(i)**:
 125. **lic**:
 126. **duc, duct**:
