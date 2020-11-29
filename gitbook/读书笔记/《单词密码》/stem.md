@@ -330,43 +330,115 @@
      3. liquidity：n.流动性。
      4. liquidate：v.清偿(债务)；清理(账目)。
 103. **gen(e), gener, geni(t)**: = birth, to produce, race 表示“出生，产生；种族”。
-     1. 
-104. **cap(it), cip(it)**:
-     1. 
-105. **dent**:
-     1. 
-106. **limin, lim**:
-     1. 
-107. **par**:
-     1. 
-108. **test(i)**:
-     1. 
-109. **vail, val(u)**:
-     1. 
-110. **jud, judg, judic(i)**:
-     1. 
-111. **quit**:
-     1. 
-112. **crimin**:
-     1. 
-113. **front**:
-     1. 
-114. **touch**:
-     1. 
-115. **cast**:
-     1. 
-116. **point, punct, pung**:
-     1. 
-117. **number**:
-     1. 
-118. **centr(i)**:
-     1. 
-119. **fac**:
-     1. 
-120. **memor, member, mnes**:
-     1. 
-121. **cur(i), curs, cour(i), cours**:
-     1. 
+     1. genuine：真正的，纯正的；真诚的。
+     2. engender：v.产生。
+     3. ingenious：聪明的；有创造力的；别致的；灵巧的。
+     4. generous：a.慷慨的；丰富的。generosity：n.慷慨。
+104. **cap(it), cip(it)**: = head表示"头"。
+     1. capital：**首要的；**重要的；**大写的；**首都，省会；**资本。资本家**。大写字母。
+     2. precipitous：陡峭的；急躁的；仓促的。
+     3. precipitate：v.(突如其来地)发生，促成；降水n.沉淀物 a.突如其来的。鲁莽的。
+     4. capitulate：v.(有条件)投降；屈从，停止抵抗。
+105. **dent**: = tooth 表示“牙齿”。
+     1. denture：假牙。
+     2. indenture：契约，合同。
+     3. edentate：a.无齿的 n.贫齿类动物。e(无)
+     4. dent：凹部，凹痕；缺口。v.在(某物)上造成凹痕。
+106. **limin, lim**: = threshold 表示"门槛"，引申为“限制”。
+     1. eliminate：v.消除。e(无)
+     2. preliminary：a.预备的，初步的。n.初步做法，起始行为。
+     3. limp：v.蹒跚。n.跛行。adj.软弱的，无生气的；松沓的。
+     4. supraliminal：有意识的。阈上的，意识之上的。
+107. **par**: 
+     1. = equal 表示"平等，相等"。引申为“比较”。compare
+        1. imparity：n.不平等。
+        2. disparity：n.不同；不一致。
+        3. disparate：adj.迥然不同的。
+        4. nonpareil：adj.无比的。
+     2. = to appear, to come in sight 表示"出现，看见"。
+        1. apparent：adj.显而易见的。
+        2. transparent：adj.透明的；明白的。transparency：n.透明度。
+        3. apparel：n.衣服；外观。
+        4. apparition：n.鬼怪；幽灵。
+     3.  = to prepare 表示“准备”。
+        1. apparatus：n.设备，仪器，装置。
+     4. = birth 表示“生产；出身”。
+        1. biparous：双生的。
+        2. mutilparous：多产的。
+        3. parentage：出身。
+        4. primiparous：初产的。
+108. **test(i)**：=  to test, witness表示“测试；证据”。
+     1. contest：v.争夺，竞争；对....提出质疑。n.竞赛，争夺。
+     2. protest：v.抗议；坚决声明。
+     3. testify：v.证实；表明，说明。
+     4. testimony：n.证据；证词；表明，说明。-mony(表行为的结果、状态等)
+109. **vail, val(u)**: = value, worth 表示”价值,值“。
+     1. evaluate：v.估价。
+     2. equivalent：adj.相等的。n.等价物。
+     3. **invaluable**：adj.非常宝贵的，无价的。
+     4. **unvaluable**：不值钱的。
+     5. undervalue：v.低估；轻视。
+110. **jud, judg, judic(i)**: = to judge, law 表示”判断；法律“。
+     1. prejudice：n.偏见。
+     2. adjudge：v.判决，裁决。
+     3. prejudge：v.预先判断。
+     4. judicial：司法的；法官的。
+     5. adjudicate：v.判决，裁判。
+111. **quit**: = to free, to release表示”使自由；免除”。
+     1. quit ：v.离开；停止；放弃。
+     2. quitclaim：vt/n.放弃权力。
+     3. requite：v.报答；回报，酬谢。requital：报答， 偿还，报仇。
+     4. acquit：v.免除责任；免罪。
+     5. acquittal：n.释放；还清(债)
+112. **crimin**: = crime表示“罪”。
+     1. criminal：n.罪犯。adj.犯罪的。
+     2. discriminate：v.歧视；区别，辨别。
+     3. incrimination：n.控告。 in-(使...)使有罪就是控告。
+     4. incriminate：vt.控告，暗示...有罪。
+     5. recriminate：vi.反责；反唇相讥。
+113. **front**:  = forehead 表示“前额，前面”。
+     1. frontal：adj.正面的；前额的。
+     2. confront：v.面临；对抗；使对质。
+     3. affront：v.冒犯。
+     4. forefront：n.最前部；重心；前沿。
+114. **touch**: = to touch 表示“触，摸，碰”。
+     1. touchy：adj.易怒的；棘手的；敏感的。
+115. **cast**: = to throw 表示“投，发射”。
+     1. forecast：v.n.预报；预测。
+     2. newscast：n.新闻广播
+     3. recast：v.重新铸造；彻底改造；重新安排剧中角色。
+     4. downcast：adj.目光向下的；沮丧的。
+     5. overcast：adj.忧郁的；阴天的。
+116. **point, punct, pung**: = point, to make sharp 表示“点；变尖，刺”。
+     1. punch：v.猛击；穿孔，打洞。n.猛击；冲床，穿孔机。
+     2. punctual：adj.准时的。punctuality：n.准时，守时
+     3. pointer：指针，指示者。
+     4. puncture：v.穿孔；刺穿。
+     5. pungent：adj.刺鼻的；尖锐的。
+117. **numer**: = number, to count表示“数；计数”。
+     1. numerable：可数的，可计算的。
+     2. numerous：无数的，众多的。
+     3. innumerable：无数的，数不清的。
+     4. supernumerary：额外的。
+     5. enumerate：v.列举。
+118. **centr(i)**: = center, middle表示“中心；中间”。
+     1. central：中心的，中央的；主要的。
+     2. concentrate：v.集中，聚集；浓缩。
+     3. eccentric：adj.古怪的，反常的。
+     4. xenocentric：adj.偏重外国文化的，崇洋媚外的。
+119. **fac**: = face 表示“脸，面”， 引申为“外观；表面”。
+     1. facet：n.平面；一面；方面。
+     2. deface：v.丑化；损坏外观。 de-变坏。
+120. **memor, member, mnes， mnem**: = memory，to remember表示“记忆；记”。
+     1. memorial：n.纪念碑，纪念物。adj.纪念的，悼念的。
+     2. amnesiac：adj.记忆缺失的，遗忘的。
+121. **cur(i), curs, cour(i), cours**: = to run 表示“跑”， 引申为“发生”。
+     1. current：adj.当前的，通用的；流行的；流动的 n.潮流。
+     2. **currency**：n.货币，通货。
+     3. course：n.路程；过程；经过；课程。
+     4. recur：v.在发生，重现；重新提起。occur：v.发生，出现。
+     5. cursory：adj.粗略的，草率的。
+     6. excursive：adj.离题的；散漫的，随意的。
 122. **vad, vas**:
      1. 
 123. **fall, fail, fals, fault**:
@@ -625,7 +697,12 @@
 348. **cogn**:
 349. **phil(o)**:
 350. **esthet, aesthet**:
-351. **phob**:
+351. **phob, phobia**: = to fear, to dislike表示“恐惧；厌恶”。
+
+     1. phobia：恐惧症。恐怖；憎恶。
+     2. acrophobia：恐高症。acro(空)
+     3. hydrophobia：恐水症；狂犬病。hydro(水)
+     4. xenophobia：n.憎恨外国人者；恐外症。xeno-(外边)
 352. **medit**:
 353. **anthrop**:
 354. **spir**:
@@ -677,5 +754,7 @@
      6. intemperate：无节制的；放纵的。
      7. temperature：n.温度；体温；发烧。
      8. tempersome：易爆怒的。[-some形容词后缀，表示”具有...性质“]
-371. 
+371. **cast, cest, chast**: = pure 纯洁。
+     1. chaste：adj.正派的，高尚的；守贞洁的。简洁朴实的；纯洁的。
+372. 
 
