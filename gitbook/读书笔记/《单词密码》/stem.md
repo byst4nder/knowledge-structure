@@ -1,17 +1,21 @@
 # 词根：
 
 1. **cent(i)**: = hundred 表示“百”。
+   
    1. cent**enn**ial：百年纪念的；n.百年纪念日
+   
 2. **circ**,**cycl**: = ring, circle 表示“园，环”。
    1. circus：马戏团；圆形广场
    2. cycle：n.圆；圈子；阶层；v.围着；环绕...移动；盘旋
    3. circuit：环形；电路
    4. circulate：使循环，使流通
    5. **en**cyclo**ped**ia：ped(教育)。百科全书
+   
 3. **line**: = line 表示“线，线条；行”。
    1. linear：线的，直线的；线性的
    2. lineage： 血统；世系
    3. hardline：
+   
 4. **long**, **leng**: = long 表示“长”，引申“长远的；长期的”。
    1. belong, 
    2. longing, 
@@ -19,11 +23,13 @@
    4. longeval,
    5. longevity，
    6. lengthy。
+   
 5. **mark**, **marc**: = mark 表示“记号，符号，标记“。
    1. landmark,
    2. remark,
    3. marksman, 
    4. hallmark。
+   
 6. **sign**: = mark, sign 表示”记号，信号“。
    1. resign：
    2. assign：
@@ -32,87 +38,149 @@
    5. signature：
    6. consignment： 
    7. signalize：。
+   
 7. **min(i)**: = small 表示”小“。
    1. minus：
    2. ministry：
    3. minister：
    4. mince：
    5. diminish,
+   
 8. **cre**, **creas**, **cret**: = to grow, to make 表示”增长；产生，做；创造，新生”。recreation,decrease,increase, secret, secrete,crescent,procreate, recreate。
+
 9. **sum(m)**: = highest, total表示“最高，合计”。summit,consummate。
+
 10. **popul,publ**: = people 表示“人民”。populous。
+
 11. **mod**: = mode, manner表示“方式，模式；风度，风格，时尚；适中”。modest,modify,moderate, remodel, accommodate,commodity,modulate。
+
 12. **typ(o)**: = type, to type 表示“模式，形状；打字，种类”。prototype,typify。
+
 13. **range**: = rank 表示“行，列， 顺序”。derange。
+
 14. **set**: = to fix 表示“放，置，安置”。preset
+
 15. **pon，pound，pos(it)**: to put, to place表示“放，放置”。pose, opponent,compose, dispose, **impose**, proposal,suppose,deposit,component,compound,exposition,**depose**。
+
 16. **med(i), mid**: =middle 表示“中间，从中介入，插入”。meddle,mediate,mediation，mediator, midst。
+
 17. **loc(o)**: = place 表示“地方，位于”。relocate, allocate,collocate,
+
 18. **term, termin**: = limit，end, boundary 表示“界限,分界，地理或时间上的界限。”terminal，determine, terminate, exterminate。
+
 19. **form**: = to form, shape 表示“形成；形状，形式”；形容词后缀，表示“有某种形状的、似某种形状的”。formal, formula, inform, perform, conform, informative[in(使...),ive[表示多],使成形，引申为训练、教育、说明、通知， 多次通知引申情报的，多次训练引申为教育性的，见多识广的。同理instruct(指导，通知，命令，教授)], formation, deform[destruct]
+
 20. **idea, ideo**: = idea 表示“思想，观点”。ideate。
+
 21. **put**: = to think, to consider, to believe表示“认为，思考，相信”。dispute, reputation, **impute**
+
 22. **quest, quir(e), quis, quer**: = to seek, to obtain 表示“寻求；获得”。conquest, conquer, inquest, inquire, inquisition, inquisitive, requisite。
+
 23. **sens, sent**: = to feel, feeling 表示“感觉”。sensible, sensitive, consensus, consent, sentiment, resent, sensory, assent, sentimental。
+
 24. **clar, clair, clear**: = clear, bright 表示“清楚的，明白的”。declare。
+
 25. **don, dot, dit, dow**: = to give 表示“给予”。donate, tradition[tra(转移，转换；横过，越过，传，转)，传下来的给与，传统，惯例]。
+
 26. **act**: = to do, to drive 表示“做；驱使”。exact, enact, actual
+
 27. **ag, -ig-, -ag-, -act-**:  = to do, to act, to lead 表示“做；代理；引导，驾驶”。agile, agility, agenda, agitate[ag动， -it- 中缀（又叫连接词），-ate动词后缀， 使... ，:"使骚动"], cogent[共同驱动的co<com(=together) + g< ag(=drive, do),得出意思："有说服力的“。]。
+
 28. **fac, fact, feas, fect(feas, feit, feat, fit), feat, fic(i), fig**: = to do, to make 表示”做，制作“。facility, facilitate, facile[-ile(易于...的，能...的。)，”容易做的“], affect[af(加强)], effect[ef<ex(=out, intensive),做出的就是结果，“效果，实现，达到，作用，影响”], infect[in,内部做，内部作用，“传染，感染;影响”], profit, sacrifice, defect, proficient,suffice, officious[of<ob(=in the way) 使妨碍的.."好出主意的，多管闲事的"]。
+
 29. **mob, mot, mov**: = to move 表示”动， 动作，行动”。emotion, motivate, promote, mob, mobilize,mobster, immobile, locomotion[loc(=to place)+ o(中缀，连接作用)，从一个地方移动到另一个地方，“运动，移动”]， locomotive。
+
 30. **oper**: = work 表示”操作，管理，运转，工作“。operate， operose。
+
 31. **treat**: = to handle 表示“处理,对待”。treaty, retreat, maltreat, entreat。
+
 32. **miss, mit**: = to send, to cast 表示"送， 放出, 放，发"。emit, admit[ad-朝，去，往]， commit[=consign], submit, dismiss, permissive[-ive,...多的], omit[o<ob(=intensive), "let go, let fall"]
+
 33. **us, ut, util**: = to use 表示”用“。使用，利用。abuse,abusive,utility, utilize。
+
 34. **abl,abili**: = able 表示”能“。能力。rehabilitate[habilit = abilit能]使康复，改造（罪犯）。debilitate[de去掉+bilit=abili]使衰弱。habilitate。
+
 35. **forc, fort**: = force, strong 表示”力量；强壮的“。reinforce加强，巩固，增援。
+
 36. **solv, solu, solut**: = to loosen 表示”松开“。解决，解开。resolute坚决的，absolute[ab（离开，分离）“不受任何约束”➡无限制的➡完全的，绝对的]。absolve：免罪。
+
 37. **techn(o)**: = art, skill 表示“技艺， 技术”。
+
 38. **preci, prais, pric, priz**: = price, value 表示“价格；价值”，赞扬。appreciate,depreciation
+
 39. **lax, leas**: = loose 表示“松”。松开，放松。release,laxity。
+
 40. **found, fund**: = base 表示“根基；创办” ，基础。profound深远的，深度的，深奥的。profundity深度，深刻。
+
 41. **pend, pens**: = to weigh 表示“称重量”，引申为“花费”。expensive,pension，compensate,expenditure,dispensable, dispense。
+
 42. **serv**: = to serve, to keep，to maintain;to preserve；to watch。 表示“服务；保持，保护；观察；”。deserve,conserve,conservation,observe[观察，遵守]，observation[注意，观察；评论；观察资料（或数据）]，reserved,conservative，observatory[ob-,向前，朝向，-serve，观察，atory场所]。
+
 43. **tempt**: = to try 表示“尝试， 引诱”。temptatious
+
 44. **cult， col, colon**: = to till, to raise 表示“耕种；培养;殖民”。horticulture[horti(花园=garden,enclosed space,enclosure).园艺，园艺学。]，cult,incult[in(无，未，)]，agricluture[agri田地➡农业]，arboriculture[arbori树木➡树木栽培]，pisciculture[pisci鱼➡养鱼业]，aquiculture[aqui水➡水产养殖]
+
 45. **pict**: =  to paint 表示“绘画， 绘”，与“图片”有关。 picturesque[-esque像....的]，depict, pictorial, pictograph
+
 46. **text**: = to weave 表示“编织”。 pretext
+
 47. **proach, proxim**:= to close, to become near 表示“接近，靠近”。reproach,proximity。
+
 48. **init**: = beginning 表示“开始”。
+
 49. **apt, ept， att**: = to fit, ability 表示“适应；适合；能力”。
+
 50. **lect, lig， leg**: = to choose, to gether 表示“选择；收集,诵读“。
     1. dia**lect**,
     2. e**leg**ant：高雅的，文雅的；讲究的；简练的。
     3. e**lig**ible：合格的，有资格的。
     4. recol**lect**：v.回想起；振作。
+    
 51. **opt**: = to choose， to wish 表示"选择,希望"。
     1. adopt：采取；接受；收养；正式通过。过继
     2. optimal：最佳的；最理想的。
     3. optimum：最适宜的；最佳效果；最适宜条件。
+    
 52. **hap**: = chance， luck 表示”机会，运气“。mishap, haphazard。
+
 53. **celer**: = quick, speedy表示”快，迅速“。 decelerate
+
 54. **ment**: = mind 表示”心思；智慧；神智“。comment,commentate。 
+
 55. **not**: = to know, mark 表示”知道，标记“。notify,notion,notorious, notable, denote, annotate
+
 56. **grat, gree**: = pleasing, grace 表示”令人高兴的；高雅“。grateful, gratitude, grace, agreeable, gracious, gratify, gratification, ingratiate
+
 57. **car, char, cher**:= dear 表示”可爱的；关心， 喜爱“。charity, charitable。
+
 58. **optim**：= best 表示“最好，最佳”。 
     1. optimistic, 
     2. optimize, 
     3. optimism, 
     4. optimum , 
     5. optimal。
+    
 59. **labor**：= labor, work 表示“劳动，工作”。collaborate, laboratory[-atory:场所]， elaborate, labored, laborious, belabor。
+
 60. **erg(o), ert**： = energy, to work 表示“能量，活力，工作”。alert, exert(发挥，运用)， exertion,energetic, anergy[an-:无，表否定。]， energize。
+
 61. **nov**：= new表示“新的”。novel, innovate, renovate, novice。
+
 62. **nour, nurs, nutri**：= to nourish 表示“滋养”。nutritious, nutrient营养品，nourish养育，malnutrition营养不良。
+
 63. **graph, gram**：= to write, to draw 表示“写，画”。同义词根scrib和script。biographer传记作家， autograph签名。
+
 64. **ident**： = same 表示“相同”。identical一样的。identification辨认，鉴定；身份证明；认同。identify认出，识别，鉴定；
+
 65. **em, empt, am, ampl**：= to take, to procure 表示“拿，获得”。ample充足的，exemplify举例说明；是...的典范，exemption免除，豁免。redeem[red-=re-向后，往回;eem=em拿]赎回， 买回；偿还。exempt免除，豁免；被免除的，被豁免的。
+
 66. **bat**: = to beat， to strike 表示“打，击，战斗”。debate辩论，rebate减少，打折，回扣，折扣。combat战斗。abate减少，减轻。
+
 67. **mount**：= to ascend 表示“山， 登上，升”。
     1. mountainous多山的，巨大的。
     2. insurmountable难以克服的。
     3. surmount   v.登上；超越；克服
+    
 68. **art(i)**: = skill 表示“技巧”。
     1. artificial人工的，人造的；假的，模拟的。
     2. artful 狡猾的，诡诈的。
@@ -120,30 +188,36 @@
     4. artifice 巧计；诡计
     5. artisan 工匠，技工
     6. artless：憨厚的，粗俗的；自然的。
+    
 69. **pot**: = ability, power 表示“能力，力量”。
     1. potential:n.潜力，adj.潜在的；可能的。
     2. impotence：n.无力，无能。impotent,potent
     3. omnipotent：omni(全部)全能的。
+    
 70. **nom,nomin, onym**: 表示“名称，名字”。
     1. nominate:提名；任命。
     2. anonymous:adj.匿名的，无特色的。
     3. homonymous：同名的。
     4. nominal：名义上的，微不足道的。
     5. **pseud**onym假名，笔名。pseud-假，伪，虚。
+    
 71. **son**: = sound表示“声音”。
     1. resonant：有回声的，共鸣的。resonance,
     2. sonic：声音的；声波的。
     3. consonant：一致的。
     4. consonance：调和
+    
 72. **sight**: = vision表示“视力，眼光”。
     1. farsighted：有远见的；能看得很远的。shortsighted<反>。
     2. insight：洞察力；洞悉；有深刻的见解。
     3. foresight：远见
     4. longsighted：远视的。
     5. oversight：疏忽，失察，勘漏
+    
 73. **op, opt**: = sight,light 表示“视力；光”。
     1. optic：眼的，视力的；光学的。
     2. optometrist：验光师，视力测定者。
+    
 74. **spec(i)**: = look,kind, sort 表示“外观；种类”。
     1. species：种类，物种。
     2. specimen：样本，标本，样品。
@@ -152,6 +226,7 @@
     5. conspecific：同种的。
     6. specious：似是而非的。
     7. specimen：样本，标本，样品。
+    
 75. **part**: = part, to divide 表示“部分；分开”。
     1. impartial：adj.公正的，公平的，不偏不倚的。partial.部分的，不公平的，偏爱的，偏袒的。
     2. impartible：adj.不可分割的。
@@ -159,16 +234,19 @@
     4. impart.v.传授；告知，透露；赋予，给予。
     5. counterpart：副本。
     6. particle：粒子，微粒，颗粒；-icle：表示小东西，小粒子。
+    
 76. **grad(i)**: = step, degree, to walk 表示“走，步；度， 级”。
     1. graduate：n.毕业生；研究生adj.研究生的。v.毕业；获学位
     2. degrade：降级；退化；降低....的身份，有辱....的人格。
     3. downgrade：贬低，降低
     4. gradation：等级；层级，渐变。
+    
 77. **pass**: = to go, to pass through， to stride to step表示“走；通过”。引申“一段，范围”。
     1. passport：护照
     2. compass：范围；指南针
     3. surpass：胜过
     4. **tres**pass：侵入；打扰；冒犯；犯罪。
+    
 78. **habit, hibit**: = to have, to hold ， to dwell表示“拥有；拿；占据；居住”。
     1. cohabit：同居
     2. inhabit：v.居住 inhabitant n.住户，居民。habitant n.居住者。
@@ -176,6 +254,7 @@
     4. ex**hibit**：n.v.展览，展示；显示
     5. habitat：n.（动植物）居住地
     6. habitual：惯常的。
+    
 79. **order, ordin**: = order表示“命令；秩序”。
     1. coordinate：v.协作，协调。adj.同等的；坐标的 n.坐标。
     2. ordinary：普通的，平常的。
@@ -183,16 +262,19 @@
     4. **sub**ordinate：adj.附属的；服从的，从属的。n,下属 v.使处于次要地位，使从属于。sub-
     5. in**sub**ordinate：adj.不服从的；反抗的，犯上的。
     6. ordinal ：adj.顺序的。
+    
 80. **press**: = to press, to force 表示“挤压；逼迫”。
     1. suppress：v.镇压， 压制， 抑制，阻止。suppression.
     2. compress：压紧， 压缩。compression
     3. repress：v.镇压；压抑(感情)。
     4. pressing：急迫的
+    
 81. **draw, drag, draft**: = to pull 表示“拉，拽”。
     1. drawback：n.障碍；缺点。
     2. withdraw：v.撤回，收回；撤退，撤销。
     3. draggy：adj.拖拉的；极为讨厌的；呆滞的。
     4. drawl：v.慢吞吞地说。
+    
 82. **clos, clud, clus**: = to close 表示“关闭， 关闭”。
     1. exclude：v.排除；隔绝，把...排除在外。
     2. conclude：v.做结论；结束；推论出。
@@ -200,47 +282,56 @@
     4. enclose：v.包围，围绕；附上；把...装入信封。
     5. closure：n.关闭；终止。
     6. exclusive：adj.排他的；专有的；奢华的，高级的 n.独家新闻
+    
 83. **cover**: = to cover, cover 表示“遮，盖；盖子；覆盖”
     1. coverage：n.新闻报道；覆盖范围。
     2. hardcover：n.精装本 adj.精装的。
     3. covert：adj.隐秘的，秘密的，不公开的 n.隐蔽处
     4. softcover：adj.软皮，软面
+    
 84. **toler**: = to endure, to bear表示“容忍，忍受”。
     1. tolerate ：v.忍受，容忍。
     2. tolerant：宽容的， 容忍的，心胸宽大的。
     3. intolerant：不能容忍的。
+    
 85. **claim, clam**: = to cry out, to shout 表示“呼喊，叫喊”。
     1. claim：v/n.要求；声称；论断。
     2. exclaim：叫喊，惊叫；大声说
     3. acclaim：v.向...欢呼，为...喝彩 n.喝彩，称赞
     4. proclaim：v.宣布；声明；表明；赞扬。
     5. clamorous：吵闹的。clamor：n.喧闹，吵闹。
+    
 86. **sur**: = sure, safe 表示“肯定；安全”。
     1. assuredly：adv.无疑地。
     2. **re**assure：re(一再)，使安心，再保证。
     3. assurance：n.保证；把握，信心；(人寿)保险。assure：v.保证，使确信。
+    
 87. **du(o), dub, dou(b)**: = two 表示“二，双”。 
     1. dual：二重的，二元的
     2. duet：二重唱
     3. duplicate：n.复制品；副本 adj.完全一样的，复制的 v.复制，复印；重复
     4. dubious：可疑的；靠不住的；不能确定的。
     5. redouble：v.倍增，加强
+    
 88. **uni, un**: = one 表示“单一，一个”
     1. unique：独特的，单一的。
     2. unite：v.联合，团结，合并。统一。
     3. unity：n.单一；统一，一致；团结；联合。unify：v.使联合，统一；使一致
     4. uni**later**al：单方面的；单边的。
+    
 89. **mor**: = moral 表示“道德”。
     1. moral：道德的；道义上的，精神的。n.教育意义，寓意。
     2. morale：n.士气
     3. demoralize：v.使士气消沉。
     4. mores：n.道德观念；风俗，道德观念
+    
 90. **neg**: = to deny 表示“否认，拒绝，消极”
     1. negative：否认的；消极的 n.底片
     2. neg**lect**：v.忽视
     3. neg**lig**ible：可以忽视的，可忽略不计的，微不足道的。neg**lig**ence：n.玩忽职守。
     4. negate：v.否认；取消；使无效。
     5. renege：v.背信弃义，违约
+    
 91. **simil, simul(t), sembl**: = alike,same 表示“相类似，一样”。
     1. resemble：v.类似，像。resemblance：n.类似，相似，形似。
     2. assemble：v.集合，召集；装配
@@ -248,6 +339,7 @@
     4. simul**taneous**：同时发生的，同时存在的，同步的。=at the same time。
     5. simulate：v.假装；模仿，模拟；冒充
     6. **veri**similar：像真的一样，貌似真实的；可能的。
+    
 92. **vi(a), vey, voy**: = way, road 表示“道路”
     1. previous[pre-先，前，vi路➙走路，行走，-ous形容词后缀，...的；]先前的，以前的。
     2. trivial：adj.平凡的，平常的，不重要的，轻微的，琐细的。triviality：n。琐事， 琐碎，平凡
@@ -256,6 +348,7 @@
     5. viatic：道路的，旅行的。
     6. obviate：[ob=away + vi < via]:vt.排除（危险、困难等），清除；使...成为不必要；避免
     7. impervious[im<im(=not) + per(=through)+ vi<via(=road, way)]:adj.(水等)不能渗透的；不受影响的，不为所动的。
+    
 93. **fract, frag**: = to break, to shatter 表示“打碎，破碎“。
     1. fragile：易碎的。fragility：易碎性，脆性，脆弱。
     2. frail：脆弱的。
@@ -274,6 +367,7 @@
     12. infringe：v.触犯，违反；侵害，侵犯权力。infringment：n违反侵害。
     13. infraction：n。违反，违背。
     14. refrain：v.节制，忍耐。n副歌。
+    
 94. **temper, tempor**: = time 表示”时间或时间引起的现象“。
     1. temporary：临时的。
     2. temporal：现世的；暂时的。
@@ -282,6 +376,7 @@
        1. extemporaneous：a.即席的。
        2. extemporize：v.即席演讲（演奏）
     5. contemporary：a.当代的；同代的。
+    
 95. **gress**: = to go, to walk 表示”行走“。
     1. progress：n.进步。
     2. congress：国会，代表大会。
@@ -289,6 +384,7 @@
     4. retrogress：v.倒退，退步
     5. transgress：v.违背；违反；冒犯。
     6. aggression：n.侵略；进攻。
+    
 96. **polic, polit, polis**: = state,city 表示”国家，城市“。引申为”政治“。
     1. politician：政客。
     2. policy：政策，方针；保险单。
@@ -296,27 +392,32 @@
     4. metropolis：n.大都市，主要城市，大都会，首府。
     5. metropolitan：主要城市的，大城市的，大都会的。
     6. metropolitanize：使大都会化。
+    
 97. **civ**: = citizen表示”公民“
     1. civilian：n.平民，百姓。
     2. civic：市民的；公民的。
     3. civil：公民的；文明的。civilization：n.文明；文化。
     4. civilize：v.使文明，使开化。
     5. civility：n.礼貌，文明。
+    
 98. **harm**: = fitting表示”适合“。
     1. harmony：n.和谐，协调。
     2. harmonious：adj.和谐的，协调的；悦耳的。
     3. harmonic：adj.和谐的，和声的 n.泛音。
     4. harmonical：adj.调和的；音乐般的。
+    
 99. **tour, torn, tourn**: = to turn 表示”转“。
     1. tournament：锦标赛，比赛。
     2. contour：n.轮廓
     3. detour：v.绕路n.便道；绕道。
     4. attorney：n.律师，代理人。
+    
 100. **quiet, qui**: = still, rest表示”静，静止“。
      1. disquiet：v.使不安；使担心 n.不安；忧虑。
      2. quietude：n.宁静。
      3. inquietude：不安。
      4. acquiescence：n.默许。acquiescent：默许的；acquiesce：v.默许
+     
 101. **flu, flux**: = to flow 表示”流动，流“。
      1. fluid：n.流体，液体adj.流动的，变化的，不稳定的。
      2. fluency：n.流利，流畅。
@@ -324,31 +425,37 @@
      4. affluent：富裕的。
      5. superfluous：adj.过剩的，多余的。
      6. influenza：n.流行性感冒。
+     
 102. **liqu**: = liquid,fluid 表示”液体；流动的”。
      1. liquid：adj.液体的；流动的 n.液体。
      2. liquor：n.酒；酒精饮料。
      3. liquidity：n.流动性。
      4. liquidate：v.清偿(债务)；清理(账目)。
+     
 103. **gen(e), gener, geni(t)**: = birth, to produce, race 表示“出生，产生；种族”。
      1. genuine：真正的，纯正的；真诚的。
      2. engender：v.产生。
      3. ingenious：聪明的；有创造力的；别致的；灵巧的。
      4. generous：a.慷慨的；丰富的。generosity：n.慷慨。
+     
 104. **cap(it), cip(it)**: = head表示"头"。
      1. capital：**首要的；**重要的；**大写的；**首都，省会；**资本。资本家**。大写字母。
      2. precipitous：陡峭的；急躁的；仓促的。
      3. precipitate：v.(突如其来地)发生，促成；降水n.沉淀物 a.突如其来的。鲁莽的。
      4. capitulate：v.(有条件)投降；屈从，停止抵抗。
+     
 105. **dent**: = tooth 表示“牙齿”。
      1. denture：假牙。
      2. indenture：契约，合同。
      3. edentate：a.无齿的 n.贫齿类动物。e(无)
      4. dent：凹部，凹痕；缺口。v.在(某物)上造成凹痕。
+     
 106. **limin, lim**: = threshold 表示"门槛"，引申为“限制”。
      1. eliminate：v.消除。e(无)
      2. preliminary：a.预备的，初步的。n.初步做法，起始行为。
      3. limp：v.蹒跚。n.跛行。adj.软弱的，无生气的；松沓的。
      4. supraliminal：有意识的。阈上的，意识之上的。
+     
 107. **par**: 
      1. = equal 表示"平等，相等"。引申为“比较”。compare
         1. imparity：n.不平等。
@@ -367,71 +474,88 @@
         2. mutilparous：多产的。
         3. parentage：出身。
         4. primiparous：初产的。
+     
 108. **test(i)**：=  to test, witness表示“测试；证据”。
      1. contest：v.争夺，竞争；对....提出质疑。n.竞赛，争夺。
      2. protest：v.抗议；坚决声明。
      3. testify：v.证实；表明，说明。
      4. testimony：n.证据；证词；表明，说明。-mony(表行为的结果、状态等)
+     
 109. **vail, val(u)**: = value, worth 表示”价值,值“。
      1. evaluate：v.估价。
      2. equivalent：adj.相等的。n.等价物。
      3. **invaluable**：adj.非常宝贵的，无价的。
      4. **unvaluable**：不值钱的。
      5. undervalue：v.低估；轻视。
+     
 110. **jud, judg, judic(i)**: = to judge, law 表示”判断；法律“。
      1. prejudice：n.偏见。
      2. adjudge：v.判决，裁决。
      3. prejudge：v.预先判断。
      4. judicial：司法的；法官的。
      5. adjudicate：v.判决，裁判。
+     
 111. **quit**: = to free, to release表示”使自由；免除”。
      1. quit ：v.离开；停止；放弃。
      2. quitclaim：vt/n.放弃权力。
      3. requite：v.报答；回报，酬谢。requital：报答， 偿还，报仇。
      4. acquit：v.免除责任；免罪。
      5. acquittal：n.释放；还清(债)
+     
 112. **crimin**: = crime表示“罪”。
      1. criminal：n.罪犯。adj.犯罪的。
      2. discriminate：v.歧视；区别，辨别。
      3. incrimination：n.控告。 in-(使...)使有罪就是控告。
      4. incriminate：vt.控告，暗示...有罪。
      5. recriminate：vi.反责；反唇相讥。
+     
 113. **front**:  = forehead 表示“前额，前面”。
      1. frontal：adj.正面的；前额的。
      2. confront：v.面临；对抗；使对质。
      3. affront：v.冒犯。
      4. forefront：n.最前部；重心；前沿。
+     
 114. **touch**: = to touch 表示“触，摸，碰”。
+     
      1. touchy：adj.易怒的；棘手的；敏感的。
+     
 115. **cast**: = to throw 表示“投，发射”。
      1. forecast：v.n.预报；预测。
      2. newscast：n.新闻广播
      3. recast：v.重新铸造；彻底改造；重新安排剧中角色。
      4. downcast：adj.目光向下的；沮丧的。
      5. overcast：adj.忧郁的；阴天的。
+     
 116. **point, punct, pung**: = point, to make sharp 表示“点；变尖，刺”。
      1. punch：v.猛击；穿孔，打洞。n.猛击；冲床，穿孔机。
      2. punctual：adj.准时的。punctuality：n.准时，守时
      3. pointer：指针，指示者。
      4. puncture：v.穿孔；刺穿。
      5. pungent：adj.刺鼻的；尖锐的。
+     
 117. **numer**: = number, to count表示“数；计数”。
      1. numerable：可数的，可计算的。
      2. numerous：无数的，众多的。
      3. innumerable：无数的，数不清的。
      4. supernumerary：额外的。
      5. enumerate：v.列举。
+     
 118. **centr(i)**: = center, middle表示“中心；中间”。
      1. central：中心的，中央的；主要的。
      2. concentrate：v.集中，聚集；浓缩。
      3. eccentric：adj.古怪的，反常的。
      4. xenocentric：adj.偏重外国文化的，崇洋媚外的。
+     
 119. **fac**: = face 表示“脸，面”， 引申为“外观；表面”。
      1. facet：n.平面；一面；方面。
      2. deface：v.丑化；损坏外观。 de-变坏。
+     
 120. **memor, member, mnes， mnem**: = memory，to remember表示“记忆；记”。
      1. memorial：n.纪念碑，纪念物。adj.纪念的，悼念的。
      2. amnesiac：adj.记忆缺失的，遗忘的。
+     
+-----
+
 121. **cur(i), curs, cour(i), cours**: = to run 表示“跑”， 引申为“发生”。
      1. current：adj.当前的，通用的；流行的；流动的 n.潮流。
      2. **currency**：n.货币，通货。
@@ -439,64 +563,157 @@
      4. recur：v.在发生，重现；重新提起。occur：v.发生，出现。
      5. cursory：adj.粗略的，草率的。
      6. excursive：adj.离题的；散漫的，随意的。
-122. **vad, vas**:
-     1. 
-123. **fall, fail, fals, fault**:
-     1. 
-124. **sol(i)**:
-125. **lic**:
-126. **duc, duct**:
-127. **prop(ri)**:
-128. **creed, cred**:
+     
+122. **vad, vas**: = to walk , to go 表示“走，行”。
+     
+     1. invasion：n.入侵，侵略，侵犯。
+     2. invade：v.入侵，侵略，侵袭
+     3. evade：v.逃避；偷税。
+     4. pervade：v.遍及；弥漫
+     5. pervasion：n.遍及；弥漫；扩散。
+     6. pervasive：adj.普及的；渗透的。
+     
+123. **fall, fail, fals, fault**: = err, to deceive表示“错误；欺骗“。
+
+     1. default：vi.拖欠；不履行；不到场。n.违约；缺席；缺乏；系统默认值。vt.不履行；不参加(比赛等)；对...处以缺席裁判。
+     2. faultless：adj.无错误的；五缺点的。
+     3. fallacious：adj.谬误的；欺骗的；靠不住的，不合理的。
+     4. infallible：adj.无可指责的；绝对有效的。
+     5. falsify：v.篡改；欺骗；说谎。
+
+124. **sol(i)**: = alone 表示”单独“。
+
+     1. sole：n.脚底,鞋底，袜底。adj.单独的，唯一的。
+     2. solitude：n.孤独；隐居
+     3. desolate：adj.荒凉的；无人烟的。
+     4. solitary：adj.单独的；唯一的；孤独的，隐居的；人迹罕至的。
+
+125. **lic**: = to allure，to entice表示”引诱“。
+
+     1. delicious：
+     2. delicate：adj.易碎的；微妙的；精致的。
+     3. elicit：v.引出，得到。
+     4. frolic：v./n.嬉戏；雀跃。
+
+126. **duc, duct**: = to lead, to bring表示”引导；带来“。
+
+     1. deduce：v.推论，演绎，推断。
+     2. deduction：n.推论，演绎。
+     3. induce：v.劝诱，诱导。
+     4. productive：adj.多产的，富饶的；富有成效的。
+     5. productivity：n.生产力；生产率；生产活动。
+     6. aqueduct：n.导水管，引水渠，沟渠。aque(=aqua水)
+     7. educe：v.引出，引起。
+
+127. **prop(ri)**: = own, to own表示”自己的；拥有“。引申为”恰当的“。
+
+     1. improper：adj.不适当的。
+     2. proper：adj.正确的，恰当的，适当的。
+     3. property：n.财产，所有物，资产；房产；性质。
+     4. proprietory：adj.私有的。
+     5. expropriate：v.没收，充公。
+     6. appropriate：adj.适当的，恰当的。v.拨出(款项)；占用，挪用。inappropriate：不恰当的。
+
+128. **creed, cred**: =  to believe, to trust 表示“相信， 信任”。
+
 129. **fabl, fabul, fess**:
+
 130. **log(u), loqu, locu**:
+
 131. **nounc(i)**:
+
 132. **pass, pat(i), path(y)**:
+
 133. **hor(r)**:
+
 134. **sci**:
+
 135. **(s)ting(u), (s)tinct, stimul, stig**:
+
 136. **flict**:
+
 137. **or(a)**:
+
 138. **neutr(o)**:
+
 139. **lingu**:
+
 140. **quer**:
+
 141. **pet, pit**:
+
 142. **merc, merch**:
+
 143. **ploy, ploit**:
+
 144. **tribut**:
+
 145. **vol, volu, volv, volt**:
+
 146. **cumul(o)**:
+
 147. **tach, tack**:
+
 148. **dom**:
+
 149. **sat(i), satis, satur**:
+
 150. **clin, cliv**:
+
 151. **orn**:
+
 152. **san, sanit**:
+
 153. **ign**:
+
 154. **flect, flex**:
+
 155. **dur**:
+
 156. **her, hes**:
+
 157. **junct, join**:
+
 158. **ple, plen(t), plet**:
+
 159. **dyn, dynam(o)**:
+
 160. **femin**:
+
 161. **vir**:
+
 162. **al, alter, altern**:
+
 163. **vers, vert**:
+
 164. **vari**:
+
 165. **abol**:
+
 166. **prehend, prehens**:
+
 167. **pris**:
+
 168. **tract**:
+
 169. **sum, sumpt**:
+
 170. **scend, scens, scent**:
+
 171. **cad, cas, cid, cay**:
+
 172. **err**:
+
 173. **null**:
+
 174. **dec, decor**:
+
 175. **vol, volunt**:
+
 176. **plac, plais**:
+
 177. **fid**:
+
 178. **agon**:
 
 
@@ -590,10 +807,36 @@
 254. **lith(o)**
 255. **calc(i)**
 256. **strat(i), strato**:
-257. **aqu(a), aque**:
-258. **hum**:
-259. **hydr(o)**
-260. **rad(ic)**:
+257. **aqu(a), aque**: = water表示”水“。
+
+     1. opaque：adj.不透明的；难以理解的。op(不)。近：  obscure难解的。
+     2. aqu**arium**：水族馆。-arium(场所，地点)
+     3. aqu**atic**：adj.水的；水中的。-atic(属于....的)。
+     4. **sub**aqueous：水下的。
+258. **hum**: = earth,moist 表示”土，地；湿“。
+
+     1. humble：adj.谦恭的；下贱的；简陋的。
+     2. humility：n.谦让，谦逊。
+     3. humiliate：v.羞辱，侮辱。
+     4. humid：adj.潮湿的
+     5. humidify：v.使潮湿。
+     6. humidifier：n.加湿器。
+     7. dehumidify：v.使除去湿气。dehumidifier：n.除湿器。
+     8. inhume：v.埋葬。
+     9. posthumous：adj.死后的，遗腹的。
+259. **hydr(o)**： = water表示”水“。
+
+     1. hydrogen：n.氢。
+     2. hydrant：n.水龙头。
+     3. carbohydrate：n.碳水化合物。
+     4. hydroplane：n.水上飞机。
+     5. hydropower：n.水力发电。
+     6. dehydrate：v.脱水。
+     7. hydro**sphere**：n.水圈。spher(球)
+     8. hydrous：adj.含水的，水状的。
+     9. anhydrous：adj.无水的。
+     10. hydrate：水化n.水合物
+260. **rad(ic)**: = root 表示”根“。
 261. **cyt(o)**:
 262. **fibr(o)**
 263. **seism(o)**:
@@ -756,5 +999,10 @@
      8. tempersome：易爆怒的。[-some形容词后缀，表示”具有...性质“]
 371. **cast, cest, chast**: = pure 纯洁。
      1. chaste：adj.正派的，高尚的；守贞洁的。简洁朴实的；纯洁的。
-372. 
+372. **ceal(cul， ceal)**： = hide(藏)
+     1. conceal：v.隐藏，隐瞒。
+     2. occult：adj.掩藏的；神秘的，超自然的。
+     3. cellar：地下室
+     4. conconcealment：n.掩藏；隐瞒
+373. 
 
