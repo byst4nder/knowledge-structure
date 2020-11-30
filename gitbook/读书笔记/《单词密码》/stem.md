@@ -783,11 +783,35 @@
      5. **genu**flect：v.屈膝，跪拜；屈从，屈服。genu(膝)
 155. **dur**: = to last, hand 表示“持久；坚硬的”。
      1. durable：adj.持久的，耐用的。
-     2. endure：v.
-156. **her, hes**:
-157. **junct, join**:
-158. **ple, plen(t), plet**:
-159. **dyn, dynam(o)**:
+     2. endure：v.持久，耐久；忍受，容忍
+     3. endurance：n耐久力，持久(力)，耐久(性)
+     4. dour：adj.性情冷酷的；严厉的，脸色阴沉的。
+156. **her, hes**: = to stick表示“黏附;坚持”。
+     1. adhere：v.遵守，坚持；贴着。
+     2. hesitate：v.踌躇，犹豫。
+     3. hesitation：n.踌躇，犹豫。
+     4. cohere：v.附着；黏合。
+     5. coherent：adj.连贯的；一致的，协调的；黏在一起的。
+     6. inherent：adj.天赋的，生来的；内在的，固有的。
+157. **junct, join**: = to join表示“结合，连接”。
+     1. rejoin：v.再结合；重聚；回答，答辩。
+     2. rejoinder：n.反驳；回答，答辩。
+     3. adjoin：v.毗连，接壤。
+     4. enjoin：v.命令；吩咐；嘱咐。
+     5. joint：n.接缝，关节；结合处 adj.连接的，共同的。
+     6. conjunction：n.结合；同时发生；连接词
+     7. juncture：n.结合，连接
+     8. junction：n.接合，交汇点，枢纽。
+158. **ple, plen(t), plet**: = full, to fill 表示“满的；填满”。
+     1. implement：n.工具，用具。v.使生效；履行，实施。
+     2. supplement：n.增补物，补充；增刊，副刊。v.增补，补充。supply：n./vi./vt.：供应，供给；供应品；补充，提供，替代。
+     3. complement：n.补足；编制名额；补(足)语。v.补充；与...相配。
+     4. complete：adj.完整的；完全的；彻底的。vt.完成。
+     5. completion：n.成就；圆满。
+     6. replenish：v.再装满。
+     7. plentitude：n.丰富，充足。
+159. **dyn, dynam(o)**: = power表示“力量”。
+     1. 
 160. **femin**:
 161. **vir**:
 162. **al, alter, altern**:
