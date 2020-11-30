@@ -1,7 +1,6 @@
 # 词根：
 
 1. **cent(i)**: = hundred 表示“百”。
-   
    1. cent**enn**ial：百年纪念的；n.百年纪念日
    
 2. **circ**,**cycl**: = ring, circle 表示“园，环”。
@@ -244,7 +243,7 @@
 77. **pass**: = to go, to pass through， to stride to step表示“走；通过”。引申“一段，范围”。
     1. passport：护照
     2. compass：范围；指南针
-    3. surpass：胜过
+    3. surpass：vt.优于，胜过
     4. **tres**pass：侵入；打扰；冒犯；犯罪。
     
 78. **habit, hibit**: = to have, to hold ， to dwell表示“拥有；拿；占据；居住”。
@@ -563,7 +562,6 @@
      4. recur：v.在发生，重现；重新提起。occur：v.发生，出现。
      5. cursory：adj.粗略的，草率的。
      6. excursive：adj.离题的；散漫的，随意的。
-     
 122. **vad, vas**: = to walk , to go 表示“走，行”。
      
      1. invasion：n.入侵，侵略，侵犯。
@@ -572,7 +570,6 @@
      4. pervade：v.遍及；弥漫
      5. pervasion：n.遍及；弥漫；扩散。
      6. pervasive：adj.普及的；渗透的。
-     
 123. **fall, fail, fals, fault**: = err, to deceive表示“错误；欺骗“。
 
      1. default：vi.拖欠；不履行；不到场。n.违约；缺席；缺乏；系统默认值。vt.不履行；不参加(比赛等)；对...处以缺席裁判。
@@ -580,21 +577,18 @@
      3. fallacious：adj.谬误的；欺骗的；靠不住的，不合理的。
      4. infallible：adj.无可指责的；绝对有效的。
      5. falsify：v.篡改；欺骗；说谎。
-
 124. **sol(i)**: = alone 表示”单独“。
 
      1. sole：n.脚底,鞋底，袜底。adj.单独的，唯一的。
      2. solitude：n.孤独；隐居
      3. desolate：adj.荒凉的；无人烟的。
      4. solitary：adj.单独的；唯一的；孤独的，隐居的；人迹罕至的。
-
 125. **lic**: = to allure，to entice表示”引诱“。
 
      1. delicious：
      2. delicate：adj.易碎的；微妙的；精致的。
      3. elicit：v.引出，得到。
      4. frolic：v./n.嬉戏；雀跃。
-
 126. **duc, duct**: = to lead, to bring表示”引导；带来“。
 
      1. deduce：v.推论，演绎，推断。
@@ -604,7 +598,6 @@
      5. productivity：n.生产力；生产率；生产活动。
      6. aqueduct：n.导水管，引水渠，沟渠。aque(=aqua水)
      7. educe：v.引出，引起。
-
 127. **prop(ri)**: = own, to own表示”自己的；拥有“。引申为”恰当的“。
 
      1. improper：adj.不适当的。
@@ -613,107 +606,162 @@
      4. proprietory：adj.私有的。
      5. expropriate：v.没收，充公。
      6. appropriate：adj.适当的，恰当的。v.拨出(款项)；占用，挪用。inappropriate：不恰当的。
-
 128. **creed, cred**: =  to believe, to trust 表示“相信， 信任”。
-
-129. **fabl, fabul, fess**:
-
-130. **log(u), loqu, locu**:
-
-131. **nounc(i)**:
-
-132. **pass, pat(i), path(y)**:
-
-133. **hor(r)**:
-
-134. **sci**:
-
-135. **(s)ting(u), (s)tinct, stimul, stig**:
-
-136. **flict**:
-
-137. **or(a)**:
-
-138. **neutr(o)**:
-
-139. **lingu**:
-
-140. **quer**:
-
-141. **pet, pit**:
-
-142. **merc, merch**:
-
-143. **ploy, ploit**:
-
-144. **tribut**:
-
-145. **vol, volu, volv, volt**:
-
-146. **cumul(o)**:
-
+     1. credit：n.信任，信赖；学分；信用；贷方。v.归因于；记在...的账上。
+     2. accredit：v.信任；委托。
+     3. credential：n.凭据；国书。
+     4. creed：n.信条；纲领。
+     5. discredit：v.不信任，丧失信誉，丢脸，怀疑。
+     6. incredulity：n.怀疑，不轻信。
+     7. credible：adj.可靠的，可信的。
+129. **fabl, fabul, fess**: = to speak表示“说，讲”。
+     1. fable：n.寓言；传说。
+     2. **fabul**ous：adj.传说的；难以置信的；极好的。
+     3. con**fess**：v.承认；供认。
+     4. con**fess**ion：n.供认；忏悔。
+     5. af**fabl**e：adj.温和的；和蔼的；易于交谈的。
+130. **log(u), loqu, locu**: = to speak表示“说话”，引申为“语言；思想；学问”。
+     1. catalogue：n.目录，一览表。
+     2. dialogue：n.对话。dia-(两者之间)
+     3. analogy：n.类比；类似；类推。
+     4. eloquent：adj.有说服力的；善辩的，口才流利的。
+     5. prologue：n.前言，序言；开场白。
+131. **nounc(i)**: = to speak表示“讲，说”。
+     1. announce：v.宣布，发表。announcement：n.通告。
+     2. pronounce：v.发音；宣告。pronounciation：n.发音。
+     3. denounce：v.抨击，谴责；告发。
+     4. renounce：v.否认；抛弃。
+132. **pass, pat(i), path(y)**: = feeling表示“感情， 痛苦，忍受”。
+     1. passion：n.激情，热情，酷爱。
+     2. **sym**pathy：n.同情。sympathize：vi.同情；同感；赞成。~ with。
+     3. **com**passion：n.怜悯，同情。
+     4. impassioned：adj.充满激情的。
+     5. path**etic**：adj.可怜的；差劲的，令人生厌的。-etic：具有...的。
+     6. passive：adj.被动的，消极的；被动语态的。
+     7. impassive：adj.冷漠的。
+     8. patience：耐性，耐心；忍耐，容忍。
+     9. **a**path**etic**：adj.冷漠的。-etic
+133. **hor(r)**: = to shudder, to dread表示“颤抖，害怕”。引申为“颤抖，害怕”。
+     1. horrible：adj.可怕的。
+     2. horror：n.恐怖；憎恶；令人恐怖的事物
+     3. horrify：v.使恐怖。
+     4. abhor：v.憎恨，嫌恶。
+     5. dread：n.恐惧；可怕的人(或物)。vi.惧怕；担心。vt.惧怕；担心。adj.可怕的。
+134. **sci**: = to know表示“知道”。
+     1. conscience：n.良心。
+     2. conscious：adj.有意识的；神志清醒的；有意的。
+     3. subconscious：adj.下意识的。
+     4. **omni**scient：adj.无所不知的，博识的。omni(全)
+135. **(s)ting(u), (s)tinct, stimul, stig**: = thorn, to prick表示“刺；刺激”。
+     1. sting：v.刺；使痛苦；激怒
+     2. extinct：adj.灭绝的；(火山等)不在爆发的；(风俗等)已废弃的。
+     3. extinction：n.灭绝。
+     4. extinguish：v.熄灭；使消亡，使破灭。
+     5. distinguish：v.区别；辨出。
+     6. distinguished：adj.著名的；卓越的。
+     7. dis**tinct**：adj.清楚的；明显的；与众不同的。
+     8. dis**tinct**ive：adj.有特色的，与众不同的。
+     9. in**stinct**：n.本能；直觉。
+     10. **stimul**ate：v.刺激，鼓励；激发。
+     11. in**stig**ate：v.发起，煽动。
+     12. distinction：n.区别；优秀。
+136. **flict**: = to strike 表示“打击”。
+     1. conflict：n.冲突。
+     2. inflict：v.施予；使...遭受。
+     3. infliction：n.痛苦；负担；刑罚。
+     4. afflict：v.使苦恼；折磨。
+137. **or(a)**: = mouth, to speak表示“嘴；说”。
+     1. adore：v.崇拜；爱慕，喜欢。
+     2. oral：adj.口头的，口述的。
+     3. orate：v.演说。
+     4. oracle：n.神谕；圣人。
+138. **neutr(o)**: = middle表示“中间”。
+     1. neutral：a./n.中立(的)，中性的。
+     2. neutralist：n.中立主义者。neutralism：n.中立(主义)。neutrality：中立(地位)；中性。
+     3.  neutralization：n.中立化
+     4. neutralize：v.使中立化。
+     5. neutron：n.中子
+139. **lingu**: = language表示“语言”。
+     1. linguist：n.语言学家。linguistics：语言学。
+     2. lingo：n.外语；行话。
+     3. lingual：adj.舌的；语言的。
+     4. **bi**lingual：双语种的。
+     5. **multi**lingual：多种语言的。
+140. **quer**: = complain 表示“抱怨”。
+     1. query：n.问题，疑问。v.对...表示怀疑；询问。
+     2. quarrel：n.争吵。
+     3. quarrelsome：adj.喜欢吵架的，好争论的。
+     4. querulous：adj.抱怨的，爱发牢骚的；易怒的。
+141. **pet, pit**: = to seek, to strive表示“寻求；力争”。
+     1. ap**pet**ite：n.欲望；胃口。
+     2. com**pet**ent：adj.有能力的，能胜任的。
+     3. competence：n.能力，胜任。
+     4. incompetent：adj.无能的。
+     5. per**pet**ual：adj.永久的。per= through。
+     6. pettion：v./n.请愿。
+     7. im**pet**us：n.动力，冲动。
+     8. pro**pit**ious：adj.吉祥的；顺利的。
+142. **merc, merch**: = trade表示“商业，交易”。
+     1. com**merc**ial：adj.商业的。n.商业广告。
+     2. commerce：n.商业，贸易；社交。
+     3. **merch**ant：n.商人。
+     4. **merch**andise：n.商品。
+     5. **merc**antile：adj.贸易的；商人的。
+     6. **merc**enary：adj.唯利是图的；以金钱为目的的。n.雇佣兵。
+143. **ploy, ploit**: = to use表示“用”。
+     1. employ：v./n.雇用；使用。
+     2. exploit：v.剥削；开发利用。n.业绩，功绩。
+     3. deploy：v.调度；部署（部队）；使用，运用。
+144. **tribut**: = to give 表示“给予”。
+     1. tribute：n.赠品；赞扬。
+     2. con**tribut**e：vt.捐赠，捐款；贡献。vi.贡献，出力；投稿；捐献。
+     3. contributor：n.贡献者。
+     4. distribute：v.分配；分布；区分。
+     5. attribute：v.归因于。n.属性。
+     6. retribution：n.报酬；报应，惩罚。
+145. **vol, volu, volv, volt**: = to roll ,to turn 表示“卷，转”。
+     1. volume：n.卷，册；容积，体积；音量。
+     2. voluble：adj.流畅的；滔滔不绝的；缠绕的。
+     3. evolve：v.进化，使发展；推断出。
+     4. evolution：n.进化；发展，演变。
+     5. evolutionism：n.进化论。
+     6. revolt：v./n.叛变，起义
+     7. revolution：n.革命。
+     8. revolve：v.旋转；循环。
+     9. involve：v.卷入，连累；包含，含有。
+146. **cumul(o)**: = to heap表示“堆积”。
+     1. 
 147. **tach, tack**:
-
 148. **dom**:
-
 149. **sat(i), satis, satur**:
-
 150. **clin, cliv**:
-
 151. **orn**:
-
 152. **san, sanit**:
-
 153. **ign**:
-
 154. **flect, flex**:
-
 155. **dur**:
-
 156. **her, hes**:
-
 157. **junct, join**:
-
 158. **ple, plen(t), plet**:
-
 159. **dyn, dynam(o)**:
-
 160. **femin**:
-
 161. **vir**:
-
 162. **al, alter, altern**:
-
 163. **vers, vert**:
-
 164. **vari**:
-
 165. **abol**:
-
 166. **prehend, prehens**:
-
 167. **pris**:
-
 168. **tract**:
-
 169. **sum, sumpt**:
-
 170. **scend, scens, scent**:
-
 171. **cad, cas, cid, cay**:
-
 172. **err**:
-
 173. **null**:
-
 174. **dec, decor**:
-
 175. **vol, volunt**:
-
 176. **plac, plais**:
-
 177. **fid**:
-
 178. **agon**:
 
 

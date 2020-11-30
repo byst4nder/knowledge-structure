@@ -160,12 +160,12 @@
 74. peri-：周围，靠近，外层，
     1. peri**derm**外皮。
 75. **omni**-:“全、总、公、都”
-    1. omnipresent无所不在的。
-    2. omnipotent全能的
-    3. omnidirectional全向的
-    4. omniform样式齐全的
-    5. omniparity一切平等
-    6. omniscient无所不知的
+    1. omnipresent：无所不在的。
+    2. omnipotent：全能的
+    3. omnidirectional：全向的
+    4. omniform：样式齐全的
+    5. omniparity：一切平等
+    6. omniscient：博识的，无所不知的
     7. 
 76. **pseud**-:”假拟， 伪，虚“。
     1. pseudo：adj.假的，冒充的。
@@ -185,7 +185,13 @@
     1. xeno**centric**：喜爱外国文化的。
     2. xeno**phobia**：仇外；对外国人的畏惧和憎恨。
     3. xeno**mania**：外国迷。mania：狂热；狂躁；热衷。
-80. 
+80. **cat-, cata-, cath-**：表示“向下，相反，离开”。
+    1. catalogue：n.目录。vt.把...编入目录。
+    2. catalog：n.目录；登记。vt.登记；为...编目录。
+    3. cata**clysm**：洪水；大灾难。
+    4. cataract：n.大瀑布。白内障；暴雨，洪水；奔流。vt.倾注。
+    5. cata**strophe**：大灾难；大祸；惨败。-strophe：转=turn。
+81. 
 
 
 
