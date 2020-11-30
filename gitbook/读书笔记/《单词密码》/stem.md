@@ -730,16 +730,60 @@
      8. revolve：v.旋转；循环。
      9. involve：v.卷入，连累；包含，含有。
 146. **cumul(o)**: = to heap表示“堆积”。
-     1. 
-147. **tach, tack**:
-148. **dom**:
-149. **sat(i), satis, satur**:
-150. **clin, cliv**:
-151. **orn**:
-152. **san, sanit**:
-153. **ign**:
-154. **flect, flex**:
-155. **dur**:
+     1. accumulate：v.积累。
+     2. cumulate：v.累积。
+     3. cumulative：adj.积累的，渐增的。
+     4. cumuli：n.堆积，累积。
+     5. cumulus：n.积云。
+147. **tach, tack**: = to nail， nail 表示“钉；钉子；钉住；固定”。
+     1. attach：v.附上；依恋。
+     2. unattached：adj.非附属的；单身的。
+     3. attachment：n.附件；附着；爱慕。
+     4. detach：v.拆开；使分开，使分离。
+     5. tack：v.用大头针钉住；缝合；附加。n.大头钉；行动方针。
+148. **dom**: = house, to tame, to control表示“房屋；驯服；控制”。
+     1. dominate：v.在....中占首要地位；统治；耸立于，俯视。
+     2. domestic：adj.家里的；国内的；驯养的。
+     3. dome：n.穹顶，圆屋顶；大厦。
+     4. domain：n.领土；领域，范围；域名
+     5. domicile：n.住所。
+149. **sat(i), satis, satur**: = enough, full of food表示“足够，饱足；满足”。
+     1. satisfy：v.使满足。satisfaction：n.满足，满意。satisfactory：adj.令人满意的。
+     2. saturate：v.使饱和，使充满；渗透，浸透。saturation：n.饱和。
+     3. sate：v.使饱足；使厌腻。
+150. **clin, cliv**: = lean, slope表示“倾斜；斜坡”。
+     1. decline：v.倾斜；下降，衰退；谢绝。n.倾斜；下降，衰退。
+     2. incline：v.倾斜；偏向。n.倾斜；斜坡。
+     3. inclined：adj.倾向...的，愿意做...的。
+     4. disinclined：adj.不愿意的。
+     5. recline：v.斜靠，斜躺。
+151. **orn**: = to embellish， to equip表示“装饰；配备”。
+     1. ornate：adj.华丽的；装饰的。
+     2. **orn**ament：n.装饰品；装饰，点缀。v.装饰，美化。
+     3. adorn：v.装饰。adornment：n.装饰，装饰品。
+     4. sub**orn**：v.唆使；收买，贿赂。subornation：n.收买。
+152. **san, sanit**: = healthy表示“健康的”。
+     1. sane：adj.心智健全的；清醒的，明智的，合情合理的。
+     2. insane：adj.精神错乱的。
+     3. sanity：n.精神健全。
+     4. insanity：n.精神错乱，疯狂。
+     5. **sanit**ary：adj.卫生的。
+     6. sanitation：n.卫生(设备)
+     7. sane：adj.心智健全的；清醒的，明智的，合情合理的。
+153. **ign**:= fire表示“点火”。
+     1. ignite：v.点燃；着火；引发。
+     2. ignition：n.点火，点燃；点火装置。
+     3. ignitable：易起火的，可燃性的。
+     4. ignitability：n.可燃性。
+154. **flect, flex**: = to bend表示”弯曲“。
+     1. reflect：v.反射；沉思。
+     2. flexible：adj.易弯曲的；灵活的。
+     3. deflect：v.偏斜；转移；转向。
+     4. inflexible：adj.不弯的，不屈的。
+     5. **genu**flect：v.屈膝，跪拜；屈从，屈服。genu(膝)
+155. **dur**: = to last, hand 表示“持久；坚硬的”。
+     1. durable：adj.持久的，耐用的。
+     2. endure：v.
 156. **her, hes**:
 157. **junct, join**:
 158. **ple, plen(t), plet**:
